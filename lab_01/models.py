@@ -1,4 +1,4 @@
-# В будущем можно сделать нормально, но пока пусть будет базовая модель, которая будет храниться в базе  
+# В будущем можно сделать нормально, но пока пусть будет базовая модель, которая будет храниться в базе
 from datetime import date
 
 
@@ -6,16 +6,19 @@ class Driver:
     driver_id: int
     car_id: int
     first_name: str
-    last_name: str 
-    patronymic: str
+    last_name: str
     experience: str
     score: str
     date_of_birthday: date
     adress: str
-    document_number: str
+    document_number: int
 
     def __str__(self):
-        return f"id={self.driver_id}, name={self.first_name + " " + self.last_name + " " +self.patronymic}, expirience={self.experience}, date_of_birthday={self.date_of_birthday}"
+        return (
+            f"id={self.driver_id}, car_id={self.car_id}, first_name={self.first_name}, "
+            f"last_name={self.last_name}, experience={self.experience}, score={self.score}, "
+            f"date_of_birthday={self.date_of_birthday}, adress={self.adress}, document_number={self.document_number}"
+        )
 
 
 class Trip:
@@ -28,18 +31,35 @@ class Trip:
     price: int
     score: int
 
+    def __str__(self):
+        return (
+            f"id={self.trip_id}, driver_id={self.driver_id}, passenger_id={self.passenger_id}, "
+            f"payment_id={self.payment_id}, src_adress={self.source_adress}, "
+            f"dest_adress={self.source_adress}, price={self.price}, score={self.score}"
+        )
+
+
 class Passanger:
     passanger_id: int
     first_name: str
     last_name: str
-    patronymic: str
     date_of_birthday: date
     adress: str
+
+    def __str__(self):
+        return (
+            f"id={self.passanger_id}, first_name={self.first_name}, last_name={self.last_name}, "
+            f"date_of_birthday={self.date_of_birthday}, adress={self.adress}, "
+        )
+
 
 class Payment:
     payment_id: int
     invoice: int
-    status: str
+    status: bool
+
+    def __str__(self):
+        return f"id={self.payment_id}, invoice={self.invoice}, status={self.status}"
 
 
 class Car:
@@ -49,14 +69,5 @@ class Car:
     model: str
     mileage: int
 
-
-
-driver = Driver()
-driver.id = 0
-driver.first_name = "test"
-driver.last_name = "test"
-driver.patronymic = "test"
-driver.experience = 2
-driver.date_of_birthday = "2025-09-08"
-
-print(driver)
+    def __str__(self):
+        return f"vin={self.vin_number}, plate={self.registration_plate}, brand={self.brand}, model={self.model}, mileage={self.mileage}"
