@@ -1,4 +1,6 @@
 from models import Driver, Trip, Car, Passenger, Payment
+
+from dotenv import load_dotenv
 import os
 import csv
 
@@ -12,6 +14,8 @@ PAYMENTS_FILE = script_dir + "/data/payments.csv"
 CARS_FILE = script_dir + "/data/cars.csv"
 
 GENERATE_COUNT = 1000
+
+from database.database import DATABASE_URL # engine
 
 
 def generate_csv(model, filename: str):
@@ -32,6 +36,8 @@ def generate_csv(model, filename: str):
 
 
 def main():
+
+    print("Generating data")
     generate_csv(Driver, DRIVERS_FILE)
     generate_csv(Trip, TRIPS_FILE)
     generate_csv(Passenger, PASSENGERS_FILE)

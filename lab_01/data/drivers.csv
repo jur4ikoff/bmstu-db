@@ -1,1001 +1,1001 @@
 driver_id;car_id;first_name;last_name;experience;score;date_of_birthday;adress;document_number
-6231;6368;Nicole;Davis;30;3.67;1993-02-26;Marina Bay Sands 10, Singapore 018956;167068
-8934;2814;John;Wright;36;3.13;1961-01-19;654 Maple Drive, Phoenix, AZ 85001;689641
-8466;0;Michelle;Thompson;4;4.81;1997-06-16;555 Mountain Street, Washington, DC 20001;237661
-9603;2512;Jerry;Roberts;12;4.78;1996-12-04;864 Palm Drive, San Jose, CA 95101;35155
-3341;2043;Barbara;Johnson;35;3.53;1989-01-12;321 Elm Boulevard, Houston, TX 77001;838239
-8853;5141;Virginia;Thomas;46;4.53;1971-07-14;654 Maple Drive, Phoenix, AZ 85001;879054
-8596;4241;Patrick;Brown;0;4.19;1990-02-23;333 River Road, Seattle, WA 98101;890754
-7689;3505;Joshua;Anderson;14;3.29;1978-08-22;666 Ocean Avenue, Miami, FL 33101;648204
-6570;5275;Paul;Wright;6;3.08;1966-01-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;619858
-6807;6746;Carol;Wilson;29;3.48;2004-11-12;789 Pine Road, Chicago, IL 60601;860494
-8579;8130;Joshua;Rivera;30;4.25;1966-04-06;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;60522
-8752;2796;Jonathan;Wright;3;3.91;1981-05-28;Champs-Élysées 75, Paris, France 75008;456276
-3737;5288;Samuel;Ramirez;26;4.04;1983-03-15;666 Ocean Avenue, Miami, FL 33101;821995
-3533;9987;Amy;Martin;0;3.24;1963-07-20;321 Elm Boulevard, Houston, TX 77001;461725
-31;1904;Ruth;Thomas;0;4.41;1993-07-05;654 Maple Drive, Phoenix, AZ 85001;767083
-2377;3214;Debra;Garcia;13;4.55;2007-01-08;Burj Khalifa 1, Dubai, UAE;819923
-1076;1195;Brian;Martinez;39;4.07;1962-02-01;CN Tower 301, Toronto, Canada M5V 2T6;437417
-9559;4619;George;Torres;43;4.81;1996-10-11;222 Park Avenue, Boston, MA 02101;367010
-3295;6186;Ryan;Walker;39;4.52;1983-09-26;456 Oak Avenue, Los Angeles, CA 90001;808474
-446;3517;Emily;Walker;5;3.69;1962-12-02;864 Palm Drive, San Jose, CA 95101;355260
-401;9209;Jerry;Perez;24;4.52;1962-10-20;555 Mountain Street, Washington, DC 20001;696875
-2033;3908;Jennifer;Perez;3;3.83;1969-05-20;Table Mountain Rd, Cape Town, South Africa 8001;44658
-3720;4423;Karen;Garcia;6;4.17;1980-09-03;Taj Mahal, Agra, India 282001;166812
-6864;223;Eric;Martinez;46;4.98;1992-10-28;753 Willow Avenue, San Diego, CA 92101;563019
-1543;9204;David;Roberts;46;3.84;1996-12-30;123 Main Street, New York, NY 10001;73021
-1061;8596;Brenda;Thomas;3;3.48;1976-03-25;123 Main Street, New York, NY 10001;879302
-4401;6262;Deborah;Clark;35;3.24;1986-04-15;987 Cedar Lane, Philadelphia, PA 19101;299428
-6441;6651;Margaret;Moore;10;4.73;1992-11-15;Champs-Élysées 75, Paris, France 75008;808830
-2570;5044;Virginia;Brown;14;4.06;1965-01-21;Brandenburger Tor 1, Berlin, Germany 10117;654229
-1597;8006;Nicole;Wright;9;3.71;1994-08-21;Brandenburger Tor 1, Berlin, Germany 10117;489810
-8772;3494;Christopher;Young;26;4.25;1990-03-07;444 Lake View, Denver, CO 80201;171846
-8508;5739;Jessica;Lopez;0;3.7;1973-05-27;Gyeongbokgung Palace 161, Seoul, South Korea 03045;310560
-6770;8606;Jason;Nelson;40;3.33;2007-05-02;456 Oak Avenue, Los Angeles, CA 90001;353245
-3833;8316;Gregory;Perez;22;4.7;1980-03-30;864 Palm Drive, San Jose, CA 95101;526240
-1372;1916;Donald;Robinson;50;3.89;2001-05-28;Forbidden City 4, Beijing, China 100006;402392
-3058;6210;William;Robinson;48;3.69;1965-11-04;Taj Mahal, Agra, India 282001;509905
-9012;57;Scott;Taylor;41;3.27;1966-09-24;Sagrada Família 401, Barcelona, Spain 08013;440974
-7524;760;Carol;Flores;36;3.24;1982-04-04;Table Mountain Rd, Cape Town, South Africa 8001;764315
-666;8071;Patrick;Clark;6;4.12;2001-05-16;987 Cedar Lane, Philadelphia, PA 19101;825301
-1532;4966;George;Jones;1;3.77;1994-11-23;Brandenburger Tor 1, Berlin, Germany 10117;50362
-9970;7744;Elizabeth;Green;13;4.94;2003-08-18;987 Cedar Lane, Philadelphia, PA 19101;523647
-8909;4805;Rachel;Nelson;27;4.42;1963-09-19;864 Palm Drive, San Jose, CA 95101;283212
-292;3655;Helen;Walker;9;4.61;1971-10-30;753 Willow Avenue, San Diego, CA 92101;734952
-3126;4478;Nicholas;Taylor;35;3.06;1987-09-02;222 Park Avenue, Boston, MA 02101;577703
-4265;697;Thomas;Ramirez;43;4.46;1999-06-27;666 Ocean Avenue, Miami, FL 33101;696959
-9262;1966;Pamela;Young;7;3.08;1982-11-06;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;76012
-8397;6349;Amy;White;35;4.05;1975-03-01;444 Lake View, Denver, CO 80201;891151
-4205;2921;Karen;Johnson;19;3.75;1975-12-17;159 Birch Street, San Antonio, TX 78201;888814
-6651;6673;Anthony;Taylor;14;3.82;2003-10-12;Sydney Opera House, Sydney, Australia 2000;401658
-1800;5066;Susan;Johnson;25;4.84;1985-01-27;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;585817
-3842;2486;Katherine;Ramirez;42;4.7;1989-10-14;Champs-Élysées 75, Paris, France 75008;565870
-5444;6981;Justin;Brown;26;3.52;1977-10-08;123 Main Street, New York, NY 10001;777443
-3411;629;Carol;Gonzalez;2;4.8;1997-02-21;Shibuya Crossing 2, Tokyo, Japan 150-0043;271399
-6889;9887;Christopher;Hall;43;3.7;1980-08-22;123 Main Street, New York, NY 10001;937721
-9356;2385;Thomas;Williams;10;3.96;1995-12-28;Burj Khalifa 1, Dubai, UAE;898665
-8661;5039;Samuel;Brown;4;3.03;1980-07-19;987 Cedar Lane, Philadelphia, PA 19101;350333
-5118;2906;Maria;Carter;9;3.53;1967-02-16;444 Lake View, Denver, CO 80201;246227
-8288;127;Donna;Adams;47;4.69;1974-11-16;864 Palm Drive, San Jose, CA 95101;241515
-8254;4921;Eric;King;26;4.08;2000-09-21;Gyeongbokgung Palace 161, Seoul, South Korea 03045;286739
-6184;8938;Anna;Rodriguez;19;4.1;1986-11-21;321 Elm Boulevard, Houston, TX 77001;286139
-62;9358;William;Miller;4;3.17;1984-06-15;Piazza San Marco 1, Venice, Italy 30124;832081
-980;7128;Jack;Carter;0;3.59;1981-03-24;555 Mountain Street, Washington, DC 20001;808908
-3835;6450;Dorothy;Martin;37;3.74;1972-12-01;222 Park Avenue, Boston, MA 02101;711943
-7740;2003;Helen;Roberts;35;4.78;1997-04-28;123 Main Street, New York, NY 10001;838613
-8815;9650;Patricia;Rodriguez;25;3.45;1992-09-15;Champs-Élysées 75, Paris, France 75008;853288
-6132;2574;Carolyn;Harris;18;3.5;1978-03-13;159 Birch Street, San Antonio, TX 78201;4121
-8493;9089;Anna;Rivera;13;3.87;1988-03-22;246 Spruce Road, Dallas, TX 75201;971904
-1047;3826;Brandon;Moore;2;3.57;1971-04-11;Gyeongbokgung Palace 161, Seoul, South Korea 03045;42048
-147;7859;Larry;Wilson;5;3.57;1998-04-09;Piazza San Marco 1, Venice, Italy 30124;574508
-9674;6460;Ryan;Lopez;46;3.33;1980-07-08;789 Pine Road, Chicago, IL 60601;315013
-9178;4378;Mary;Mitchell;39;3.7;1980-02-02;333 River Road, Seattle, WA 98101;104391
-4668;4449;Ruth;Brown;43;3.33;1970-03-31;Burj Khalifa 1, Dubai, UAE;286565
-1829;5535;Linda;Perez;47;4.78;2007-01-04;Table Mountain Rd, Cape Town, South Africa 8001;962351
-6533;665;Margaret;Lee;0;4.25;1963-10-30;555 Mountain Street, Washington, DC 20001;721435
-9445;1585;Jerry;Taylor;7;4.48;1985-12-30;Marina Bay Sands 10, Singapore 018956;976133
-5375;7120;Ruth;Flores;17;4.09;1967-08-15;789 Pine Road, Chicago, IL 60601;568418
-3982;2879;Rachel;Lewis;42;4.97;1972-02-13;Sagrada Família 401, Barcelona, Spain 08013;509777
-5878;354;Jonathan;White;42;3.52;1970-07-26;159 Birch Street, San Antonio, TX 78201;165927
-3840;3685;Jessica;Green;20;4.54;1960-10-01;Red Square 1, Moscow, Russia 109012;343004
-4190;1038;Jacob;Green;38;3.32;1998-12-08;333 River Road, Seattle, WA 98101;840524
-968;7537;Sharon;Miller;39;3.05;1974-07-21;987 Cedar Lane, Philadelphia, PA 19101;974987
-8904;2613;Brian;Jackson;22;3.2;1976-05-16;Sagrada Família 401, Barcelona, Spain 08013;734426
-7504;5699;Kenneth;Anderson;7;4.98;2006-09-22;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;150933
-5140;1810;Carolyn;Gonzalez;43;3.95;1999-11-21;666 Ocean Avenue, Miami, FL 33101;535454
-1854;2053;Katherine;Baker;35;3.97;1971-07-08;123 Main Street, New York, NY 10001;142542
-2444;7830;David;Miller;20;4.15;2004-11-08;456 Oak Avenue, Los Angeles, CA 90001;542225
-4958;3705;Richard;Jackson;38;4.29;1982-09-09;987 Cedar Lane, Philadelphia, PA 19101;624828
-9403;7541;Elizabeth;Mitchell;13;4.26;1982-03-17;Forbidden City 4, Beijing, China 100006;845326
-2002;3215;Barbara;Mitchell;1;3.18;1963-08-31;987 Cedar Lane, Philadelphia, PA 19101;367459
-1836;6858;Catherine;Ramirez;45;4.48;1967-08-13;Sagrada Família 401, Barcelona, Spain 08013;267432
-7656;4297;Thomas;Smith;4;4.35;2007-01-11;333 River Road, Seattle, WA 98101;910907
-414;4794;Angela;Clark;48;3.37;1965-10-15;Brandenburger Tor 1, Berlin, Germany 10117;714066
-219;6023;Matthew;Johnson;45;3.93;1970-08-21;Burj Khalifa 1, Dubai, UAE;249268
-149;4720;Larry;Robinson;36;4.35;1981-12-21;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;38946
-6766;5013;Ryan;Thomas;4;3.33;1996-12-28;789 Pine Road, Chicago, IL 60601;467811
-7406;491;Thomas;Martin;47;3.98;1970-04-13;Sagrada Família 401, Barcelona, Spain 08013;979741
-1421;2987;Sarah;Johnson;4;3.11;1978-08-23;Taj Mahal, Agra, India 282001;773024
-4857;7239;Amy;Jones;21;3.84;1961-08-11;555 Mountain Street, Washington, DC 20001;821563
-2;7019;Dorothy;Thomas;12;3.72;1972-08-07;246 Spruce Road, Dallas, TX 75201;610585
-24;8436;Benjamin;Torres;5;4.08;1995-08-25;444 Lake View, Denver, CO 80201;523953
-7870;1604;Brandon;Jones;44;4.63;1987-09-27;Red Square 1, Moscow, Russia 109012;935680
-9560;3103;Anna;Lopez;39;3.16;2005-08-04;Brandenburger Tor 1, Berlin, Germany 10117;267435
-2078;4709;Sharon;Lewis;47;3.99;2005-05-06;753 Willow Avenue, San Diego, CA 92101;999067
-1098;3639;Virginia;Moore;26;3.88;1969-01-25;Sydney Opera House, Sydney, Australia 2000;371696
-9288;4610;Andrew;Anderson;36;3.32;1983-01-18;Table Mountain Rd, Cape Town, South Africa 8001;921706
-4805;7902;Nicholas;Nelson;11;3.34;1991-07-17;Gyeongbokgung Palace 161, Seoul, South Korea 03045;731042
-9159;6909;Donna;Campbell;20;4.66;1984-01-28;Shibuya Crossing 2, Tokyo, Japan 150-0043;788559
-8079;6779;Joshua;Sanchez;4;3.02;1964-07-24;Brandenburger Tor 1, Berlin, Germany 10117;537038
-803;871;Kenneth;Young;16;4.48;1973-01-05;Piazza San Marco 1, Venice, Italy 30124;196293
-5801;6146;Benjamin;Martinez;4;3.43;2007-08-31;Marina Bay Sands 10, Singapore 018956;705368
-3135;6486;Brian;Thomas;14;3.98;1984-03-13;654 Maple Drive, Phoenix, AZ 85001;65691
-1945;1880;Sarah;Harris;42;4.2;1984-07-27;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;586282
-23;3941;Christopher;Davis;50;3.21;1983-05-10;864 Palm Drive, San Jose, CA 95101;286157
-1965;8026;Donna;Green;6;4.32;1998-04-02;246 Spruce Road, Dallas, TX 75201;688560
-3850;6809;Brandon;Rivera;43;3.86;1970-02-16;123 Main Street, New York, NY 10001;860366
-5243;802;Virginia;Rivera;1;3.5;1970-11-30;666 Ocean Avenue, Miami, FL 33101;893535
-6032;6961;Emma;Ramirez;9;3.53;1975-01-27;555 Mountain Street, Washington, DC 20001;172269
-2270;2036;Deborah;Jackson;49;4.57;1964-12-05;123 Main Street, New York, NY 10001;936952
-1718;9421;David;Lee;24;4.99;2002-06-03;222 Park Avenue, Boston, MA 02101;987832
-7103;3058;Angela;Campbell;39;3.91;1981-01-06;Taj Mahal, Agra, India 282001;319685
-7775;6833;Jason;Gonzalez;33;3.14;1979-09-26;864 Palm Drive, San Jose, CA 95101;664005
-9996;3145;Linda;White;12;4.52;1977-06-06;Piazza San Marco 1, Venice, Italy 30124;309513
-4337;4739;Timothy;Ramirez;40;3.82;1992-06-21;Shibuya Crossing 2, Tokyo, Japan 150-0043;90706
-5574;6415;Samantha;Walker;31;4.07;1998-06-29;654 Maple Drive, Phoenix, AZ 85001;106361
-4804;4506;Jason;Wright;27;3.88;1971-05-05;CN Tower 301, Toronto, Canada M5V 2T6;342556
-6925;7767;Matthew;Garcia;22;4.42;1984-09-30;Sydney Opera House, Sydney, Australia 2000;130258
-9470;2153;Christine;Clark;40;4.36;1979-12-08;Red Square 1, Moscow, Russia 109012;860084
-9101;6097;Charles;Campbell;40;4.18;2001-04-17;159 Birch Street, San Antonio, TX 78201;474653
-9476;8988;Carolyn;Roberts;3;3.28;1981-10-01;Brandenburger Tor 1, Berlin, Germany 10117;222001
-5282;5761;Jack;Wilson;0;4.28;2002-07-27;Sydney Opera House, Sydney, Australia 2000;56494
-3860;1890;Benjamin;Wright;36;3.19;1983-08-14;654 Maple Drive, Phoenix, AZ 85001;180168
-3398;7696;Paul;Rodriguez;31;4.59;2005-09-03;CN Tower 301, Toronto, Canada M5V 2T6;942420
-4904;7378;Ashley;Lopez;33;4.19;1979-10-11;333 River Road, Seattle, WA 98101;527215
-4436;2975;Stephanie;Ramirez;12;3.54;1978-11-09;Champs-Élysées 75, Paris, France 75008;562952
-2348;2848;Virginia;Rodriguez;48;3.15;2004-07-17;321 Elm Boulevard, Houston, TX 77001;330814
-4728;4484;Betty;White;30;4.55;1983-07-14;321 Elm Boulevard, Houston, TX 77001;866370
-8032;3957;Nancy;Miller;12;3.05;1971-11-18;246 Spruce Road, Dallas, TX 75201;833194
-1122;6089;Amanda;Allen;37;3.8;1993-09-08;Forbidden City 4, Beijing, China 100006;595328
-1675;6600;Brandon;Wilson;17;4.61;1965-05-30;789 Pine Road, Chicago, IL 60601;896881
-8685;1931;Emily;Jones;35;4.92;1992-04-06;246 Spruce Road, Dallas, TX 75201;628466
-942;9284;Sarah;Robinson;20;3.79;1981-04-20;159 Birch Street, San Antonio, TX 78201;22695
-7498;9921;James;Martin;15;4.24;1999-01-27;987 Cedar Lane, Philadelphia, PA 19101;738560
-2867;3598;Matthew;King;14;3.73;1974-12-20;321 Elm Boulevard, Houston, TX 77001;663657
-5261;7840;Larry;Adams;27;4.74;1971-02-15;123 Main Street, New York, NY 10001;502806
-6556;6229;Eric;Lewis;21;3.89;2001-02-21;Forbidden City 4, Beijing, China 100006;336858
-4847;3709;Donna;Johnson;4;3.03;1990-12-01;Shibuya Crossing 2, Tokyo, Japan 150-0043;231774
-1773;8877;Nancy;Robinson;20;4.86;1973-04-08;333 River Road, Seattle, WA 98101;437674
-4143;2122;Charles;Torres;9;4.71;1971-08-04;864 Palm Drive, San Jose, CA 95101;750974
-7319;2540;Sandra;White;49;3.64;2003-10-14;666 Ocean Avenue, Miami, FL 33101;398625
-4449;4669;Elizabeth;Brown;47;3.02;1985-09-15;753 Willow Avenue, San Diego, CA 92101;785797
-7752;268;Andrew;Carter;16;3.71;2001-08-01;456 Oak Avenue, Los Angeles, CA 90001;314932
-9715;7911;Benjamin;Nelson;24;3.01;1968-04-01;222 Park Avenue, Boston, MA 02101;437871
-2488;356;Jerry;Martin;34;4.01;1980-02-18;Forbidden City 4, Beijing, China 100006;984804
-3211;8963;Brian;Lee;4;4.57;1969-07-26;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;749278
-7169;5586;Ronald;Hall;47;3.27;1972-06-19;321 Elm Boulevard, Houston, TX 77001;919473
-4988;8531;Brandon;Martinez;14;3.79;2001-08-14;Table Mountain Rd, Cape Town, South Africa 8001;587850
-8830;8453;Jeffrey;Lewis;39;3.58;1997-10-12;Marina Bay Sands 10, Singapore 018956;3508
-261;8414;Carolyn;Jackson;14;4.69;1961-01-23;Champs-Élysées 75, Paris, France 75008;548268
-3112;7286;Pamela;Nelson;39;3.81;1961-06-20;555 Mountain Street, Washington, DC 20001;220785
-4443;3024;Kenneth;Gonzalez;15;3.11;1988-01-08;456 Oak Avenue, Los Angeles, CA 90001;138328
-4467;8692;Emma;Thomas;24;3.19;2004-12-25;333 River Road, Seattle, WA 98101;219577
-5762;7054;Kevin;Green;48;3.11;1992-12-17;Forbidden City 4, Beijing, China 100006;65299
-2459;1347;Edward;Smith;19;3.49;2004-01-07;Forbidden City 4, Beijing, China 100006;996605
-4527;4500;Lisa;Baker;24;4.15;1974-10-31;Sydney Opera House, Sydney, Australia 2000;829463
-6401;3803;Brian;Taylor;21;4.21;1981-04-02;456 Oak Avenue, Los Angeles, CA 90001;910442
-7690;781;Steven;Lopez;11;4.14;1969-12-18;Champs-Élysées 75, Paris, France 75008;108072
-1306;4243;Justin;Martinez;11;4.42;1961-10-01;Gyeongbokgung Palace 161, Seoul, South Korea 03045;752043
-1775;3587;Anthony;Lee;9;3.14;1991-09-23;Shibuya Crossing 2, Tokyo, Japan 150-0043;663958
-2836;7356;Dennis;Campbell;19;4.3;1963-07-01;Piazza San Marco 1, Venice, Italy 30124;396556
-3623;7778;Carol;Gonzalez;36;3.11;1987-11-08;Marina Bay Sands 10, Singapore 018956;565810
-57;6032;Sharon;Johnson;33;4.24;1965-03-09;Table Mountain Rd, Cape Town, South Africa 8001;973322
-3604;7881;Dorothy;Gonzalez;21;3.72;1963-01-09;Forbidden City 4, Beijing, China 100006;20410
-9070;4592;Christopher;Hall;18;3.35;1965-03-21;654 Maple Drive, Phoenix, AZ 85001;296032
-8052;49;Robert;Thompson;23;4.86;1962-02-27;Red Square 1, Moscow, Russia 109012;468543
-2909;2688;Virginia;Ramirez;7;4.8;2006-09-29;246 Spruce Road, Dallas, TX 75201;441805
-2123;5881;Deborah;Lewis;38;3.88;1971-08-19;Burj Khalifa 1, Dubai, UAE;589349
-1347;5518;Jacob;Roberts;21;4.31;1992-01-28;Marina Bay Sands 10, Singapore 018956;936144
-9696;3481;Sarah;Harris;42;4.19;1968-07-10;753 Willow Avenue, San Diego, CA 92101;215386
-703;2013;Christopher;Ramirez;16;4.78;1980-03-18;Shibuya Crossing 2, Tokyo, Japan 150-0043;318774
-1909;1093;Susan;Baker;20;4.18;2000-11-02;Marina Bay Sands 10, Singapore 018956;161474
-7990;5381;Sharon;Hall;16;4.57;1986-10-29;654 Maple Drive, Phoenix, AZ 85001;67498
-1999;1121;Timothy;Jones;23;3.73;1996-01-31;159 Birch Street, San Antonio, TX 78201;886198
-3481;9932;Edward;Adams;24;4.38;1974-12-08;654 Maple Drive, Phoenix, AZ 85001;321858
-6101;7862;Katherine;Miller;42;3.54;1973-07-06;444 Lake View, Denver, CO 80201;539292
-2067;8513;Patricia;Wright;1;3.9;2002-07-31;CN Tower 301, Toronto, Canada M5V 2T6;568999
-5143;2289;Samuel;Davis;22;4.97;1988-11-21;654 Maple Drive, Phoenix, AZ 85001;898172
-1180;4923;Donna;White;12;3.37;1973-03-07;444 Lake View, Denver, CO 80201;229780
-5757;4802;Jessica;Flores;21;3.86;1979-11-02;Piazza San Marco 1, Venice, Italy 30124;21887
-6335;6076;Stephanie;Young;29;3.02;1966-01-20;Marina Bay Sands 10, Singapore 018956;935408
-7494;7071;Melissa;Williams;32;3.07;1984-12-25;Brandenburger Tor 1, Berlin, Germany 10117;846455
-6411;2799;Pamela;Walker;25;3.91;2005-08-28;Forbidden City 4, Beijing, China 100006;39587
-3471;1191;Ryan;Baker;7;4.32;2001-09-24;123 Main Street, New York, NY 10001;686372
-3000;5765;Thomas;Taylor;36;4.45;1969-05-29;Piazza San Marco 1, Venice, Italy 30124;532094
-85;4349;Edward;King;2;3.63;1982-03-19;456 Oak Avenue, Los Angeles, CA 90001;988482
-6881;9810;Rachel;Torres;28;3.7;1964-03-05;864 Palm Drive, San Jose, CA 95101;382486
-154;9753;Paul;Roberts;0;5.0;1993-01-03;159 Birch Street, San Antonio, TX 78201;799360
-2104;1628;Charles;Scott;33;3.41;1997-11-25;Red Square 1, Moscow, Russia 109012;247168
-3593;7854;Amy;Campbell;6;4.12;2005-02-01;Gyeongbokgung Palace 161, Seoul, South Korea 03045;977242
-8740;7762;Larry;Nelson;19;4.97;1995-01-15;Marina Bay Sands 10, Singapore 018956;921116
-7498;3005;Jessica;Lee;25;4.98;1993-09-06;444 Lake View, Denver, CO 80201;527690
-6721;5705;Emma;Scott;32;4.37;1978-02-21;Sydney Opera House, Sydney, Australia 2000;778520
-3584;4458;Charles;Hernandez;24;4.39;1975-06-22;555 Mountain Street, Washington, DC 20001;427322
-7657;1325;Kathleen;Perez;6;3.86;1966-11-19;Gyeongbokgung Palace 161, Seoul, South Korea 03045;323775
-5164;1355;Robert;Nguyen;50;3.44;1991-06-17;159 Birch Street, San Antonio, TX 78201;875641
-5854;8670;Jacob;Green;1;4.92;1986-07-29;159 Birch Street, San Antonio, TX 78201;50175
-9511;8071;Nancy;Lopez;46;4.25;1978-05-07;Forbidden City 4, Beijing, China 100006;130387
-209;3455;Ruth;Perez;4;4.27;1962-12-22;Sydney Opera House, Sydney, Australia 2000;373532
-7545;7673;Gary;Nelson;3;3.89;1976-06-14;159 Birch Street, San Antonio, TX 78201;321470
-308;2791;Michael;Williams;5;4.64;1990-06-30;Marina Bay Sands 10, Singapore 018956;234167
-6760;9327;Ronald;Williams;36;3.35;2000-01-29;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;400597
-4625;8389;Margaret;Harris;48;3.11;1986-10-20;Red Square 1, Moscow, Russia 109012;729260
-5288;9266;Matthew;Rivera;25;3.04;1978-02-17;Sydney Opera House, Sydney, Australia 2000;207158
-3685;9979;Nancy;Moore;14;4.68;1971-02-04;Marina Bay Sands 10, Singapore 018956;294864
-8330;3161;Kathleen;Allen;20;3.8;1997-07-10;654 Maple Drive, Phoenix, AZ 85001;567543
-3586;6409;Nicole;Young;29;4.08;1998-06-08;Burj Khalifa 1, Dubai, UAE;661929
-8775;9389;Mark;Campbell;15;3.05;1981-06-27;Champs-Élysées 75, Paris, France 75008;673446
-6318;8727;Christopher;White;21;3.25;1992-09-25;Sydney Opera House, Sydney, Australia 2000;466043
-6355;6571;Edward;Perez;20;3.75;1988-12-08;654 Maple Drive, Phoenix, AZ 85001;589969
-2931;5625;Jerry;Nguyen;21;4.3;1968-03-31;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;454364
-7308;5378;Mark;Ramirez;9;3.34;2000-03-26;Shibuya Crossing 2, Tokyo, Japan 150-0043;664473
-9800;6332;Frank;Gonzalez;25;4.93;1987-08-09;222 Park Avenue, Boston, MA 02101;297314
-8456;5603;Jason;Adams;19;4.63;1967-11-21;Gyeongbokgung Palace 161, Seoul, South Korea 03045;824797
-9638;5904;Richard;Baker;38;4.56;1990-08-26;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;718129
-3693;8994;Justin;Lewis;45;3.45;1997-02-23;159 Birch Street, San Antonio, TX 78201;369483
-3682;4760;Virginia;Green;5;3.57;1976-07-13;456 Oak Avenue, Los Angeles, CA 90001;844283
-3968;7113;Jeffrey;Wright;10;4.66;1986-03-26;Piazza San Marco 1, Venice, Italy 30124;844513
-3488;6653;Sarah;Rivera;3;4.62;2000-07-16;Burj Khalifa 1, Dubai, UAE;126426
-1440;8549;Paul;Lee;39;4.31;1999-06-28;654 Maple Drive, Phoenix, AZ 85001;301672
-6580;7046;Patrick;Perez;45;4.13;1968-02-15;321 Elm Boulevard, Houston, TX 77001;543714
-8181;9837;Emily;Lee;41;3.7;1965-12-17;864 Palm Drive, San Jose, CA 95101;655190
-743;7431;Samuel;Williams;33;4.16;1997-07-27;Taj Mahal, Agra, India 282001;507519
-2749;5071;Jeffrey;Wilson;23;4.06;2006-05-09;123 Main Street, New York, NY 10001;149268
-6142;163;Anna;Martinez;40;3.26;1984-07-05;444 Lake View, Denver, CO 80201;793807
-3017;5426;Gary;Carter;31;4.5;1989-01-31;Red Square 1, Moscow, Russia 109012;46238
-1196;9107;Anna;Anderson;46;3.82;1998-11-16;321 Elm Boulevard, Houston, TX 77001;146945
-8019;5131;Alexander;Lee;18;4.15;1991-10-12;123 Main Street, New York, NY 10001;550748
-5226;75;Jacob;Thompson;21;4.76;1974-12-18;159 Birch Street, San Antonio, TX 78201;7893
-2137;3812;Kevin;Carter;36;3.22;1982-01-12;987 Cedar Lane, Philadelphia, PA 19101;446680
-3725;7218;Debra;Martin;49;3.57;1985-03-01;Sydney Opera House, Sydney, Australia 2000;569738
-1642;7257;Jeffrey;Lopez;4;4.28;1988-04-07;Table Mountain Rd, Cape Town, South Africa 8001;32665
-9488;5371;Sarah;Martin;49;3.84;1990-01-02;Shibuya Crossing 2, Tokyo, Japan 150-0043;837783
-9439;4270;Susan;Wilson;10;3.3;1984-08-21;666 Ocean Avenue, Miami, FL 33101;928740
-4807;8530;Robert;Davis;27;3.16;1967-11-11;333 River Road, Seattle, WA 98101;783287
-8062;9298;Melissa;White;30;4.63;1962-06-27;Brandenburger Tor 1, Berlin, Germany 10117;673941
-1988;8259;Dorothy;Allen;10;4.28;1999-03-29;321 Elm Boulevard, Houston, TX 77001;57768
-2025;6415;Michelle;Brown;49;4.9;2000-04-03;Gyeongbokgung Palace 161, Seoul, South Korea 03045;883082
-3124;5258;Ronald;Harris;43;3.8;1964-07-24;123 Main Street, New York, NY 10001;165295
-186;6853;Gregory;Roberts;49;3.02;1965-09-05;Piazza San Marco 1, Venice, Italy 30124;590860
-6871;9949;Brenda;Campbell;24;4.36;2000-05-27;Table Mountain Rd, Cape Town, South Africa 8001;423921
-415;4394;Susan;Nguyen;50;3.44;2000-10-19;CN Tower 301, Toronto, Canada M5V 2T6;705083
-9277;7168;Donald;Johnson;4;3.76;2003-12-21;Gyeongbokgung Palace 161, Seoul, South Korea 03045;501595
-7143;5777;Helen;Perez;6;3.5;1970-07-03;444 Lake View, Denver, CO 80201;961031
-5385;4458;Angela;Jackson;22;3.07;1980-03-19;Piazza San Marco 1, Venice, Italy 30124;22353
-7682;6036;Raymond;Young;30;3.98;1980-08-28;333 River Road, Seattle, WA 98101;943667
-9526;9624;Michael;Martinez;17;3.42;1997-08-16;456 Oak Avenue, Los Angeles, CA 90001;677930
-8178;2978;Jonathan;Hernandez;3;4.13;1982-02-18;Brandenburger Tor 1, Berlin, Germany 10117;479668
-95;1206;Sharon;White;14;3.88;1970-06-15;Sydney Opera House, Sydney, Australia 2000;600405
-1403;456;Laura;Garcia;19;3.96;2004-02-23;Brandenburger Tor 1, Berlin, Germany 10117;791156
-7080;8255;Kevin;Torres;10;4.7;1979-03-16;Marina Bay Sands 10, Singapore 018956;1413
-6979;1862;Betty;Baker;14;3.94;1973-02-21;555 Mountain Street, Washington, DC 20001;2435
-9844;5360;Jessica;Wright;10;4.37;2000-01-19;Shibuya Crossing 2, Tokyo, Japan 150-0043;109999
-4964;9437;Samantha;Nelson;49;3.18;1996-09-13;Brandenburger Tor 1, Berlin, Germany 10117;29831
-9553;488;Rachel;Thompson;40;4.21;1989-02-27;456 Oak Avenue, Los Angeles, CA 90001;615170
-2361;2637;Richard;Martinez;43;4.16;1972-07-26;333 River Road, Seattle, WA 98101;417897
-1081;7281;Ruth;Thomas;7;3.45;1969-08-14;246 Spruce Road, Dallas, TX 75201;552801
-6279;6634;Andrew;Brown;11;3.71;2004-09-16;Shibuya Crossing 2, Tokyo, Japan 150-0043;300835
-9058;3661;Kevin;Rivera;12;3.74;1994-10-11;Forbidden City 4, Beijing, China 100006;806917
-471;5482;Linda;Hill;0;4.9;1966-05-28;Brandenburger Tor 1, Berlin, Germany 10117;692257
-4130;3801;Brandon;Jackson;1;4.18;1982-05-10;159 Birch Street, San Antonio, TX 78201;758507
-9051;3110;Alexander;Lee;40;4.12;1978-07-18;Taj Mahal, Agra, India 282001;509826
-5649;7993;Betty;Johnson;26;4.06;1961-04-23;Sydney Opera House, Sydney, Australia 2000;957385
-4879;6243;Jacob;Moore;0;3.67;1977-07-07;246 Spruce Road, Dallas, TX 75201;199620
-9977;2508;Edward;Perez;30;4.17;1990-10-21;Red Square 1, Moscow, Russia 109012;375319
-4459;8335;Dennis;Robinson;38;4.13;1995-01-21;654 Maple Drive, Phoenix, AZ 85001;110433
-4168;4815;Justin;Nelson;18;4.17;1997-05-05;987 Cedar Lane, Philadelphia, PA 19101;93012
-4704;7624;Daniel;Johnson;42;3.2;2007-01-10;Burj Khalifa 1, Dubai, UAE;265133
-9734;3176;Sarah;Robinson;33;4.63;2001-10-03;123 Main Street, New York, NY 10001;130792
-3447;8065;Joshua;Torres;15;4.3;1967-10-24;321 Elm Boulevard, Houston, TX 77001;97287
-6951;9784;Daniel;Taylor;17;3.43;1973-08-16;789 Pine Road, Chicago, IL 60601;194363
-2782;2737;Steven;Nguyen;28;4.58;2007-06-10;Champs-Élysées 75, Paris, France 75008;895086
-9796;2679;Donna;Johnson;44;4.07;1987-12-28;Taj Mahal, Agra, India 282001;645713
-1663;9038;Betty;Roberts;36;3.9;1998-10-13;Champs-Élysées 75, Paris, France 75008;973150
-883;8443;Dennis;Anderson;39;4.07;1972-02-17;Shibuya Crossing 2, Tokyo, Japan 150-0043;90987
-9844;3197;Ronald;Perez;40;3.87;2005-07-27;Brandenburger Tor 1, Berlin, Germany 10117;732026
-2752;500;Emma;Johnson;5;3.82;2001-04-16;654 Maple Drive, Phoenix, AZ 85001;336181
-3184;5481;Jacob;Moore;11;3.02;2001-09-24;Piazza San Marco 1, Venice, Italy 30124;941002
-2680;1606;Jason;Roberts;16;4.39;1986-07-11;Sagrada Família 401, Barcelona, Spain 08013;240497
-5932;8651;Joseph;Lewis;19;3.5;1961-11-19;456 Oak Avenue, Los Angeles, CA 90001;868531
-3507;5889;Ronald;Jones;35;3.13;1988-08-07;555 Mountain Street, Washington, DC 20001;990867
-8813;8008;Sarah;Jones;35;4.18;1996-11-14;Marina Bay Sands 10, Singapore 018956;34118
-4361;2146;Gary;Miller;22;4.62;1961-12-12;Taj Mahal, Agra, India 282001;566985
-5725;8346;Anna;Brown;22;3.38;1999-12-21;Marina Bay Sands 10, Singapore 018956;851539
-5963;7914;Brenda;Davis;13;3.61;1982-04-28;987 Cedar Lane, Philadelphia, PA 19101;962544
-33;5243;Jacob;Rodriguez;31;3.6;1991-10-16;159 Birch Street, San Antonio, TX 78201;354340
-2090;6687;Dorothy;Lewis;6;4.82;1986-09-12;654 Maple Drive, Phoenix, AZ 85001;356932
-7413;2914;Kenneth;Martin;45;4.43;1962-09-18;Sydney Opera House, Sydney, Australia 2000;993868
-2143;1887;Kathleen;Taylor;20;4.87;2001-05-24;Burj Khalifa 1, Dubai, UAE;517825
-9263;4518;James;Gonzalez;0;3.26;1983-04-08;Taj Mahal, Agra, India 282001;749214
-2610;5030;William;Miller;39;3.63;1996-01-14;864 Palm Drive, San Jose, CA 95101;288600
-2180;8045;Amy;Davis;30;3.87;2002-08-23;Forbidden City 4, Beijing, China 100006;648418
-6524;9604;Gary;Robinson;12;3.46;1966-04-08;789 Pine Road, Chicago, IL 60601;353688
-6285;2964;Donald;Roberts;50;4.38;2001-08-07;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;589944
-9649;5682;Mary;Harris;33;3.73;1980-07-31;456 Oak Avenue, Los Angeles, CA 90001;823940
-8069;6725;Kimberly;Robinson;0;4.49;1977-09-29;321 Elm Boulevard, Houston, TX 77001;386335
-4522;5466;Stephanie;King;16;4.26;1963-11-24;Piazza San Marco 1, Venice, Italy 30124;439353
-1139;232;Joseph;Nelson;43;4.72;1972-10-22;159 Birch Street, San Antonio, TX 78201;454332
-156;5455;Matthew;Roberts;40;4.18;1986-06-30;Marina Bay Sands 10, Singapore 018956;884461
-2938;7878;Jessica;Hernandez;1;3.77;1997-08-11;Sagrada Família 401, Barcelona, Spain 08013;918804
-425;3321;Margaret;Johnson;6;4.35;2000-01-13;Red Square 1, Moscow, Russia 109012;747264
-4694;511;Pamela;Taylor;35;3.07;1994-12-12;Red Square 1, Moscow, Russia 109012;331443
-9374;6411;Linda;Green;12;3.42;1984-09-29;654 Maple Drive, Phoenix, AZ 85001;633198
-6595;4980;Anna;King;43;3.35;1963-11-16;666 Ocean Avenue, Miami, FL 33101;754867
-6911;8045;Eric;Ramirez;17;3.39;1964-01-24;444 Lake View, Denver, CO 80201;294991
-5220;6586;Mark;Sanchez;31;4.9;1963-04-14;222 Park Avenue, Boston, MA 02101;600430
-6851;5085;Brandon;Young;37;3.38;1991-08-20;246 Spruce Road, Dallas, TX 75201;309224
-7052;1924;Paul;Baker;6;5.01;1993-04-13;456 Oak Avenue, Los Angeles, CA 90001;767890
-9594;3841;Melissa;Young;25;4.39;1978-05-22;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;441419
-8248;4050;Ruth;Harris;9;3.05;1966-03-13;321 Elm Boulevard, Houston, TX 77001;523710
-4989;5746;David;Thompson;27;4.32;1986-07-18;987 Cedar Lane, Philadelphia, PA 19101;37881
-4770;4016;Brandon;Ramirez;0;4.16;1986-08-25;159 Birch Street, San Antonio, TX 78201;668
-6122;9221;Jacob;Robinson;47;4.73;1985-06-22;Gyeongbokgung Palace 161, Seoul, South Korea 03045;73703
-9192;4154;Carol;Sanchez;25;3.39;1979-08-07;789 Pine Road, Chicago, IL 60601;926518
-2393;6094;Kevin;Smith;30;3.78;1978-10-04;321 Elm Boulevard, Houston, TX 77001;751016
-6513;9893;Rachel;Rodriguez;49;3.7;1993-10-26;864 Palm Drive, San Jose, CA 95101;449917
-4226;9301;Samantha;Perez;7;3.41;1972-04-06;864 Palm Drive, San Jose, CA 95101;172698
-6853;187;Linda;Taylor;30;4.33;1965-11-29;987 Cedar Lane, Philadelphia, PA 19101;416691
-4627;3740;Paul;Miller;32;4.49;1963-06-05;666 Ocean Avenue, Miami, FL 33101;199762
-5015;7976;Amanda;Davis;6;3.69;2005-04-24;123 Main Street, New York, NY 10001;728172
-3676;1525;Angela;Campbell;11;4.36;1970-09-25;864 Palm Drive, San Jose, CA 95101;377375
-6186;4864;Jennifer;Campbell;39;4.3;1982-08-07;Forbidden City 4, Beijing, China 100006;323425
-5586;4634;Edward;Rodriguez;28;3.88;2002-10-29;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;489402
-2322;7334;Daniel;Wright;42;4.97;1972-03-25;666 Ocean Avenue, Miami, FL 33101;530784
-7788;8283;Gregory;Harris;18;4.73;1963-10-30;789 Pine Road, Chicago, IL 60601;301552
-3069;5346;Deborah;Smith;31;3.57;1987-06-19;Table Mountain Rd, Cape Town, South Africa 8001;786952
-5106;8422;Justin;King;42;4.75;1961-02-24;Forbidden City 4, Beijing, China 100006;427403
-6969;3081;Debra;Williams;6;4.68;2004-10-31;Piazza San Marco 1, Venice, Italy 30124;769866
-1284;5041;Andrew;Flores;13;3.34;1968-10-11;333 River Road, Seattle, WA 98101;822837
-1948;9873;Richard;Nelson;8;4.57;1981-06-18;555 Mountain Street, Washington, DC 20001;940338
-3619;6981;Christopher;Sanchez;38;4.77;1984-06-26;Shibuya Crossing 2, Tokyo, Japan 150-0043;97695
-6351;1369;Gregory;Carter;3;3.02;1973-06-12;Table Mountain Rd, Cape Town, South Africa 8001;147869
-1832;5947;Janet;Walker;3;3.97;1990-09-18;456 Oak Avenue, Los Angeles, CA 90001;806725
-5205;5025;Jason;Mitchell;32;3.42;1984-06-19;Table Mountain Rd, Cape Town, South Africa 8001;181341
-9934;3951;Maria;Miller;47;3.29;1990-10-29;Forbidden City 4, Beijing, China 100006;777153
-1663;4112;Rebecca;Miller;34;3.12;1973-02-09;789 Pine Road, Chicago, IL 60601;356480
-3175;3696;Richard;Torres;12;4.65;2006-07-23;Gyeongbokgung Palace 161, Seoul, South Korea 03045;659431
-9408;2981;Ashley;Garcia;16;4.6;1965-04-07;123 Main Street, New York, NY 10001;161421
-7937;3469;Angela;Rivera;42;3.15;1999-12-12;CN Tower 301, Toronto, Canada M5V 2T6;899451
-8367;4254;George;Thomas;44;3.95;1978-09-02;123 Main Street, New York, NY 10001;767779
-8957;838;Rachel;Garcia;16;3.74;2005-08-16;CN Tower 301, Toronto, Canada M5V 2T6;682699
-6644;5477;Melissa;Walker;37;4.56;1969-03-16;Sydney Opera House, Sydney, Australia 2000;954713
-5857;6105;Nicholas;Wright;16;4.12;1983-11-13;123 Main Street, New York, NY 10001;512139
-3258;3266;David;Hernandez;44;4.26;1961-08-19;666 Ocean Avenue, Miami, FL 33101;472676
-4313;7981;Raymond;White;13;3.24;1992-06-28;Gyeongbokgung Palace 161, Seoul, South Korea 03045;36517
-6941;4407;Kevin;King;41;5.01;1968-03-26;Gyeongbokgung Palace 161, Seoul, South Korea 03045;487272
-4881;9799;Stephen;Taylor;17;3.34;2000-07-09;123 Main Street, New York, NY 10001;935219
-2319;7079;Patricia;White;11;3.28;2007-01-08;Burj Khalifa 1, Dubai, UAE;203098
-7565;8740;Laura;Smith;5;3.49;1994-10-26;654 Maple Drive, Phoenix, AZ 85001;813348
-541;8884;Christopher;Thomas;26;4.2;1979-03-07;246 Spruce Road, Dallas, TX 75201;414290
-5430;7204;Donna;Martin;42;4.83;1991-12-29;Champs-Élysées 75, Paris, France 75008;613058
-8369;2046;Donald;Martin;11;4.92;1971-11-21;Red Square 1, Moscow, Russia 109012;499715
-4814;1552;Sandra;Wright;42;4.78;1968-11-04;Gyeongbokgung Palace 161, Seoul, South Korea 03045;847354
-5931;6055;Samuel;White;28;4.01;1995-02-11;Gyeongbokgung Palace 161, Seoul, South Korea 03045;346765
-3172;8920;Virginia;Lopez;44;4.06;1979-12-01;Champs-Élysées 75, Paris, France 75008;13728
-7520;2230;Catherine;Martin;12;4.8;2000-10-08;654 Maple Drive, Phoenix, AZ 85001;983696
-1618;7064;Helen;Hernandez;19;3.08;2000-07-25;Sydney Opera House, Sydney, Australia 2000;674219
-3513;8094;James;Gonzalez;45;4.87;1999-07-09;Sagrada Família 401, Barcelona, Spain 08013;525314
-8447;7144;Christopher;King;3;4.34;1964-12-30;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;604580
-7380;3349;Kimberly;Allen;29;4.18;1964-10-02;666 Ocean Avenue, Miami, FL 33101;117402
-8526;2439;Debra;Rivera;31;4.23;2006-09-14;Taj Mahal, Agra, India 282001;761002
-4965;5129;Susan;Clark;19;3.45;2001-07-08;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;912265
-549;4268;George;Nguyen;32;3.91;1987-07-30;Shibuya Crossing 2, Tokyo, Japan 150-0043;411624
-7963;3073;Gregory;Miller;4;3.65;1967-04-25;Champs-Élysées 75, Paris, France 75008;454038
-915;545;Timothy;Adams;37;3.41;1979-12-11;Champs-Élysées 75, Paris, France 75008;964384
-4002;5018;Gregory;Torres;37;4.08;1966-08-16;666 Ocean Avenue, Miami, FL 33101;988709
-2633;4780;Catherine;Clark;30;4.26;1979-04-22;Champs-Élysées 75, Paris, France 75008;43979
-4323;7154;Donald;Adams;22;4.63;1979-04-18;Taj Mahal, Agra, India 282001;644009
-9001;285;Samantha;Garcia;0;4.37;1979-04-22;321 Elm Boulevard, Houston, TX 77001;812628
-9661;6360;Joshua;Torres;25;4.49;1981-11-29;Marina Bay Sands 10, Singapore 018956;534314
-8555;3325;Jeffrey;Williams;30;4.28;1972-04-03;Marina Bay Sands 10, Singapore 018956;172074
-5707;8331;David;Lopez;8;3.4;1998-10-22;Burj Khalifa 1, Dubai, UAE;229601
-2496;391;Patrick;Moore;43;3.31;1971-10-27;654 Maple Drive, Phoenix, AZ 85001;918525
-2676;9559;Cynthia;Campbell;23;4.49;1979-07-27;CN Tower 301, Toronto, Canada M5V 2T6;695961
-626;102;Ruth;White;15;4.88;1991-02-21;Champs-Élysées 75, Paris, France 75008;580612
-9794;6248;Eric;Brown;50;4.34;1985-02-10;987 Cedar Lane, Philadelphia, PA 19101;908922
-9758;114;Ruth;Flores;9;4.73;1970-11-02;654 Maple Drive, Phoenix, AZ 85001;157398
-9919;8692;Carolyn;Rivera;16;4.79;1988-03-07;246 Spruce Road, Dallas, TX 75201;609711
-6543;6157;Elizabeth;Lee;30;4.38;1979-06-17;Marina Bay Sands 10, Singapore 018956;575886
-8819;3274;Samuel;Moore;6;3.61;1986-02-17;456 Oak Avenue, Los Angeles, CA 90001;310089
-705;6401;Larry;Lewis;34;3.77;1991-11-07;123 Main Street, New York, NY 10001;532510
-3384;7571;Brandon;Garcia;23;3.43;1987-11-17;321 Elm Boulevard, Houston, TX 77001;643387
-8686;3599;Maria;Carter;37;3.69;1985-09-14;Marina Bay Sands 10, Singapore 018956;266876
-8741;3863;Nicholas;Walker;2;4.82;1970-03-27;222 Park Avenue, Boston, MA 02101;349009
-6041;586;Michael;Wilson;11;3.88;1980-06-24;246 Spruce Road, Dallas, TX 75201;528893
-4851;6845;Kimberly;Young;17;4.8;1972-02-29;Sagrada Família 401, Barcelona, Spain 08013;909840
-6952;5053;James;Miller;7;3.33;1978-10-13;Burj Khalifa 1, Dubai, UAE;5942
-8731;8466;Mary;Hernandez;28;4.81;1984-12-17;Piazza San Marco 1, Venice, Italy 30124;454545
-3893;1037;Richard;King;26;4.2;1976-08-28;Piazza San Marco 1, Venice, Italy 30124;460746
-7076;8864;Susan;Young;46;4.85;1980-07-11;Piazza San Marco 1, Venice, Italy 30124;863304
-9886;4857;Charles;Wright;39;3.04;1988-10-28;Champs-Élysées 75, Paris, France 75008;754605
-6610;1827;Brenda;Brown;16;4.85;1983-07-27;Burj Khalifa 1, Dubai, UAE;687782
-9482;8966;Mark;Carter;41;4.46;1992-10-25;222 Park Avenue, Boston, MA 02101;831304
-8086;2935;Scott;Rivera;42;3.63;1966-03-30;333 River Road, Seattle, WA 98101;898011
-9676;7724;William;Gonzalez;36;4.75;1982-01-28;Sydney Opera House, Sydney, Australia 2000;715947
-7464;6116;Jonathan;Thomas;26;3.01;1965-10-05;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;338697
-6376;3974;Nicholas;King;28;3.0;2000-01-12;333 River Road, Seattle, WA 98101;759190
-8372;4953;Frank;Rodriguez;48;3.51;2007-06-14;Red Square 1, Moscow, Russia 109012;285143
-9329;1574;Kevin;Harris;19;3.0;1988-04-19;CN Tower 301, Toronto, Canada M5V 2T6;56060
-7416;4590;Jennifer;Martinez;3;4.67;1960-11-11;Red Square 1, Moscow, Russia 109012;591453
-101;642;Kevin;Clark;19;4.95;1983-01-08;Brandenburger Tor 1, Berlin, Germany 10117;801215
-7727;9472;Samantha;Harris;3;3.29;1983-03-27;Brandenburger Tor 1, Berlin, Germany 10117;202209
-7862;5226;Carol;Wright;37;4.29;1973-03-14;222 Park Avenue, Boston, MA 02101;697426
-7938;4935;Mary;Thomas;39;4.42;2002-11-20;Forbidden City 4, Beijing, China 100006;233623
-8142;7779;Stephanie;Rodriguez;38;3.28;1979-08-27;123 Main Street, New York, NY 10001;961543
-7193;7595;Frank;Gonzalez;10;3.06;1985-07-17;333 River Road, Seattle, WA 98101;212867
-482;493;Maria;Nelson;5;3.6;1989-05-07;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;786351
-9556;6819;Debra;Torres;3;3.62;1979-01-17;Marina Bay Sands 10, Singapore 018956;137106
-2592;2611;Deborah;Lopez;12;3.59;1972-07-01;Champs-Élysées 75, Paris, France 75008;711992
-8838;8616;Kenneth;Thomas;22;3.91;1998-06-13;456 Oak Avenue, Los Angeles, CA 90001;663300
-7954;4118;Mark;Martinez;5;4.99;1986-06-17;Brandenburger Tor 1, Berlin, Germany 10117;307572
-2665;5513;Samantha;Williams;49;4.72;1990-06-18;222 Park Avenue, Boston, MA 02101;297671
-9141;4382;Samuel;Lopez;29;3.23;2004-06-23;Red Square 1, Moscow, Russia 109012;601600
-9993;8643;Michael;Miller;42;3.52;1967-09-05;Taj Mahal, Agra, India 282001;23258
-2923;6757;Margaret;Campbell;2;5.01;2006-11-07;666 Ocean Avenue, Miami, FL 33101;860988
-1344;8616;Lisa;Campbell;24;4.21;1966-05-10;222 Park Avenue, Boston, MA 02101;620563
-6168;3356;Rachel;Davis;35;3.66;1996-05-12;666 Ocean Avenue, Miami, FL 33101;488616
-1408;2260;Sandra;Carter;17;4.17;1973-04-18;CN Tower 301, Toronto, Canada M5V 2T6;546122
-3243;5647;Gregory;Rodriguez;22;4.75;2004-05-20;123 Main Street, New York, NY 10001;548392
-2579;6228;Richard;Robinson;0;4.11;1983-12-31;Gyeongbokgung Palace 161, Seoul, South Korea 03045;571784
-7329;2354;Ronald;Rivera;0;3.26;1979-06-21;444 Lake View, Denver, CO 80201;42566
-2328;9062;Pamela;Davis;17;3.69;1988-04-08;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;196645
-9492;7846;Kimberly;Scott;16;4.97;2005-12-29;Taj Mahal, Agra, India 282001;81064
-5825;5354;Richard;Flores;18;3.61;1981-08-07;654 Maple Drive, Phoenix, AZ 85001;475896
-3148;8428;Sharon;Nguyen;39;3.03;1969-04-29;123 Main Street, New York, NY 10001;293568
-822;816;Jeffrey;Robinson;0;4.14;1997-01-01;987 Cedar Lane, Philadelphia, PA 19101;304850
-4889;8578;James;Garcia;36;4.66;1977-12-19;Forbidden City 4, Beijing, China 100006;497852
-8893;9887;Donna;Wilson;6;4.92;2006-10-13;Brandenburger Tor 1, Berlin, Germany 10117;61338
-6273;9534;Brenda;Jackson;44;4.39;1975-12-05;123 Main Street, New York, NY 10001;217276
-3563;7928;Nicholas;Adams;41;3.95;1989-10-14;753 Willow Avenue, San Diego, CA 92101;499411
-6218;8766;Steven;Wright;3;3.22;1963-04-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;769283
-6283;8997;Larry;Rivera;49;4.28;1999-09-23;Sagrada Família 401, Barcelona, Spain 08013;809935
-2511;353;Sandra;Williams;24;3.1;1964-09-06;333 River Road, Seattle, WA 98101;921265
-9165;9601;Dorothy;Lewis;45;4.67;1968-09-24;246 Spruce Road, Dallas, TX 75201;90753
-1400;2550;Anthony;Moore;31;4.95;1983-04-17;Champs-Élysées 75, Paris, France 75008;145886
-1611;7138;Catherine;Robinson;13;4.33;1983-06-05;222 Park Avenue, Boston, MA 02101;564095
-7239;6295;Ashley;Rivera;17;3.27;1989-08-28;222 Park Avenue, Boston, MA 02101;107842
-134;8182;Eric;Clark;16;3.55;1989-04-11;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;408183
-3542;3071;Jack;Walker;40;3.49;2006-04-27;Taj Mahal, Agra, India 282001;184504
-1434;7192;Gregory;Allen;10;3.78;1972-03-31;Table Mountain Rd, Cape Town, South Africa 8001;412669
-579;32;Elizabeth;Sanchez;40;3.28;1961-04-08;Marina Bay Sands 10, Singapore 018956;456888
-7508;4076;Barbara;Campbell;18;3.59;1962-05-07;123 Main Street, New York, NY 10001;979608
-6699;310;Katherine;Mitchell;11;3.36;1997-07-03;159 Birch Street, San Antonio, TX 78201;177677
-7648;7674;Gary;White;22;4.38;1966-04-26;Red Square 1, Moscow, Russia 109012;950419
-9677;1889;Jonathan;Rivera;26;3.0;1981-07-01;444 Lake View, Denver, CO 80201;702990
-9628;8470;Barbara;Young;46;3.5;1981-01-02;Piazza San Marco 1, Venice, Italy 30124;10028
-4157;6051;Christopher;Allen;29;4.0;1997-06-07;Red Square 1, Moscow, Russia 109012;122128
-1031;1828;Linda;Wright;25;3.67;1974-04-17;789 Pine Road, Chicago, IL 60601;61826
-3271;3233;Kathleen;King;25;4.03;1965-05-27;Marina Bay Sands 10, Singapore 018956;701135
-2264;4813;Nicholas;Green;50;4.72;2003-01-07;864 Palm Drive, San Jose, CA 95101;950336
-5822;7920;Carolyn;Taylor;4;4.65;1981-04-20;753 Willow Avenue, San Diego, CA 92101;374512
-281;6003;Donald;Wilson;26;3.85;1992-10-11;Gyeongbokgung Palace 161, Seoul, South Korea 03045;333319
-1;428;Maria;Young;14;3.73;1977-01-01;864 Palm Drive, San Jose, CA 95101;431626
-9891;4249;Daniel;Thompson;5;4.96;1990-12-20;Sydney Opera House, Sydney, Australia 2000;28309
-1156;4314;Susan;Clark;42;4.28;1963-04-26;654 Maple Drive, Phoenix, AZ 85001;291676
-9967;6766;Richard;Roberts;44;3.83;2002-01-07;Table Mountain Rd, Cape Town, South Africa 8001;265831
-5563;9440;Gregory;Garcia;4;3.74;1965-12-01;864 Palm Drive, San Jose, CA 95101;26350
-6612;2211;Rachel;Brown;37;3.39;1967-01-13;864 Palm Drive, San Jose, CA 95101;956482
-4376;7915;Nancy;Perez;10;4.04;1974-11-18;333 River Road, Seattle, WA 98101;774190
-3076;7601;Joshua;Williams;20;3.27;1983-02-18;321 Elm Boulevard, Houston, TX 77001;28596
-4264;8633;Dorothy;Young;46;3.64;1995-07-19;789 Pine Road, Chicago, IL 60601;622704
-547;891;Larry;Jones;26;3.51;1972-06-27;Shibuya Crossing 2, Tokyo, Japan 150-0043;841038
-7079;8115;Edward;Rodriguez;46;3.08;1975-03-04;Taj Mahal, Agra, India 282001;248471
-1866;2346;James;Campbell;41;3.65;2005-03-04;Sagrada Família 401, Barcelona, Spain 08013;928858
-8789;3130;Gary;Green;3;3.77;1989-04-11;555 Mountain Street, Washington, DC 20001;176000
-0;4256;Barbara;Hill;40;4.1;1982-05-19;Sydney Opera House, Sydney, Australia 2000;481515
-1375;9559;Cynthia;Rivera;8;4.7;1989-12-23;Sagrada Família 401, Barcelona, Spain 08013;988855
-2558;8239;James;Nelson;39;3.26;1979-05-25;Brandenburger Tor 1, Berlin, Germany 10117;334371
-7616;7862;Jennifer;Jones;21;3.13;2001-06-15;Taj Mahal, Agra, India 282001;223159
-9951;5647;Maria;Baker;22;4.06;1963-06-06;246 Spruce Road, Dallas, TX 75201;345605
-2055;6714;Stephanie;Gonzalez;40;4.43;1979-05-14;Piazza San Marco 1, Venice, Italy 30124;514861
-1797;3081;Eric;Taylor;50;3.6;1986-09-28;222 Park Avenue, Boston, MA 02101;34300
-5041;5622;Ruth;Hernandez;45;4.57;1967-06-03;Brandenburger Tor 1, Berlin, Germany 10117;931011
-5735;4614;Sharon;Mitchell;14;4.61;1963-03-28;222 Park Avenue, Boston, MA 02101;340299
-1090;1838;Karen;Baker;44;3.97;1970-06-20;Red Square 1, Moscow, Russia 109012;903660
-8339;2494;Debra;Allen;20;4.73;2002-11-09;222 Park Avenue, Boston, MA 02101;60574
-4156;2347;Gary;Nguyen;36;3.42;1984-02-05;Shibuya Crossing 2, Tokyo, Japan 150-0043;104098
-6697;7237;Emily;Jones;36;3.01;1980-07-17;159 Birch Street, San Antonio, TX 78201;70427
-3123;2511;Christine;Carter;22;3.55;1993-03-25;Burj Khalifa 1, Dubai, UAE;654249
-9373;7935;Timothy;Wilson;7;3.37;1968-12-28;Piazza San Marco 1, Venice, Italy 30124;56721
-7964;436;Catherine;Lee;36;3.66;1974-11-16;444 Lake View, Denver, CO 80201;215579
-6401;6740;Brenda;Torres;42;3.22;1973-09-08;Gyeongbokgung Palace 161, Seoul, South Korea 03045;577991
-5857;28;Nicholas;Jackson;8;3.77;2005-07-25;789 Pine Road, Chicago, IL 60601;141709
-6305;5007;Daniel;Johnson;41;3.18;1964-10-27;Shibuya Crossing 2, Tokyo, Japan 150-0043;141001
-4716;4337;Sarah;Hill;41;4.39;1984-01-13;333 River Road, Seattle, WA 98101;770272
-3740;664;Dorothy;Campbell;49;4.14;2005-08-02;123 Main Street, New York, NY 10001;674823
-2646;4030;Joseph;Jones;40;4.37;1992-12-31;456 Oak Avenue, Los Angeles, CA 90001;302533
-8553;2714;Jeffrey;Nelson;31;3.04;1968-11-30;321 Elm Boulevard, Houston, TX 77001;384081
-1397;791;Kevin;Sanchez;49;4.0;1966-09-15;789 Pine Road, Chicago, IL 60601;363616
-6368;1720;Gregory;Clark;10;4.44;1981-12-05;Table Mountain Rd, Cape Town, South Africa 8001;103531
-8060;3408;Jessica;Davis;24;4.7;1966-10-07;159 Birch Street, San Antonio, TX 78201;810740
-2123;6326;Maria;Gonzalez;37;4.88;1970-12-22;Table Mountain Rd, Cape Town, South Africa 8001;723322
-732;3284;Nicole;Brown;14;4.6;1964-06-05;Table Mountain Rd, Cape Town, South Africa 8001;894918
-3868;9519;Cynthia;White;47;4.55;2005-11-22;789 Pine Road, Chicago, IL 60601;377420
-6412;6016;Betty;Mitchell;2;4.05;1992-03-24;222 Park Avenue, Boston, MA 02101;955540
-3042;2767;Donald;Hall;13;4.55;1971-03-20;864 Palm Drive, San Jose, CA 95101;354909
-4434;45;Nicholas;Campbell;50;3.34;1996-03-20;Marina Bay Sands 10, Singapore 018956;853580
-6964;370;John;Torres;49;3.62;1978-12-14;222 Park Avenue, Boston, MA 02101;397714
-3423;8265;Larry;Adams;22;3.55;2001-01-01;Gyeongbokgung Palace 161, Seoul, South Korea 03045;141071
-6419;176;Frank;Moore;9;4.41;2004-11-11;Red Square 1, Moscow, Russia 109012;353656
-8369;2521;Linda;Nguyen;39;4.02;1987-01-12;Sagrada Família 401, Barcelona, Spain 08013;933095
-1410;9544;Rachel;Martin;11;3.92;1977-04-03;Burj Khalifa 1, Dubai, UAE;495430
-4719;4142;Jason;Sanchez;34;3.53;1964-12-16;987 Cedar Lane, Philadelphia, PA 19101;27253
-9003;2909;Emily;Thompson;41;4.51;1980-11-15;864 Palm Drive, San Jose, CA 95101;350565
-8451;5695;Richard;Harris;2;3.04;1978-02-27;555 Mountain Street, Washington, DC 20001;82153
-8843;2195;Michael;Flores;26;3.67;1990-07-05;333 River Road, Seattle, WA 98101;830735
-2251;5566;Anthony;Mitchell;9;3.51;1980-07-02;Shibuya Crossing 2, Tokyo, Japan 150-0043;720638
-5030;7771;Ryan;Hernandez;1;3.9;1989-06-18;321 Elm Boulevard, Houston, TX 77001;730524
-1309;1784;Eric;Jones;40;3.42;1987-11-16;Forbidden City 4, Beijing, China 100006;119332
-5095;6813;Stephen;Jackson;9;4.76;1985-01-01;321 Elm Boulevard, Houston, TX 77001;699211
-3290;142;Catherine;Miller;6;4.99;1977-06-11;159 Birch Street, San Antonio, TX 78201;857992
-552;1176;Katherine;Davis;30;3.06;1964-10-24;864 Palm Drive, San Jose, CA 95101;560131
-6693;5558;Ryan;Sanchez;23;3.15;1993-08-23;Burj Khalifa 1, Dubai, UAE;188597
-1788;4779;Amy;Carter;43;4.48;1972-08-14;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;538556
-6953;9636;Scott;Nguyen;26;3.58;1981-02-19;555 Mountain Street, Washington, DC 20001;355537
-5075;9185;John;Ramirez;23;4.93;1975-02-08;321 Elm Boulevard, Houston, TX 77001;812948
-5029;2789;Larry;Ramirez;38;4.14;1975-05-31;Champs-Élysées 75, Paris, France 75008;760327
-9803;7550;Jonathan;Perez;15;3.01;1964-07-19;Red Square 1, Moscow, Russia 109012;48116
-6856;3425;Larry;Roberts;7;4.94;1979-07-14;987 Cedar Lane, Philadelphia, PA 19101;299737
-2401;2178;Maria;Johnson;6;3.14;1988-03-07;444 Lake View, Denver, CO 80201;421758
-5601;2322;Emily;Lewis;37;3.48;1988-12-09;Brandenburger Tor 1, Berlin, Germany 10117;923163
-9518;1490;Barbara;Garcia;34;4.8;1977-12-27;Brandenburger Tor 1, Berlin, Germany 10117;68660
-261;2958;Eric;Miller;47;3.34;1994-09-06;123 Main Street, New York, NY 10001;866834
-8854;1308;Scott;Harris;43;3.71;1965-07-01;Sagrada Família 401, Barcelona, Spain 08013;905493
-3547;728;Frank;Allen;32;4.96;1995-05-11;333 River Road, Seattle, WA 98101;535856
-1475;1573;Michelle;Jones;34;3.06;1983-09-11;246 Spruce Road, Dallas, TX 75201;238277
-1163;3532;Andrew;Allen;2;3.44;1968-04-25;Taj Mahal, Agra, India 282001;103911
-352;5870;Karen;King;31;3.53;1963-12-09;555 Mountain Street, Washington, DC 20001;420510
-8040;248;Carol;Brown;10;4.45;2005-02-18;Sydney Opera House, Sydney, Australia 2000;133716
-8555;1047;Linda;Nelson;14;3.73;1985-02-25;Taj Mahal, Agra, India 282001;875538
-6367;662;Robert;Wright;29;4.73;1970-07-14;753 Willow Avenue, San Diego, CA 92101;598034
-7765;9978;Nancy;Taylor;13;3.5;1967-04-26;Forbidden City 4, Beijing, China 100006;158233
-2259;5778;Donna;Gonzalez;14;3.53;1984-10-25;321 Elm Boulevard, Houston, TX 77001;933230
-984;7442;William;Thompson;7;4.51;1996-05-17;666 Ocean Avenue, Miami, FL 33101;790321
-117;2909;Jonathan;Mitchell;42;4.85;1995-01-21;555 Mountain Street, Washington, DC 20001;774905
-815;7390;Kenneth;Thompson;19;3.49;2001-07-30;246 Spruce Road, Dallas, TX 75201;690393
-2982;602;Joshua;Lewis;43;4.97;1990-02-07;123 Main Street, New York, NY 10001;250340
-499;2189;Nicole;Jones;34;3.88;1995-04-01;Marina Bay Sands 10, Singapore 018956;846522
-4771;6363;Robert;Ramirez;30;3.13;1962-06-26;Burj Khalifa 1, Dubai, UAE;63777
-1808;4605;Jennifer;Lewis;5;3.59;2000-05-06;333 River Road, Seattle, WA 98101;83218
-3059;7982;Ashley;Green;23;4.75;1990-01-04;456 Oak Avenue, Los Angeles, CA 90001;445179
-8233;8639;Brandon;Allen;48;4.19;1999-02-04;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;190921
-4117;7961;Jason;Hill;30;4.08;1970-02-16;321 Elm Boulevard, Houston, TX 77001;985898
-8158;2009;Cynthia;Martinez;46;4.54;1964-02-09;Shibuya Crossing 2, Tokyo, Japan 150-0043;643594
-18;3407;Sharon;Wright;17;3.84;2000-12-09;654 Maple Drive, Phoenix, AZ 85001;603234
-9459;9899;Patrick;Jones;16;4.25;1990-02-04;666 Ocean Avenue, Miami, FL 33101;175638
-1343;9792;Matthew;King;4;4.34;1985-02-15;456 Oak Avenue, Los Angeles, CA 90001;988532
-4539;9349;Paul;Sanchez;12;3.44;1969-01-14;864 Palm Drive, San Jose, CA 95101;959779
-117;9243;Brandon;Wright;1;4.15;1983-09-05;456 Oak Avenue, Los Angeles, CA 90001;325836
-1647;495;Jack;White;38;4.82;1963-02-27;Marina Bay Sands 10, Singapore 018956;142841
-6699;839;Joshua;Jackson;48;4.98;1995-02-26;654 Maple Drive, Phoenix, AZ 85001;700813
-8677;5020;Jessica;King;34;4.65;1966-12-30;Sagrada Família 401, Barcelona, Spain 08013;175150
-6518;5796;Amy;Wright;15;4.66;1991-02-27;333 River Road, Seattle, WA 98101;561065
-8516;1861;Ryan;Robinson;30;3.85;1987-03-10;864 Palm Drive, San Jose, CA 95101;717175
-5245;14;Deborah;Adams;39;3.0;1961-08-18;Burj Khalifa 1, Dubai, UAE;349802
-3695;8327;Scott;Young;13;3.71;1967-04-01;Brandenburger Tor 1, Berlin, Germany 10117;894711
-7508;8377;Nancy;Smith;29;3.97;1999-03-02;321 Elm Boulevard, Houston, TX 77001;375766
-1370;3536;Carol;Lee;2;4.76;1980-05-16;Brandenburger Tor 1, Berlin, Germany 10117;125341
-5708;2566;Laura;Hall;48;3.54;1963-06-06;Forbidden City 4, Beijing, China 100006;965645
-907;9741;Emily;Mitchell;13;3.82;1990-06-13;321 Elm Boulevard, Houston, TX 77001;511675
-5535;9878;Steven;Garcia;33;4.89;1990-10-16;Burj Khalifa 1, Dubai, UAE;997152
-4342;5100;Samantha;Thompson;43;4.17;1963-11-21;666 Ocean Avenue, Miami, FL 33101;520995
-4313;5441;Michelle;Baker;19;3.83;1989-03-11;Shibuya Crossing 2, Tokyo, Japan 150-0043;930715
-5253;3193;Carol;Hall;24;3.31;1981-08-15;Brandenburger Tor 1, Berlin, Germany 10117;954963
-8674;2489;Carol;Green;3;3.53;2004-12-14;Piazza San Marco 1, Venice, Italy 30124;310132
-554;5105;Nicole;Smith;1;4.87;2005-03-02;Gyeongbokgung Palace 161, Seoul, South Korea 03045;369547
-2531;9595;James;Johnson;39;3.36;1971-06-09;159 Birch Street, San Antonio, TX 78201;234068
-7064;215;Michelle;Torres;21;3.06;1970-12-25;CN Tower 301, Toronto, Canada M5V 2T6;120896
-8868;7405;Emily;Flores;43;4.21;1973-09-24;321 Elm Boulevard, Houston, TX 77001;684023
-74;6486;Rachel;Lewis;24;3.3;1967-12-09;555 Mountain Street, Washington, DC 20001;178487
-9107;915;Pamela;Roberts;0;4.71;2003-05-01;Taj Mahal, Agra, India 282001;558899
-2033;5603;Patrick;King;22;4.66;1992-10-07;Marina Bay Sands 10, Singapore 018956;739595
-5499;5910;Kathleen;Nguyen;21;4.31;1966-10-14;Gyeongbokgung Palace 161, Seoul, South Korea 03045;765028
-9536;5112;Emma;Carter;41;4.54;2001-03-07;246 Spruce Road, Dallas, TX 75201;256901
-3549;6683;Steven;Green;38;5.0;1963-06-21;222 Park Avenue, Boston, MA 02101;348791
-8543;9431;Samantha;Adams;40;3.96;2003-01-07;666 Ocean Avenue, Miami, FL 33101;560152
-6553;6661;Virginia;Miller;16;3.68;1987-12-03;Piazza San Marco 1, Venice, Italy 30124;309856
-5112;5220;Eric;Carter;18;4.45;2005-06-24;Table Mountain Rd, Cape Town, South Africa 8001;810450
-1216;6245;Maria;Hall;26;3.24;2004-05-04;555 Mountain Street, Washington, DC 20001;265094
-1530;3909;Michelle;Lee;18;3.17;1962-06-09;Sagrada Família 401, Barcelona, Spain 08013;293137
-2793;580;Raymond;Torres;39;4.16;1998-04-20;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;712786
-9672;4585;Samuel;Taylor;29;3.26;2005-04-05;Shibuya Crossing 2, Tokyo, Japan 150-0043;262599
-5541;8816;Jerry;Walker;7;3.63;2002-01-24;Piazza San Marco 1, Venice, Italy 30124;382466
-1169;6968;Carolyn;Williams;5;4.02;1969-12-28;789 Pine Road, Chicago, IL 60601;996602
-5255;4352;Thomas;Anderson;31;5.01;1985-10-13;CN Tower 301, Toronto, Canada M5V 2T6;847507
-8305;7577;Ronald;Mitchell;27;3.39;2005-12-14;Champs-Élysées 75, Paris, France 75008;119663
-4826;705;Anthony;Clark;0;4.05;1974-02-24;Forbidden City 4, Beijing, China 100006;135951
-6946;9122;Michelle;Scott;4;4.38;1962-05-29;Gyeongbokgung Palace 161, Seoul, South Korea 03045;550514
-9067;8821;Steven;Gonzalez;8;3.44;2002-05-23;Champs-Élysées 75, Paris, France 75008;455451
-8884;7573;Pamela;Green;27;3.44;1964-09-22;Shibuya Crossing 2, Tokyo, Japan 150-0043;513265
-6402;1336;Helen;Wright;41;3.44;1966-08-25;Forbidden City 4, Beijing, China 100006;931948
-7178;1879;Mark;Rivera;34;4.47;2004-06-05;Sagrada Família 401, Barcelona, Spain 08013;480774
-9630;603;Amy;Anderson;8;3.27;1983-09-04;Red Square 1, Moscow, Russia 109012;249488
-4011;9656;Deborah;Sanchez;34;4.28;1991-09-13;456 Oak Avenue, Los Angeles, CA 90001;376495
-2152;9308;Carol;Carter;2;4.71;1985-04-23;Marina Bay Sands 10, Singapore 018956;802240
-6624;3754;Janet;Hill;38;3.7;1961-11-29;159 Birch Street, San Antonio, TX 78201;905706
-3134;8053;George;Robinson;40;4.6;1988-02-27;222 Park Avenue, Boston, MA 02101;47571
-2479;107;Jeffrey;Gonzalez;9;3.41;1993-11-29;Red Square 1, Moscow, Russia 109012;578006
-1395;2295;James;Walker;42;3.46;1992-08-07;Red Square 1, Moscow, Russia 109012;964583
-9464;6359;Brian;Adams;46;3.05;1960-12-11;Marina Bay Sands 10, Singapore 018956;445653
-630;4681;Deborah;Walker;41;4.32;1986-08-04;Forbidden City 4, Beijing, China 100006;706862
-2271;8079;Barbara;Thompson;47;4.69;1995-11-22;246 Spruce Road, Dallas, TX 75201;428433
-7647;24;James;Lopez;46;3.19;1984-09-28;Gyeongbokgung Palace 161, Seoul, South Korea 03045;594317
-8749;1801;Nicole;Garcia;29;4.0;1966-06-09;Shibuya Crossing 2, Tokyo, Japan 150-0043;645474
-4886;2524;Patricia;Harris;16;3.34;2006-10-11;444 Lake View, Denver, CO 80201;223807
-3269;5187;Dennis;Scott;9;4.15;2005-09-22;Marina Bay Sands 10, Singapore 018956;263034
-2754;1866;Donna;Campbell;3;4.66;2001-02-15;654 Maple Drive, Phoenix, AZ 85001;28449
-6029;7646;Jason;Robinson;3;3.8;1974-03-12;444 Lake View, Denver, CO 80201;792270
-3993;4330;Andrew;Perez;23;4.33;2002-06-24;666 Ocean Avenue, Miami, FL 33101;641150
-3572;4577;Dennis;Rodriguez;30;3.48;1971-03-01;123 Main Street, New York, NY 10001;444079
-5358;7344;Eric;Rivera;50;3.57;1978-05-06;246 Spruce Road, Dallas, TX 75201;551721
-6283;7347;Karen;Lewis;49;4.85;1999-12-22;987 Cedar Lane, Philadelphia, PA 19101;203518
-6630;9621;Katherine;Miller;37;3.06;1999-10-11;753 Willow Avenue, San Diego, CA 92101;169363
-7891;6648;Jerry;Ramirez;8;4.27;1960-11-06;Burj Khalifa 1, Dubai, UAE;677955
-359;6968;Emma;Lewis;38;4.79;1990-06-26;333 River Road, Seattle, WA 98101;447949
-5471;6399;Rebecca;Martin;39;3.56;1967-09-06;Red Square 1, Moscow, Russia 109012;721246
-765;3699;Robert;Brown;11;4.45;2006-05-25;246 Spruce Road, Dallas, TX 75201;707298
-1064;3080;Kenneth;Anderson;15;4.51;1990-11-04;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;988821
-129;5178;Kathleen;Moore;14;4.66;1994-04-04;333 River Road, Seattle, WA 98101;80270
-7880;7975;Larry;Lewis;31;4.2;1987-05-30;Sagrada Família 401, Barcelona, Spain 08013;176651
-5908;7841;Gary;Brown;12;3.19;2003-06-26;Sydney Opera House, Sydney, Australia 2000;402534
-4083;7432;Sandra;Jones;23;4.0;1977-06-28;444 Lake View, Denver, CO 80201;44842
-4172;2036;Christopher;Thomas;19;4.3;2000-07-14;321 Elm Boulevard, Houston, TX 77001;361390
-1774;4724;Kenneth;Brown;20;4.59;1966-11-23;Sagrada Família 401, Barcelona, Spain 08013;224270
-5689;6040;Sarah;Clark;29;4.45;1985-08-29;Shibuya Crossing 2, Tokyo, Japan 150-0043;454219
-2825;8761;Emily;Perez;44;3.01;1971-09-16;Burj Khalifa 1, Dubai, UAE;107281
-2818;8067;Timothy;Carter;48;3.13;2003-10-19;Marina Bay Sands 10, Singapore 018956;702000
-7881;4116;Eric;Mitchell;14;4.86;1991-09-14;Brandenburger Tor 1, Berlin, Germany 10117;321227
-2534;3922;Donna;Anderson;27;4.46;1968-03-10;864 Palm Drive, San Jose, CA 95101;350753
-6286;5255;Mary;Torres;35;3.91;1963-05-05;Taj Mahal, Agra, India 282001;503545
-4069;3311;Matthew;Moore;35;4.87;1964-01-03;246 Spruce Road, Dallas, TX 75201;322199
-8517;4672;Ronald;Wright;12;3.24;1961-04-08;555 Mountain Street, Washington, DC 20001;965782
-2158;8735;Brandon;Lewis;21;4.41;1988-04-23;654 Maple Drive, Phoenix, AZ 85001;250088
-6581;1343;Matthew;Nguyen;47;4.55;1970-11-22;444 Lake View, Denver, CO 80201;108284
-2346;7594;Betty;Walker;49;4.84;1965-10-31;CN Tower 301, Toronto, Canada M5V 2T6;287062
-713;2820;Donald;Gonzalez;38;3.99;1987-04-14;Table Mountain Rd, Cape Town, South Africa 8001;955542
-5536;398;John;Davis;49;5.01;1970-11-22;Marina Bay Sands 10, Singapore 018956;367522
-5947;5394;Gregory;Hernandez;21;3.23;1971-12-12;222 Park Avenue, Boston, MA 02101;238935
-5988;1;Jerry;Gonzalez;41;3.37;1973-10-03;159 Birch Street, San Antonio, TX 78201;486780
-3737;471;Nicholas;Mitchell;7;3.94;2007-05-05;Red Square 1, Moscow, Russia 109012;119894
-2342;2461;Patrick;Hernandez;16;3.05;1984-09-01;Taj Mahal, Agra, India 282001;866959
-6416;2420;Christopher;Martin;24;3.96;1965-07-22;789 Pine Road, Chicago, IL 60601;81528
-3599;3752;Christopher;Scott;0;5.01;1993-07-12;246 Spruce Road, Dallas, TX 75201;70126
-7418;9168;William;Davis;14;4.46;1981-05-10;753 Willow Avenue, San Diego, CA 92101;248879
-6161;9705;Karen;Gonzalez;29;3.16;1976-10-06;Shibuya Crossing 2, Tokyo, Japan 150-0043;548570
-5312;8792;Edward;Brown;4;3.45;1988-01-10;Champs-Élysées 75, Paris, France 75008;567747
-2364;4121;Patricia;Rodriguez;4;4.22;1982-01-03;Shibuya Crossing 2, Tokyo, Japan 150-0043;664064
-2278;9155;George;Thompson;17;3.92;1999-07-20;Table Mountain Rd, Cape Town, South Africa 8001;386199
-8237;5055;Laura;Davis;37;4.89;1988-05-12;Brandenburger Tor 1, Berlin, Germany 10117;340781
-9716;9439;Benjamin;Davis;37;4.87;2002-10-12;246 Spruce Road, Dallas, TX 75201;910883
-8375;7131;Richard;Allen;4;4.91;1999-10-28;Marina Bay Sands 10, Singapore 018956;366393
-1566;6546;Lisa;Roberts;30;3.68;1962-05-30;Red Square 1, Moscow, Russia 109012;826068
-6060;4585;Richard;Green;43;3.62;2005-07-10;Burj Khalifa 1, Dubai, UAE;345716
-6518;8917;Elizabeth;Scott;26;4.21;1993-05-17;Sagrada Família 401, Barcelona, Spain 08013;638369
-9051;9754;Rebecca;Clark;44;3.96;1998-05-29;Shibuya Crossing 2, Tokyo, Japan 150-0043;870993
-653;3159;Margaret;King;0;3.23;1985-02-22;Brandenburger Tor 1, Berlin, Germany 10117;369484
-8083;9071;Charles;Carter;15;3.7;1963-05-01;753 Willow Avenue, San Diego, CA 92101;267120
-3198;6909;Timothy;King;40;3.39;1986-06-02;333 River Road, Seattle, WA 98101;754995
-9955;8825;Linda;Thomas;28;4.54;1989-07-19;Shibuya Crossing 2, Tokyo, Japan 150-0043;492704
-7286;8288;Kimberly;Baker;32;4.9;1995-12-22;Brandenburger Tor 1, Berlin, Germany 10117;164581
-648;5651;Betty;Perez;42;3.05;1962-03-17;333 River Road, Seattle, WA 98101;485574
-3027;7805;Mary;Clark;20;4.66;2007-01-24;444 Lake View, Denver, CO 80201;562982
-8381;8360;Linda;Perez;33;3.34;1971-06-10;321 Elm Boulevard, Houston, TX 77001;786499
-7033;9547;Amanda;Lee;50;3.29;1993-08-25;753 Willow Avenue, San Diego, CA 92101;183552
-1763;2523;Melissa;Martinez;15;4.87;2003-05-06;Taj Mahal, Agra, India 282001;989665
-2946;6876;Jeffrey;Williams;25;4.36;1974-07-21;222 Park Avenue, Boston, MA 02101;761140
-5212;3328;Kimberly;Young;13;3.14;2004-02-16;Brandenburger Tor 1, Berlin, Germany 10117;926073
-6182;5117;David;Miller;32;3.75;1972-07-17;Red Square 1, Moscow, Russia 109012;457614
-6420;833;Christine;Garcia;48;4.48;2007-09-08;246 Spruce Road, Dallas, TX 75201;529619
-4873;9931;Katherine;Perez;42;4.82;1961-09-30;246 Spruce Road, Dallas, TX 75201;304795
-6715;617;Elizabeth;Thompson;43;4.91;1987-02-03;333 River Road, Seattle, WA 98101;556538
-965;6838;Gary;Jones;35;4.9;1986-06-14;159 Birch Street, San Antonio, TX 78201;440876
-8864;5297;Susan;Sanchez;19;4.02;1979-10-13;666 Ocean Avenue, Miami, FL 33101;368262
-9191;3430;Brandon;Perez;49;3.37;1989-05-14;Brandenburger Tor 1, Berlin, Germany 10117;857979
-8602;7816;Frank;Rivera;20;4.13;2000-06-22;654 Maple Drive, Phoenix, AZ 85001;914915
-755;8335;Helen;Martin;27;3.88;1966-12-31;Forbidden City 4, Beijing, China 100006;802915
-1653;447;William;Adams;37;3.79;1971-04-11;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;825562
-8175;399;Karen;Hall;29;4.67;2002-08-26;321 Elm Boulevard, Houston, TX 77001;268023
-7503;199;Larry;Campbell;12;3.05;1996-01-27;444 Lake View, Denver, CO 80201;65440
-4370;3925;William;Thomas;38;4.3;1999-09-11;456 Oak Avenue, Los Angeles, CA 90001;252076
-8901;1220;John;Moore;0;3.57;1968-11-01;222 Park Avenue, Boston, MA 02101;692079
-5433;4174;Charles;Moore;10;3.13;1965-11-01;Shibuya Crossing 2, Tokyo, Japan 150-0043;929451
-9636;5427;Richard;Flores;46;4.16;1972-08-22;246 Spruce Road, Dallas, TX 75201;245732
-3657;5597;Samuel;Wright;30;4.71;1975-03-17;Champs-Élysées 75, Paris, France 75008;349094
-8548;8564;Maria;Johnson;21;4.15;1974-07-04;333 River Road, Seattle, WA 98101;643558
-6155;5980;Ruth;Ramirez;31;4.27;1975-02-18;Forbidden City 4, Beijing, China 100006;631817
-2340;7182;Amanda;Rivera;24;3.89;2002-11-23;666 Ocean Avenue, Miami, FL 33101;468320
-6851;2229;Samantha;Williams;30;4.1;1982-07-28;Red Square 1, Moscow, Russia 109012;597119
-674;5694;Pamela;Sanchez;42;3.17;1997-04-21;Taj Mahal, Agra, India 282001;458411
-4864;6406;Samuel;King;29;4.31;1966-04-15;Red Square 1, Moscow, Russia 109012;995379
-2802;529;Patricia;Wilson;5;3.66;2002-05-09;864 Palm Drive, San Jose, CA 95101;450832
-6466;806;Patricia;Lee;50;3.71;2007-08-21;789 Pine Road, Chicago, IL 60601;306272
-8141;35;Cynthia;Jones;12;3.32;1974-11-17;123 Main Street, New York, NY 10001;224199
-9208;1736;Jacob;Robinson;2;4.74;1995-01-13;Shibuya Crossing 2, Tokyo, Japan 150-0043;728215
-5064;204;Margaret;Young;49;4.25;1986-09-25;Taj Mahal, Agra, India 282001;954520
-9309;6065;Gary;Lee;22;3.31;1981-02-17;444 Lake View, Denver, CO 80201;158726
-6174;5240;Ryan;Smith;42;3.6;2000-05-30;444 Lake View, Denver, CO 80201;638991
-8112;9955;Larry;Rivera;28;4.15;1981-11-02;333 River Road, Seattle, WA 98101;199722
-4398;3605;Robert;Young;38;3.22;1964-08-09;Marina Bay Sands 10, Singapore 018956;982522
-5715;2750;Thomas;Jackson;1;3.14;1985-12-21;CN Tower 301, Toronto, Canada M5V 2T6;136205
-3086;7032;Gary;Mitchell;2;5.01;2002-06-30;Sydney Opera House, Sydney, Australia 2000;947860
-8797;5917;Kevin;Flores;16;3.57;1987-02-23;Champs-Élysées 75, Paris, France 75008;603396
-3783;9235;Virginia;Allen;18;3.61;1984-05-27;753 Willow Avenue, San Diego, CA 92101;229814
-3551;4442;Joshua;Walker;45;4.23;1964-03-22;Sagrada Família 401, Barcelona, Spain 08013;368673
-5987;1948;Frank;Lee;20;3.33;1999-11-17;789 Pine Road, Chicago, IL 60601;968351
-4274;4563;Timothy;Ramirez;20;4.78;1979-02-25;Marina Bay Sands 10, Singapore 018956;212258
-2299;4366;Christopher;Adams;36;4.32;1994-01-01;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;256818
-5480;1798;Lisa;Perez;24;4.66;1962-11-24;864 Palm Drive, San Jose, CA 95101;821720
-1503;628;Karen;Smith;6;4.78;2005-02-06;654 Maple Drive, Phoenix, AZ 85001;778954
-5139;5253;John;Scott;43;4.9;1969-09-03;666 Ocean Avenue, Miami, FL 33101;522794
-9686;8895;Matthew;Nelson;24;4.06;2004-03-16;654 Maple Drive, Phoenix, AZ 85001;797563
-6799;8120;Anna;Clark;40;4.19;1978-11-01;123 Main Street, New York, NY 10001;470419
-5296;6007;Matthew;Robinson;3;4.01;1982-05-05;444 Lake View, Denver, CO 80201;647268
-2970;975;Barbara;Williams;14;3.06;1994-08-17;864 Palm Drive, San Jose, CA 95101;331372
-7911;4926;Maria;Roberts;27;3.52;1973-03-18;Sagrada Família 401, Barcelona, Spain 08013;524097
-5937;272;Jessica;Johnson;36;4.26;1985-11-04;Shibuya Crossing 2, Tokyo, Japan 150-0043;268111
-6415;9745;Karen;Allen;42;4.47;1969-12-22;Sydney Opera House, Sydney, Australia 2000;809659
-3911;9634;Jeffrey;Williams;44;4.38;1970-07-23;Taj Mahal, Agra, India 282001;118017
-8830;3324;Dennis;Lee;37;4.21;1978-08-31;Gyeongbokgung Palace 161, Seoul, South Korea 03045;537690
-6781;7479;Helen;King;42;4.15;1998-08-04;Piazza San Marco 1, Venice, Italy 30124;190991
-9741;9120;Amy;Moore;26;4.67;2007-03-07;Shibuya Crossing 2, Tokyo, Japan 150-0043;682521
-6568;5357;Thomas;Torres;48;3.3;1995-05-20;456 Oak Avenue, Los Angeles, CA 90001;691889
-2781;3809;Donald;Roberts;47;3.04;1993-05-30;333 River Road, Seattle, WA 98101;884249
-3737;632;Barbara;Green;7;4.53;1971-11-25;753 Willow Avenue, San Diego, CA 92101;723853
-7685;4008;Linda;Allen;8;3.04;1975-01-02;321 Elm Boulevard, Houston, TX 77001;304091
-2440;5409;Samuel;Nelson;41;4.73;1993-06-22;Sagrada Família 401, Barcelona, Spain 08013;220846
-4531;4267;Ruth;Hall;45;3.38;1991-02-01;555 Mountain Street, Washington, DC 20001;124840
-8786;9607;Elizabeth;Roberts;25;4.59;1963-05-09;444 Lake View, Denver, CO 80201;80984
-5934;4206;Sharon;King;2;3.13;1989-08-06;555 Mountain Street, Washington, DC 20001;545728
-9585;1511;Lisa;Rodriguez;46;3.18;1997-09-06;987 Cedar Lane, Philadelphia, PA 19101;390707
-2671;3650;Amy;Walker;24;4.73;1965-04-20;Marina Bay Sands 10, Singapore 018956;115275
-9194;7182;Jack;Wright;28;3.88;1984-07-27;159 Birch Street, San Antonio, TX 78201;431395
-5082;1576;Ashley;Rodriguez;35;4.34;1964-10-01;Sagrada Família 401, Barcelona, Spain 08013;705191
-2825;4625;Karen;Gonzalez;23;3.62;1962-06-08;Brandenburger Tor 1, Berlin, Germany 10117;632189
-9616;7889;John;Nguyen;10;4.77;1977-12-02;654 Maple Drive, Phoenix, AZ 85001;425555
-1804;1413;Cynthia;Rodriguez;1;3.0;1961-04-06;789 Pine Road, Chicago, IL 60601;929329
-5561;2479;Sarah;Lopez;18;3.2;2004-04-06;222 Park Avenue, Boston, MA 02101;103540
-5613;5707;Kathleen;Walker;43;3.52;1966-02-24;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;137431
-5622;1934;Raymond;Lopez;29;4.76;1980-05-28;987 Cedar Lane, Philadelphia, PA 19101;597383
-6312;1630;Jacob;Rivera;50;3.9;1975-12-18;789 Pine Road, Chicago, IL 60601;602553
-9232;7640;Justin;Jones;49;4.48;1985-04-15;Red Square 1, Moscow, Russia 109012;834219
-6761;5880;Larry;Gonzalez;21;4.45;1979-11-07;Shibuya Crossing 2, Tokyo, Japan 150-0043;775753
-6239;9785;Katherine;Jones;23;3.92;1985-02-19;Piazza San Marco 1, Venice, Italy 30124;640817
-537;9163;Deborah;Campbell;32;4.54;1992-05-24;Sydney Opera House, Sydney, Australia 2000;833702
-8886;1963;Frank;Miller;9;3.77;1986-10-09;Marina Bay Sands 10, Singapore 018956;996742
-2297;7105;Maria;Lewis;25;3.92;1966-02-04;CN Tower 301, Toronto, Canada M5V 2T6;59301
-8618;946;Jerry;White;20;4.9;1969-11-08;Brandenburger Tor 1, Berlin, Germany 10117;766938
-4826;9111;Janet;Smith;26;4.65;1984-06-14;Red Square 1, Moscow, Russia 109012;313187
-9878;8932;Jason;Sanchez;11;3.79;1998-03-17;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;196754
-6751;1947;Alexander;Roberts;11;4.78;1993-06-20;159 Birch Street, San Antonio, TX 78201;733494
-6452;6619;Karen;Miller;18;4.37;2003-10-19;987 Cedar Lane, Philadelphia, PA 19101;204008
-2745;2113;Kenneth;Campbell;40;4.1;1960-12-12;321 Elm Boulevard, Houston, TX 77001;940835
-6858;205;Anna;Green;3;4.98;1986-05-29;246 Spruce Road, Dallas, TX 75201;165760
-1268;1994;Dennis;Williams;5;3.91;1962-04-08;Sydney Opera House, Sydney, Australia 2000;203187
-182;9673;Barbara;Davis;35;3.16;1990-11-06;789 Pine Road, Chicago, IL 60601;325851
-6266;2843;Brian;Sanchez;34;4.1;1996-01-05;753 Willow Avenue, San Diego, CA 92101;439359
-4601;2567;Frank;Johnson;41;3.26;1999-07-23;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;363087
-7062;9232;Kimberly;King;15;3.39;1965-03-31;Table Mountain Rd, Cape Town, South Africa 8001;934133
-5985;7302;Jerry;White;47;4.99;1991-11-22;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;375465
-6919;5847;Rachel;Scott;1;4.73;2001-09-29;321 Elm Boulevard, Houston, TX 77001;309900
-4460;9817;Sharon;Carter;2;3.33;2003-12-25;456 Oak Avenue, Los Angeles, CA 90001;338308
-1773;2299;Donna;Walker;5;4.72;1970-10-18;222 Park Avenue, Boston, MA 02101;657924
-4172;732;Mary;Carter;22;4.28;1997-01-22;Brandenburger Tor 1, Berlin, Germany 10117;915125
-5438;2815;Carolyn;Rivera;42;3.69;1987-12-28;123 Main Street, New York, NY 10001;888647
-8954;9473;Sarah;Thomas;22;4.74;2003-05-19;Shibuya Crossing 2, Tokyo, Japan 150-0043;554511
-7106;8026;George;Jones;6;4.73;1989-08-15;Table Mountain Rd, Cape Town, South Africa 8001;78564
-6985;5833;Dennis;Davis;22;3.17;1975-08-31;987 Cedar Lane, Philadelphia, PA 19101;764042
-5836;8554;Jason;Robinson;29;3.36;1975-06-17;Brandenburger Tor 1, Berlin, Germany 10117;154322
-7497;6490;Karen;Moore;34;3.13;2006-01-30;Shibuya Crossing 2, Tokyo, Japan 150-0043;799216
-4518;1427;Brian;Wilson;15;3.03;2000-09-18;789 Pine Road, Chicago, IL 60601;932818
-4254;5377;Justin;Adams;27;3.04;2006-06-12;333 River Road, Seattle, WA 98101;406685
-532;3012;Brian;Thompson;4;3.66;1994-06-29;Brandenburger Tor 1, Berlin, Germany 10117;313852
-9329;4637;Sandra;Lopez;47;3.68;1987-02-18;222 Park Avenue, Boston, MA 02101;549390
-7838;7453;Anna;Sanchez;45;4.13;1965-08-22;Champs-Élysées 75, Paris, France 75008;176616
-4100;1798;Stephen;Johnson;50;3.25;1969-01-23;246 Spruce Road, Dallas, TX 75201;778356
-369;6072;Eric;Martin;25;3.81;1984-07-07;Red Square 1, Moscow, Russia 109012;507920
-5114;7157;Emily;Thomas;15;3.32;1981-09-16;864 Palm Drive, San Jose, CA 95101;393111
-3863;7853;Jessica;Smith;31;4.42;1996-06-01;Gyeongbokgung Palace 161, Seoul, South Korea 03045;585719
-5032;8807;Jeffrey;Jackson;32;4.97;1963-02-06;Piazza San Marco 1, Venice, Italy 30124;853504
-4981;8785;Christine;Jones;14;3.71;1973-08-31;Sagrada Família 401, Barcelona, Spain 08013;561309
-5033;7672;Debra;Hall;5;4.5;1998-04-23;159 Birch Street, San Antonio, TX 78201;978527
-6093;7548;Jonathan;Mitchell;36;4.61;1973-12-12;Brandenburger Tor 1, Berlin, Germany 10117;49926
-3290;8644;Angela;Gonzalez;23;3.58;2000-11-10;321 Elm Boulevard, Houston, TX 77001;982655
-1651;4463;Jonathan;Brown;22;4.97;1983-11-11;159 Birch Street, San Antonio, TX 78201;295680
-4112;9268;Mary;Sanchez;13;4.58;1961-01-17;Burj Khalifa 1, Dubai, UAE;157525
-2139;3015;Debra;Clark;41;3.18;1999-04-13;Burj Khalifa 1, Dubai, UAE;117967
-7839;4924;Timothy;Carter;22;3.98;1966-02-14;555 Mountain Street, Washington, DC 20001;761864
-9667;3216;Barbara;Taylor;35;3.76;1991-03-10;321 Elm Boulevard, Houston, TX 77001;419913
-8865;6372;Joshua;Lopez;36;4.05;2005-04-19;Gyeongbokgung Palace 161, Seoul, South Korea 03045;851790
-8437;7217;Rebecca;Perez;31;3.47;1981-12-21;Taj Mahal, Agra, India 282001;506077
-7543;4747;Joseph;King;25;4.63;1983-04-17;CN Tower 301, Toronto, Canada M5V 2T6;111838
-3911;9209;Nicole;Lee;21;3.75;1997-11-06;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;498231
-2814;1482;Angela;Gonzalez;39;4.71;1995-07-07;Champs-Élysées 75, Paris, France 75008;116686
-8270;2083;Larry;Martin;3;4.21;1972-04-19;222 Park Avenue, Boston, MA 02101;976934
-6510;2663;Sharon;White;31;3.14;1989-03-19;CN Tower 301, Toronto, Canada M5V 2T6;402681
-2621;7234;Thomas;Gonzalez;18;3.23;1987-08-05;555 Mountain Street, Washington, DC 20001;634191
-5352;2668;Emma;Taylor;44;3.23;1980-10-01;CN Tower 301, Toronto, Canada M5V 2T6;637382
-980;1241;Betty;Baker;27;3.39;1964-07-05;Shibuya Crossing 2, Tokyo, Japan 150-0043;924196
-5482;6808;Joseph;Moore;9;3.33;1999-05-01;Champs-Élysées 75, Paris, France 75008;865008
-3364;1693;Alexander;Davis;14;3.59;1986-01-18;789 Pine Road, Chicago, IL 60601;868219
-7559;4281;Anthony;Johnson;41;3.02;1974-01-23;Sagrada Família 401, Barcelona, Spain 08013;657374
-7960;2256;John;White;49;4.73;2002-05-08;123 Main Street, New York, NY 10001;371888
-3248;9366;Gregory;Smith;28;4.18;2002-02-22;Brandenburger Tor 1, Berlin, Germany 10117;260678
-4293;7538;Jonathan;Moore;36;4.65;1996-03-24;444 Lake View, Denver, CO 80201;967577
-3024;2373;Jeffrey;Davis;36;4.29;1978-01-20;444 Lake View, Denver, CO 80201;437255
-9001;6202;Joseph;Moore;46;3.88;1982-04-07;321 Elm Boulevard, Houston, TX 77001;969439
-1120;2269;Ashley;Jackson;35;4.76;1982-08-12;222 Park Avenue, Boston, MA 02101;184001
-2870;4538;Margaret;Hernandez;47;3.01;1999-12-12;159 Birch Street, San Antonio, TX 78201;779249
-8727;7074;Nicole;Flores;8;3.0;1968-09-14;Table Mountain Rd, Cape Town, South Africa 8001;517385
-7211;3972;Lisa;Johnson;28;4.9;1998-08-12;Piazza San Marco 1, Venice, Italy 30124;549101
-9525;6338;James;Martin;44;3.09;1999-08-04;Shibuya Crossing 2, Tokyo, Japan 150-0043;550348
-4982;7058;Eric;Torres;11;4.64;1979-03-28;753 Willow Avenue, San Diego, CA 92101;309940
-9600;4432;John;Nguyen;45;4.89;1994-04-21;753 Willow Avenue, San Diego, CA 92101;949692
-5974;3866;Eric;Brown;3;3.43;1965-07-25;222 Park Avenue, Boston, MA 02101;123373
-1020;3870;Sharon;Scott;9;3.79;1967-02-24;Sagrada Família 401, Barcelona, Spain 08013;703625
-7288;6636;Nancy;Lewis;42;3.64;1988-10-17;555 Mountain Street, Washington, DC 20001;510587
-4721;6407;Charles;Miller;30;4.3;1993-09-19;Taj Mahal, Agra, India 282001;962510
-4382;1848;Emily;Wright;25;3.75;2006-01-26;Forbidden City 4, Beijing, China 100006;346855
-5799;3334;Gregory;King;42;3.25;1963-05-20;Taj Mahal, Agra, India 282001;133491
-2040;7420;Patricia;Lee;11;3.89;1963-04-11;Gyeongbokgung Palace 161, Seoul, South Korea 03045;13390
-3083;4835;Matthew;Johnson;45;4.36;1995-07-22;CN Tower 301, Toronto, Canada M5V 2T6;177379
-2259;4695;Emily;Johnson;16;4.16;2006-06-11;159 Birch Street, San Antonio, TX 78201;65390
-3747;4307;Donna;Nelson;25;3.53;1962-05-23;666 Ocean Avenue, Miami, FL 33101;820742
-1960;5351;Sarah;Wright;17;3.05;1962-07-17;Burj Khalifa 1, Dubai, UAE;816176
-1101;9670;Joseph;Walker;44;3.41;1967-07-27;123 Main Street, New York, NY 10001;822096
-6973;1097;Emma;Williams;16;4.07;1962-12-16;Red Square 1, Moscow, Russia 109012;86531
-4520;2040;Steven;Lee;32;5.0;1968-12-13;Champs-Élysées 75, Paris, France 75008;271581
-6139;9714;Christopher;Miller;10;4.31;1972-08-08;333 River Road, Seattle, WA 98101;981604
-8632;6333;Stephanie;Adams;43;3.15;2006-10-10;Table Mountain Rd, Cape Town, South Africa 8001;327311
-7388;2969;Janet;Thomas;1;3.1;1983-11-11;864 Palm Drive, San Jose, CA 95101;986554
-6978;3737;Nancy;Campbell;18;3.14;2000-07-10;Burj Khalifa 1, Dubai, UAE;401530
-1408;8202;Frank;Jones;32;4.97;2004-05-15;Taj Mahal, Agra, India 282001;52951
-2110;8945;Sandra;Clark;5;4.15;1985-09-24;Marina Bay Sands 10, Singapore 018956;702608
-6973;1170;Samantha;Hernandez;13;3.38;1996-03-22;Brandenburger Tor 1, Berlin, Germany 10117;868657
-4293;1560;Linda;Mitchell;17;4.92;1995-09-16;333 River Road, Seattle, WA 98101;432196
-9834;9352;James;Thompson;49;3.55;1982-03-08;CN Tower 301, Toronto, Canada M5V 2T6;81616
-2374;8503;Michelle;Anderson;49;3.14;1961-03-06;222 Park Avenue, Boston, MA 02101;986304
-9902;7970;Mary;Ramirez;45;3.95;1966-01-02;Sydney Opera House, Sydney, Australia 2000;394471
-9804;3462;Helen;Miller;33;4.22;1999-06-16;456 Oak Avenue, Los Angeles, CA 90001;963064
-1130;8832;Paul;Martin;42;3.0;1980-04-28;Table Mountain Rd, Cape Town, South Africa 8001;685653
-5842;4132;Linda;Nelson;41;3.72;1980-06-07;CN Tower 301, Toronto, Canada M5V 2T6;593880
-8823;7771;Laura;Robinson;9;4.28;1996-09-25;Shibuya Crossing 2, Tokyo, Japan 150-0043;559734
-5237;1735;Alexander;Williams;27;3.38;2001-03-02;Table Mountain Rd, Cape Town, South Africa 8001;202016
-9349;4601;Amanda;Hill;3;4.48;1977-09-13;Sydney Opera House, Sydney, Australia 2000;927391
-1108;171;Edward;Young;24;4.72;1970-05-31;666 Ocean Avenue, Miami, FL 33101;173952
-6874;921;Benjamin;Ramirez;42;4.22;1966-08-07;Red Square 1, Moscow, Russia 109012;228282
-1921;179;Benjamin;Scott;5;4.9;1969-03-27;Sagrada Família 401, Barcelona, Spain 08013;780230
-8057;9775;Debra;Hernandez;1;4.82;1984-04-20;456 Oak Avenue, Los Angeles, CA 90001;328226
-1249;5425;Michael;Harris;16;4.45;1960-10-15;Sagrada Família 401, Barcelona, Spain 08013;79868
-8452;7654;Robert;Carter;20;3.52;1993-09-10;159 Birch Street, San Antonio, TX 78201;305075
-1370;6800;David;Rivera;21;3.71;1971-09-04;222 Park Avenue, Boston, MA 02101;462925
-7503;5114;Ryan;Wright;20;4.94;1978-11-29;Sagrada Família 401, Barcelona, Spain 08013;178694
-7210;6236;Richard;Martinez;22;3.42;1968-03-06;Gyeongbokgung Palace 161, Seoul, South Korea 03045;941032
-4750;9072;Mark;Brown;30;4.63;1964-01-18;Red Square 1, Moscow, Russia 109012;727097
-8575;5800;Angela;Taylor;35;3.68;1990-10-28;159 Birch Street, San Antonio, TX 78201;537574
-6188;3008;Benjamin;Scott;36;3.13;1968-01-26;Champs-Élysées 75, Paris, France 75008;160714
-7472;9830;Catherine;Jackson;7;3.7;1963-01-06;Gyeongbokgung Palace 161, Seoul, South Korea 03045;199444
-1448;247;Benjamin;Perez;13;3.26;1981-12-27;333 River Road, Seattle, WA 98101;398158
-1552;8081;Catherine;Moore;11;4.77;1965-04-30;Shibuya Crossing 2, Tokyo, Japan 150-0043;158218
-8250;5419;Jerry;Johnson;50;3.61;1979-09-18;654 Maple Drive, Phoenix, AZ 85001;968257
-1717;2027;Virginia;Perez;18;3.5;1966-10-23;Taj Mahal, Agra, India 282001;104325
-1036;2178;Eric;Carter;2;3.68;1965-09-13;753 Willow Avenue, San Diego, CA 92101;585307
-8151;8026;Betty;Thomas;46;3.99;1993-10-25;864 Palm Drive, San Jose, CA 95101;850285
-8883;4844;Nancy;Wilson;5;3.65;1973-01-15;222 Park Avenue, Boston, MA 02101;656296
-558;9357;Patrick;Carter;17;4.21;1965-03-30;Marina Bay Sands 10, Singapore 018956;839426
-2160;3638;Debra;Walker;11;4.64;1961-06-04;654 Maple Drive, Phoenix, AZ 85001;941531
-5913;1840;Ruth;White;1;3.72;1979-09-08;Forbidden City 4, Beijing, China 100006;479254
-8707;3380;Barbara;Brown;34;3.67;1987-05-20;246 Spruce Road, Dallas, TX 75201;626308
-1944;5738;George;Lewis;31;3.95;2006-10-16;Red Square 1, Moscow, Russia 109012;527124
-9956;3765;Susan;Green;31;4.61;1967-04-28;Red Square 1, Moscow, Russia 109012;469320
-8;5668;Elizabeth;Thomas;7;4.16;2004-08-05;Marina Bay Sands 10, Singapore 018956;111924
-9299;5831;Angela;Campbell;48;3.95;1999-06-30;Forbidden City 4, Beijing, China 100006;704962
-7778;559;Emma;Nguyen;34;3.72;1974-10-18;CN Tower 301, Toronto, Canada M5V 2T6;579021
-1072;1307;Kevin;Wright;13;3.61;1964-01-17;333 River Road, Seattle, WA 98101;925389
-1661;4699;Laura;Perez;33;3.46;1988-01-15;Champs-Élysées 75, Paris, France 75008;124998
-3308;6286;Donald;Allen;50;4.02;2002-10-21;666 Ocean Avenue, Miami, FL 33101;773242
-5325;8146;Matthew;Thomas;48;4.97;1990-06-01;Table Mountain Rd, Cape Town, South Africa 8001;252873
-5207;4721;Virginia;Roberts;48;3.63;1996-12-01;444 Lake View, Denver, CO 80201;808743
-7358;3176;Gregory;Hill;22;4.59;1999-04-29;333 River Road, Seattle, WA 98101;88565
-4721;7611;Elizabeth;Walker;20;4.48;1961-05-30;753 Willow Avenue, San Diego, CA 92101;182866
-6022;9514;Christine;Smith;27;4.54;1999-07-20;Table Mountain Rd, Cape Town, South Africa 8001;176338
-8699;6803;Emma;Harris;47;4.83;1964-12-18;159 Birch Street, San Antonio, TX 78201;780529
-7338;2063;Lisa;Nguyen;6;4.06;1967-09-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;634500
-1072;2399;Amy;Hernandez;2;3.16;1996-06-18;666 Ocean Avenue, Miami, FL 33101;171915
-9625;3999;Matthew;Wilson;44;4.69;1970-04-12;Piazza San Marco 1, Venice, Italy 30124;310411
-7180;1057;Cynthia;Taylor;15;4.4;1970-10-13;666 Ocean Avenue, Miami, FL 33101;505707
-3674;1613;Mark;Brown;31;4.35;1983-08-06;Gyeongbokgung Palace 161, Seoul, South Korea 03045;185561
-291;1546;John;Thompson;4;4.33;2006-10-30;159 Birch Street, San Antonio, TX 78201;400013
-1483;6421;Karen;Davis;12;4.26;1963-09-08;Champs-Élysées 75, Paris, France 75008;854289
-5262;6922;Richard;Baker;28;3.68;1988-05-18;Brandenburger Tor 1, Berlin, Germany 10117;756845
-7796;2970;Sharon;Nelson;25;3.69;1961-11-16;666 Ocean Avenue, Miami, FL 33101;962288
-9499;3023;Virginia;Johnson;17;3.36;1970-01-10;Red Square 1, Moscow, Russia 109012;420410
-7307;393;Scott;Baker;5;4.63;1975-11-25;Taj Mahal, Agra, India 282001;756279
-86;4258;Richard;Perez;17;3.08;1965-10-20;Brandenburger Tor 1, Berlin, Germany 10117;38154
-4857;2130;Emily;Gonzalez;13;3.9;1973-06-07;789 Pine Road, Chicago, IL 60601;13729
-3407;6662;Jonathan;White;39;3.75;1982-06-28;CN Tower 301, Toronto, Canada M5V 2T6;969492
-2625;5788;Ashley;Taylor;25;3.23;1992-08-25;Brandenburger Tor 1, Berlin, Germany 10117;111737
-811;554;Linda;Baker;3;4.55;1993-06-17;Brandenburger Tor 1, Berlin, Germany 10117;679723
-6225;9242;Janet;Torres;6;4.67;1971-03-02;333 River Road, Seattle, WA 98101;19390
-6351;6236;Daniel;Roberts;31;4.97;1995-01-17;Sydney Opera House, Sydney, Australia 2000;217420
-4721;3322;Timothy;Rivera;46;3.88;2002-02-09;246 Spruce Road, Dallas, TX 75201;111212
-6937;6229;Stephen;Lopez;26;4.77;2006-07-03;456 Oak Avenue, Los Angeles, CA 90001;315989
-9443;8297;Michelle;Flores;14;3.53;1982-12-19;444 Lake View, Denver, CO 80201;804262
-5689;7412;Michael;Green;14;4.14;2000-03-26;222 Park Avenue, Boston, MA 02101;628693
-7929;5164;Melissa;Martinez;6;3.9;1962-08-25;Marina Bay Sands 10, Singapore 018956;801442
-9244;4193;Raymond;White;2;3.64;2007-01-31;Gyeongbokgung Palace 161, Seoul, South Korea 03045;832779
-9051;2966;Helen;Campbell;16;3.7;2006-02-10;666 Ocean Avenue, Miami, FL 33101;828809
-4631;5950;Donna;Martin;32;3.2;1977-06-02;Gyeongbokgung Palace 161, Seoul, South Korea 03045;495076
-6627;9388;Jerry;Moore;28;4.73;1967-02-25;Table Mountain Rd, Cape Town, South Africa 8001;908998
-6590;8712;Dennis;Hill;27;4.6;1982-09-13;Brandenburger Tor 1, Berlin, Germany 10117;750358
-1366;8319;David;Flores;25;3.82;1989-02-03;Sagrada Família 401, Barcelona, Spain 08013;234867
-2024;9827;Gregory;Nelson;8;4.55;1976-02-17;Red Square 1, Moscow, Russia 109012;520159
-2529;7420;William;Young;29;3.44;1986-06-08;555 Mountain Street, Washington, DC 20001;162966
-6270;9534;Elizabeth;Jackson;7;3.74;1961-06-21;246 Spruce Road, Dallas, TX 75201;814796
-1745;9922;Nancy;Thompson;1;4.82;2005-02-28;321 Elm Boulevard, Houston, TX 77001;917049
-5179;9657;Dorothy;Anderson;34;4.92;2003-03-22;Champs-Élysées 75, Paris, France 75008;744798
-9552;3294;Edward;Martin;48;3.81;2002-06-01;444 Lake View, Denver, CO 80201;653907
-349;4434;Dennis;Lee;31;3.58;1973-05-16;CN Tower 301, Toronto, Canada M5V 2T6;244371
-4037;3739;Donald;Rivera;10;4.78;1974-08-09;Burj Khalifa 1, Dubai, UAE;307497
-9799;1610;Laura;Hernandez;38;4.75;1990-08-12;987 Cedar Lane, Philadelphia, PA 19101;474546
-1338;778;Helen;Miller;36;4.59;1989-12-19;Piazza San Marco 1, Venice, Italy 30124;245047
-7494;24;Edward;Mitchell;26;4.75;2003-08-17;Brandenburger Tor 1, Berlin, Germany 10117;989563
-4115;5008;Margaret;Allen;4;3.51;1978-11-01;Burj Khalifa 1, Dubai, UAE;739521
-5906;7816;Rebecca;Adams;2;4.11;2002-04-19;Red Square 1, Moscow, Russia 109012;586019
-4058;1763;Jack;Adams;45;3.41;1978-07-21;654 Maple Drive, Phoenix, AZ 85001;422925
-7040;9624;Sandra;Allen;48;4.07;1990-04-10;753 Willow Avenue, San Diego, CA 92101;55021
-7309;611;Timothy;Anderson;13;3.6;1983-06-30;CN Tower 301, Toronto, Canada M5V 2T6;704471
-8902;3583;Jessica;Baker;1;4.39;1961-06-19;864 Palm Drive, San Jose, CA 95101;159678
-2979;2662;Ashley;Nguyen;36;3.96;1984-11-07;555 Mountain Street, Washington, DC 20001;347065
-3712;7928;Eric;Moore;40;3.41;1988-09-28;Piazza San Marco 1, Venice, Italy 30124;333430
-9017;9777;Samuel;Roberts;24;4.31;1985-02-10;987 Cedar Lane, Philadelphia, PA 19101;566
-2454;7265;Timothy;Carter;46;3.16;1984-06-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;250056
-5450;4748;Gregory;Wright;34;4.06;1969-07-14;CN Tower 301, Toronto, Canada M5V 2T6;488679
-6398;8908;Steven;Thompson;31;4.77;1963-08-31;Marina Bay Sands 10, Singapore 018956;781413
-7511;1324;Joshua;White;45;3.83;1962-05-01;654 Maple Drive, Phoenix, AZ 85001;593677
-834;4888;Laura;Smith;35;4.42;1995-03-12;321 Elm Boulevard, Houston, TX 77001;865075
-1461;6612;Gregory;Ramirez;43;3.91;1971-06-27;456 Oak Avenue, Los Angeles, CA 90001;683346
-8037;4516;Cynthia;Ramirez;1;4.08;1999-10-11;321 Elm Boulevard, Houston, TX 77001;668683
-2657;9507;Stephanie;Perez;5;3.43;1981-07-07;Piazza San Marco 1, Venice, Italy 30124;916607
-4691;8782;Emily;Perez;45;4.05;2005-07-14;Forbidden City 4, Beijing, China 100006;701811
-6326;587;Samantha;Lee;48;3.36;1972-06-10;456 Oak Avenue, Los Angeles, CA 90001;159538
-6278;6893;Carol;Davis;5;3.45;2004-07-01;Brandenburger Tor 1, Berlin, Germany 10117;586129
-3089;7184;Melissa;Jackson;17;3.62;1966-06-21;789 Pine Road, Chicago, IL 60601;792961
-7471;2935;James;Scott;42;3.89;1966-09-17;Sagrada Família 401, Barcelona, Spain 08013;167228
-5820;3338;Brian;Green;20;4.12;1984-01-26;321 Elm Boulevard, Houston, TX 77001;971448
-8193;9224;Pamela;Green;41;3.83;2003-06-18;987 Cedar Lane, Philadelphia, PA 19101;899369
-68;5544;Daniel;Rivera;7;3.13;1989-11-19;Red Square 1, Moscow, Russia 109012;180484
-4289;9126;Janet;Johnson;25;4.89;1962-05-29;Red Square 1, Moscow, Russia 109012;314864
-5222;9861;Matthew;Ramirez;34;4.92;1998-10-30;Piazza San Marco 1, Venice, Italy 30124;82143
-6061;5981;Carol;Carter;30;4.44;1978-03-07;123 Main Street, New York, NY 10001;597065
-9863;5898;Jeffrey;Thompson;9;4.8;1982-06-04;555 Mountain Street, Washington, DC 20001;485415
-339;561;Scott;Lopez;1;3.91;1982-03-06;222 Park Avenue, Boston, MA 02101;452315
-4733;7376;Kimberly;Jones;6;3.92;2005-06-27;Piazza San Marco 1, Venice, Italy 30124;379050
-3083;7995;Nancy;Anderson;12;4.37;1969-02-26;Forbidden City 4, Beijing, China 100006;232776
-1549;2921;Dennis;Clark;7;3.89;1985-09-12;987 Cedar Lane, Philadelphia, PA 19101;40062
-3197;912;Janet;Garcia;14;3.76;1989-06-26;654 Maple Drive, Phoenix, AZ 85001;727277
-5981;8298;Michelle;Hall;27;3.13;1972-03-17;222 Park Avenue, Boston, MA 02101;602361
-5698;4938;Steven;Thomas;33;4.15;1963-09-21;123 Main Street, New York, NY 10001;768507
-2737;544;Benjamin;Adams;27;4.31;2002-01-30;Taj Mahal, Agra, India 282001;867648
-6567;4658;Brandon;Perez;30;4.6;1964-02-16;789 Pine Road, Chicago, IL 60601;873113
-5032;2351;Ashley;Ramirez;2;4.45;2000-06-07;Forbidden City 4, Beijing, China 100006;214523
-7319;5469;Jason;Lopez;9;3.39;1965-02-05;Red Square 1, Moscow, Russia 109012;650246
-2971;643;Sandra;Clark;16;3.31;2003-04-03;123 Main Street, New York, NY 10001;368507
-5669;7161;Janet;Torres;15;3.18;1961-07-22;321 Elm Boulevard, Houston, TX 77001;729764
-8878;2008;Andrew;Davis;47;3.94;1964-03-25;Brandenburger Tor 1, Berlin, Germany 10117;8911
-5649;7649;Eric;Johnson;10;4.87;2002-08-08;246 Spruce Road, Dallas, TX 75201;91611
-5229;7856;Christine;White;4;4.95;2000-04-09;Gyeongbokgung Palace 161, Seoul, South Korea 03045;280975
-1757;6566;Patrick;Taylor;23;3.63;1976-12-09;Brandenburger Tor 1, Berlin, Germany 10117;865717
-3017;76;Maria;Carter;27;3.42;1998-09-12;Sagrada Família 401, Barcelona, Spain 08013;214144
-8140;9311;Emma;Roberts;50;3.14;1968-08-20;987 Cedar Lane, Philadelphia, PA 19101;619490
-2097;7738;Gregory;Hill;29;4.8;1988-02-25;Red Square 1, Moscow, Russia 109012;60509
-4809;9402;Michael;Johnson;34;4.36;1972-01-12;333 River Road, Seattle, WA 98101;816492
-7555;839;Timothy;Harris;47;4.94;1970-12-09;333 River Road, Seattle, WA 98101;574974
-3002;8029;Samantha;White;9;3.89;1967-11-18;456 Oak Avenue, Los Angeles, CA 90001;919584
-8147;2865;Kenneth;Flores;6;3.46;1973-04-13;321 Elm Boulevard, Houston, TX 77001;767875
-4263;1945;Patrick;Walker;45;3.66;2004-05-18;456 Oak Avenue, Los Angeles, CA 90001;171120
-6330;1753;Angela;Hall;45;4.16;1978-03-06;Shibuya Crossing 2, Tokyo, Japan 150-0043;731891
-1977;9605;Kimberly;Ramirez;7;3.44;1990-04-27;222 Park Avenue, Boston, MA 02101;425551
-8159;6057;Mary;Moore;28;3.95;2006-12-30;Champs-Élysées 75, Paris, France 75008;73855
-5343;5798;Patricia;Torres;0;4.52;1965-02-07;Forbidden City 4, Beijing, China 100006;360515
-1751;3071;Jacob;Johnson;21;3.81;1996-03-06;Gyeongbokgung Palace 161, Seoul, South Korea 03045;45230
-3278;9926;Robert;Green;21;3.87;1964-01-28;Red Square 1, Moscow, Russia 109012;533684
-4276;9303;Nicole;Wright;48;4.17;1988-04-10;654 Maple Drive, Phoenix, AZ 85001;240539
-6738;2705;Andrew;Davis;4;3.16;1964-07-27;321 Elm Boulevard, Houston, TX 77001;852660
-8060;8859;Katherine;Carter;27;3.96;1977-10-10;Burj Khalifa 1, Dubai, UAE;785626
-7637;674;Samantha;Johnson;22;4.31;2007-03-07;333 River Road, Seattle, WA 98101;463602
-3785;7575;Paul;Anderson;6;4.5;1983-03-02;CN Tower 301, Toronto, Canada M5V 2T6;627635
-6924;5492;Nicole;White;32;4.05;1970-07-13;Brandenburger Tor 1, Berlin, Germany 10117;503329
-7259;4434;Nancy;Rodriguez;3;4.82;1989-12-21;123 Main Street, New York, NY 10001;758155
-1352;4668;Patricia;Robinson;43;4.43;1982-05-24;456 Oak Avenue, Los Angeles, CA 90001;541782
-9201;9822;Brian;Baker;24;3.23;1991-09-04;753 Willow Avenue, San Diego, CA 92101;906849
-9810;8639;Frank;Flores;46;3.0;1977-06-09;456 Oak Avenue, Los Angeles, CA 90001;472706
+2016;6291;Jack;Harris;31;3.69;1993-02-25;444 Lake View, Denver, CO 80201;839306
+6893;613;Jessica;Nelson;47;4.28;1965-09-01;222 Park Avenue, Boston, MA 02101;319943
+6887;3806;Charles;Lee;28;3.7;1971-07-04;666 Ocean Avenue, Miami, FL 33101;874460
+1222;7243;Jennifer;Roberts;39;4.26;1960-12-24;753 Willow Avenue, San Diego, CA 92101;162641
+5943;3138;Virginia;Flores;25;4.14;1969-04-30;246 Spruce Road, Dallas, TX 75201;717757
+9685;3762;Richard;Lee;8;3.9;2001-10-14;321 Elm Boulevard, Houston, TX 77001;889642
+9488;9686;Ronald;Hall;7;4.63;1982-08-31;246 Spruce Road, Dallas, TX 75201;538999
+8062;675;Rebecca;Campbell;12;3.1;1960-11-22;864 Palm Drive, San Jose, CA 95101;655837
+8647;5656;Angela;Nelson;3;4.18;2007-03-12;456 Oak Avenue, Los Angeles, CA 90001;335987
+6085;5508;Betty;Harris;17;3.99;1993-03-26;456 Oak Avenue, Los Angeles, CA 90001;923284
+9130;6599;Ashley;Wilson;7;3.96;2005-09-23;Burj Khalifa 1, Dubai, UAE;419323
+2407;7641;Katherine;Walker;31;4.5;1962-10-29;654 Maple Drive, Phoenix, AZ 85001;484786
+8072;3063;Donald;Gonzalez;31;3.89;2003-04-11;246 Spruce Road, Dallas, TX 75201;50488
+1725;244;Katherine;White;45;4.3;1989-07-20;Sydney Opera House, Sydney, Australia 2000;15755
+1204;2912;Patricia;Brown;43;4.69;1990-02-06;Shibuya Crossing 2, Tokyo, Japan 150-0043;47761
+8773;7942;Elizabeth;Carter;45;3.41;1970-10-31;123 Main Street, New York, NY 10001;36257
+4265;3523;Jack;Harris;5;3.03;1999-02-24;333 River Road, Seattle, WA 98101;795603
+1942;1521;Timothy;Jackson;28;3.21;1996-03-15;Red Square 1, Moscow, Russia 109012;114725
+1798;485;Michael;Rodriguez;14;4.85;1989-08-08;666 Ocean Avenue, Miami, FL 33101;354580
+3073;3961;Christopher;Taylor;1;3.14;1977-07-26;Champs-Élysées 75, Paris, France 75008;204451
+2961;7275;Michelle;Nelson;34;3.65;1994-07-31;Sydney Opera House, Sydney, Australia 2000;136395
+66;7692;Patricia;Nelson;49;3.93;1987-10-06;159 Birch Street, San Antonio, TX 78201;955838
+1270;7234;Ryan;Harris;40;4.75;1972-07-15;Sagrada Família 401, Barcelona, Spain 08013;7463
+9275;5785;Betty;Miller;48;4.18;1966-07-25;Shibuya Crossing 2, Tokyo, Japan 150-0043;473067
+9644;3263;Mark;King;18;3.5;1964-05-17;Gyeongbokgung Palace 161, Seoul, South Korea 03045;796426
+5439;7352;Carolyn;Green;28;4.71;1977-01-20;333 River Road, Seattle, WA 98101;32415
+7690;2455;Christine;Rodriguez;21;3.37;1998-01-11;789 Pine Road, Chicago, IL 60601;237856
+7077;9032;Nicholas;Brown;31;4.9;1975-09-22;Forbidden City 4, Beijing, China 100006;814314
+8605;3574;Debra;Nguyen;39;3.64;1986-05-02;Piazza San Marco 1, Venice, Italy 30124;615546
+7368;7349;Laura;Rodriguez;0;4.09;1985-02-11;321 Elm Boulevard, Houston, TX 77001;690801
+9810;9410;Carolyn;Sanchez;39;4.04;1975-11-19;Taj Mahal, Agra, India 282001;55180
+4019;8029;Jeffrey;Allen;39;4.08;1975-05-06;Sagrada Família 401, Barcelona, Spain 08013;439491
+1083;7230;Kathleen;Miller;0;4.93;1984-01-21;333 River Road, Seattle, WA 98101;623331
+6059;9279;Jeffrey;Gonzalez;11;4.5;1991-10-12;Piazza San Marco 1, Venice, Italy 30124;967789
+3108;7383;Gregory;Martinez;29;4.04;1999-02-12;CN Tower 301, Toronto, Canada M5V 2T6;621290
+4746;76;Joshua;Robinson;18;3.51;1990-03-11;666 Ocean Avenue, Miami, FL 33101;931829
+5240;122;Charles;Martin;17;4.65;2006-03-31;Table Mountain Rd, Cape Town, South Africa 8001;223326
+7975;8183;Jessica;Jones;28;3.15;2000-10-30;222 Park Avenue, Boston, MA 02101;940641
+3364;7128;Amanda;Williams;2;4.9;1984-02-24;123 Main Street, New York, NY 10001;875156
+4201;5765;Sharon;Adams;40;3.89;1970-05-22;987 Cedar Lane, Philadelphia, PA 19101;391723
+997;8686;Robert;Campbell;41;4.18;1985-04-13;222 Park Avenue, Boston, MA 02101;918972
+9633;4565;Sarah;Anderson;8;4.02;1969-07-17;864 Palm Drive, San Jose, CA 95101;425212
+3033;7129;Ashley;Thomas;10;4.01;1980-05-06;Brandenburger Tor 1, Berlin, Germany 10117;721872
+4452;6042;Michael;Smith;37;3.25;1971-06-03;Brandenburger Tor 1, Berlin, Germany 10117;376271
+7522;9234;Samantha;Flores;26;4.38;1967-10-04;123 Main Street, New York, NY 10001;366178
+3636;525;Steven;Martinez;0;4.78;1992-05-19;Taj Mahal, Agra, India 282001;950095
+1729;7422;Kenneth;Harris;26;4.1;1963-05-06;Champs-Élysées 75, Paris, France 75008;880086
+6967;6203;Maria;Lewis;30;4.47;1969-05-09;Table Mountain Rd, Cape Town, South Africa 8001;608748
+4444;4014;Deborah;Nelson;50;4.67;1984-12-05;444 Lake View, Denver, CO 80201;518546
+4437;8508;Catherine;Rivera;20;4.83;1974-01-11;Sagrada Família 401, Barcelona, Spain 08013;55334
+9;3811;Lisa;Johnson;10;3.27;1992-12-17;333 River Road, Seattle, WA 98101;495034
+4543;1665;Carolyn;Moore;22;4.1;1979-07-16;246 Spruce Road, Dallas, TX 75201;164347
+3635;5261;Mark;Rodriguez;20;3.45;1991-03-04;864 Palm Drive, San Jose, CA 95101;322843
+5117;9004;Nicole;Davis;12;3.11;1966-09-24;Shibuya Crossing 2, Tokyo, Japan 150-0043;690166
+8129;7273;Jack;Williams;50;4.43;1990-04-30;Sagrada Família 401, Barcelona, Spain 08013;833050
+1691;7414;Amanda;Ramirez;15;4.89;1965-05-07;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;662608
+7979;5670;David;Clark;50;4.11;1991-11-03;654 Maple Drive, Phoenix, AZ 85001;78278
+1806;8251;Mark;Moore;27;4.94;1986-05-31;Taj Mahal, Agra, India 282001;16873
+5671;3658;Daniel;Thompson;26;4.0;1979-06-24;Table Mountain Rd, Cape Town, South Africa 8001;778561
+7690;3836;Jason;Allen;31;5.0;1968-11-04;555 Mountain Street, Washington, DC 20001;8695
+300;834;Katherine;Johnson;6;4.57;1988-09-24;Piazza San Marco 1, Venice, Italy 30124;840233
+7703;9671;Matthew;King;38;4.51;1990-09-25;666 Ocean Avenue, Miami, FL 33101;907564
+2010;9960;Rachel;Martin;38;4.8;1968-04-17;444 Lake View, Denver, CO 80201;652627
+4857;5514;Ashley;Robinson;46;3.44;1972-03-09;123 Main Street, New York, NY 10001;285779
+4148;6257;Elizabeth;Roberts;18;4.16;1979-07-10;753 Willow Avenue, San Diego, CA 92101;480337
+4822;9861;Margaret;Thompson;36;3.3;1969-05-19;321 Elm Boulevard, Houston, TX 77001;99119
+6336;1144;Christine;Scott;50;3.76;1963-05-19;159 Birch Street, San Antonio, TX 78201;570136
+8589;2604;Michael;Williams;38;4.44;1963-06-21;321 Elm Boulevard, Houston, TX 77001;102317
+9237;7594;Ashley;Allen;30;4.5;1981-04-13;222 Park Avenue, Boston, MA 02101;896372
+6987;8524;Janet;Scott;11;3.99;1984-04-20;Burj Khalifa 1, Dubai, UAE;339793
+5911;2227;Cynthia;Nguyen;46;4.03;1976-04-19;123 Main Street, New York, NY 10001;501926
+177;6296;Raymond;Wilson;24;3.74;1970-01-26;666 Ocean Avenue, Miami, FL 33101;898167
+2440;6871;Kevin;Young;5;4.44;1963-07-19;789 Pine Road, Chicago, IL 60601;501594
+3820;2555;William;White;19;3.37;1990-11-27;Brandenburger Tor 1, Berlin, Germany 10117;71272
+1908;71;Helen;Campbell;0;4.42;1975-07-09;Sydney Opera House, Sydney, Australia 2000;915385
+9136;8640;Katherine;Smith;0;3.1;1961-10-11;Table Mountain Rd, Cape Town, South Africa 8001;188938
+9809;9043;Brandon;Flores;4;4.95;1991-07-28;654 Maple Drive, Phoenix, AZ 85001;574856
+2815;862;Alexander;Lopez;19;3.41;2005-04-22;666 Ocean Avenue, Miami, FL 33101;523137
+33;3397;Brian;Thompson;1;3.56;1964-02-05;555 Mountain Street, Washington, DC 20001;553964
+2517;1341;Brian;Miller;13;4.26;1999-12-04;987 Cedar Lane, Philadelphia, PA 19101;821377
+6401;7884;Justin;Jackson;47;3.42;1983-07-28;Champs-Élysées 75, Paris, France 75008;625636
+5047;7831;Edward;Taylor;1;3.96;1985-08-10;Sagrada Família 401, Barcelona, Spain 08013;371510
+9024;1009;Mary;Anderson;46;4.76;1988-02-12;CN Tower 301, Toronto, Canada M5V 2T6;333578
+9604;569;Janet;Davis;15;4.93;1997-12-30;321 Elm Boulevard, Houston, TX 77001;13347
+8271;9161;Michelle;Taylor;11;4.2;2006-08-08;123 Main Street, New York, NY 10001;435112
+9929;6675;Mark;Flores;25;5.01;2001-08-12;Taj Mahal, Agra, India 282001;750229
+9405;3923;Brenda;Nguyen;11;3.7;1976-01-14;Table Mountain Rd, Cape Town, South Africa 8001;560598
+6875;2217;James;Green;32;4.14;2004-08-11;444 Lake View, Denver, CO 80201;158558
+1951;1220;Dorothy;Walker;15;4.15;1981-05-19;Sagrada Família 401, Barcelona, Spain 08013;134808
+9311;7061;Dennis;Rodriguez;44;3.35;1989-04-20;Shibuya Crossing 2, Tokyo, Japan 150-0043;165355
+2328;7185;Virginia;Green;24;3.6;1969-04-21;444 Lake View, Denver, CO 80201;830805
+4381;9474;Mary;Miller;25;4.36;1971-03-30;123 Main Street, New York, NY 10001;929714
+6599;5848;Virginia;Garcia;47;4.56;1972-01-24;159 Birch Street, San Antonio, TX 78201;515093
+9979;609;Sarah;Brown;38;4.03;1982-04-27;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;908571
+1593;9056;Deborah;Lopez;47;4.88;1968-11-21;246 Spruce Road, Dallas, TX 75201;299813
+5996;3392;Michael;Thomas;31;3.05;1989-01-28;222 Park Avenue, Boston, MA 02101;972142
+1638;4823;Margaret;Hernandez;49;4.58;1960-10-25;Red Square 1, Moscow, Russia 109012;905625
+4008;2911;Virginia;Gonzalez;18;3.62;1964-02-03;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;479060
+4005;4737;Justin;Davis;37;4.97;2005-10-31;987 Cedar Lane, Philadelphia, PA 19101;246939
+7113;7249;Raymond;Clark;16;4.21;1985-09-20;789 Pine Road, Chicago, IL 60601;7566
+3930;1899;Jack;Mitchell;47;4.81;1971-08-22;666 Ocean Avenue, Miami, FL 33101;756990
+4907;9599;Betty;Jackson;37;4.52;1961-10-09;Burj Khalifa 1, Dubai, UAE;747452
+1838;5857;Frank;Torres;6;4.11;2002-01-12;654 Maple Drive, Phoenix, AZ 85001;838572
+9133;7242;Charles;Garcia;50;4.11;1964-12-24;Piazza San Marco 1, Venice, Italy 30124;982238
+9888;726;Frank;Rodriguez;11;3.03;1978-09-11;Sagrada Família 401, Barcelona, Spain 08013;732930
+7448;9686;Susan;Campbell;50;3.4;1997-12-07;Burj Khalifa 1, Dubai, UAE;558685
+2706;3544;Brandon;Martin;8;3.74;1984-12-10;Table Mountain Rd, Cape Town, South Africa 8001;387862
+3208;8286;Emily;Nelson;9;4.96;1971-08-04;456 Oak Avenue, Los Angeles, CA 90001;985121
+1873;1095;Helen;Johnson;24;3.81;2006-11-05;Sagrada Família 401, Barcelona, Spain 08013;1502
+258;2432;Dorothy;Johnson;3;3.65;1968-08-23;654 Maple Drive, Phoenix, AZ 85001;404199
+8537;6543;Sandra;Jackson;38;4.05;1962-04-29;789 Pine Road, Chicago, IL 60601;360136
+1932;4466;James;Williams;8;4.14;1981-12-11;Table Mountain Rd, Cape Town, South Africa 8001;26568
+3151;1003;Matthew;Garcia;32;4.04;1994-03-31;159 Birch Street, San Antonio, TX 78201;248722
+9647;4296;Emily;Gonzalez;11;3.96;1965-10-17;333 River Road, Seattle, WA 98101;466961
+4327;5284;Larry;Thomas;27;3.66;2007-08-13;321 Elm Boulevard, Houston, TX 77001;353449
+196;7013;Frank;Young;17;3.11;1976-11-30;456 Oak Avenue, Los Angeles, CA 90001;476586
+2395;390;Nancy;Wilson;4;3.75;2005-03-28;159 Birch Street, San Antonio, TX 78201;92584
+371;8930;Robert;White;1;4.42;1987-01-26;222 Park Avenue, Boston, MA 02101;141747
+4494;9044;Christine;Mitchell;28;4.64;2005-09-18;456 Oak Avenue, Los Angeles, CA 90001;850421
+5290;8193;Mark;Martinez;17;4.46;1999-05-09;321 Elm Boulevard, Houston, TX 77001;782668
+3041;4917;Daniel;Martinez;32;4.05;2001-12-08;987 Cedar Lane, Philadelphia, PA 19101;573011
+9071;2649;Patrick;Carter;13;3.89;2002-02-09;Piazza San Marco 1, Venice, Italy 30124;536354
+1346;4166;Sharon;Davis;43;4.88;1963-11-25;Sagrada Família 401, Barcelona, Spain 08013;406823
+7886;4662;Debra;Thompson;45;4.44;1997-11-16;Marina Bay Sands 10, Singapore 018956;308454
+1561;5006;Dennis;Wright;24;3.38;1974-08-24;987 Cedar Lane, Philadelphia, PA 19101;559924
+2870;4227;Thomas;Scott;6;4.13;1967-03-17;666 Ocean Avenue, Miami, FL 33101;544982
+5145;6478;George;Torres;37;3.42;1988-01-08;555 Mountain Street, Washington, DC 20001;570960
+1278;6850;Emily;Thompson;25;4.42;1991-03-11;753 Willow Avenue, San Diego, CA 92101;194472
+488;2890;Melissa;Martin;2;4.87;2003-09-24;789 Pine Road, Chicago, IL 60601;412389
+7226;8270;Thomas;Jones;47;4.04;1961-12-14;222 Park Avenue, Boston, MA 02101;283083
+8809;4373;Raymond;King;47;3.15;1983-02-12;456 Oak Avenue, Los Angeles, CA 90001;86630
+5166;5114;Kenneth;Williams;49;4.85;1984-04-08;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;582774
+892;9;Paul;Lee;1;3.19;1972-06-24;666 Ocean Avenue, Miami, FL 33101;9566
+1479;207;Scott;Scott;22;4.61;1967-02-27;Forbidden City 4, Beijing, China 100006;672469
+9077;1431;Brenda;Wright;8;4.3;1999-06-28;159 Birch Street, San Antonio, TX 78201;369571
+4076;8365;Donna;Gonzalez;18;4.72;2002-07-15;Champs-Élysées 75, Paris, France 75008;789580
+1795;5349;Larry;Johnson;45;3.91;1963-04-26;Red Square 1, Moscow, Russia 109012;62129
+5908;4203;Christine;Sanchez;3;3.67;1977-04-06;Champs-Élysées 75, Paris, France 75008;303912
+6337;4853;Dennis;Flores;5;3.18;1988-04-12;444 Lake View, Denver, CO 80201;185581
+3524;182;Barbara;Carter;50;4.15;1971-04-28;333 River Road, Seattle, WA 98101;23282
+2264;8134;John;Adams;24;3.69;1989-12-12;Burj Khalifa 1, Dubai, UAE;681794
+940;6100;Rebecca;Clark;40;3.0;1982-02-23;789 Pine Road, Chicago, IL 60601;362025
+3105;8180;Emily;Thomas;41;4.11;1968-10-06;555 Mountain Street, Washington, DC 20001;945185
+9655;9790;Christine;King;29;4.71;1964-06-08;222 Park Avenue, Boston, MA 02101;980852
+8625;4889;Janet;Jackson;28;3.73;1977-02-06;Piazza San Marco 1, Venice, Italy 30124;244451
+8404;5794;Joshua;Walker;26;4.05;1977-02-11;Red Square 1, Moscow, Russia 109012;429160
+5427;7315;Christopher;Nguyen;6;4.08;1988-12-01;456 Oak Avenue, Los Angeles, CA 90001;196227
+884;1959;Ryan;Miller;37;3.08;1990-03-01;Burj Khalifa 1, Dubai, UAE;961930
+2215;2831;Scott;Johnson;33;3.07;1978-03-19;654 Maple Drive, Phoenix, AZ 85001;954275
+7134;8536;Andrew;Harris;0;4.26;1999-07-03;Sydney Opera House, Sydney, Australia 2000;434576
+2318;1071;Samuel;Martin;45;3.15;1993-10-17;Forbidden City 4, Beijing, China 100006;325416
+4981;844;Brandon;Hernandez;12;4.81;1962-01-13;159 Birch Street, San Antonio, TX 78201;598940
+4131;7344;Sandra;Clark;42;4.17;1970-07-18;987 Cedar Lane, Philadelphia, PA 19101;200741
+7214;489;Mark;Lewis;27;4.54;1983-05-25;Marina Bay Sands 10, Singapore 018956;806301
+2840;3120;Kevin;Carter;39;3.74;1988-11-11;Champs-Élysées 75, Paris, France 75008;32801
+6182;7143;Laura;Johnson;29;3.09;1988-05-30;123 Main Street, New York, NY 10001;32151
+117;3989;Jonathan;Roberts;0;4.77;1977-11-27;Gyeongbokgung Palace 161, Seoul, South Korea 03045;722670
+3655;3521;Donald;Green;44;3.04;1961-05-22;Red Square 1, Moscow, Russia 109012;570571
+1842;8145;Ryan;Martin;32;4.97;1973-06-17;Table Mountain Rd, Cape Town, South Africa 8001;815152
+5570;1574;Brenda;Jackson;0;4.2;1979-02-10;Red Square 1, Moscow, Russia 109012;321682
+9014;3329;Patricia;Nelson;33;4.51;1972-11-17;Taj Mahal, Agra, India 282001;168248
+1579;25;Patrick;Wright;24;3.44;1981-02-05;Taj Mahal, Agra, India 282001;872773
+1898;3850;Thomas;Rodriguez;35;4.88;1978-05-19;654 Maple Drive, Phoenix, AZ 85001;246113
+9377;3541;Maria;Young;29;4.43;1998-12-17;789 Pine Road, Chicago, IL 60601;982269
+2854;513;Kevin;Baker;45;3.98;1993-11-06;123 Main Street, New York, NY 10001;794497
+4990;8602;Ruth;Carter;15;4.56;1988-04-25;789 Pine Road, Chicago, IL 60601;523086
+6314;5140;Michelle;Lee;19;4.89;1991-03-01;Forbidden City 4, Beijing, China 100006;819301
+3715;8162;Rachel;Young;0;4.4;1989-04-18;CN Tower 301, Toronto, Canada M5V 2T6;602952
+7680;2753;Ashley;Flores;49;4.0;1989-05-10;Gyeongbokgung Palace 161, Seoul, South Korea 03045;40728
+4306;9507;Christopher;Martin;44;3.71;1982-01-05;Brandenburger Tor 1, Berlin, Germany 10117;900961
+8474;3328;George;Green;15;4.92;1983-09-21;Brandenburger Tor 1, Berlin, Germany 10117;278030
+5286;7638;Scott;Nelson;25;3.13;1974-03-18;864 Palm Drive, San Jose, CA 95101;413832
+5027;9174;Ruth;Sanchez;21;4.22;2007-08-29;159 Birch Street, San Antonio, TX 78201;837169
+246;3870;Jerry;Hall;11;4.99;1965-08-16;864 Palm Drive, San Jose, CA 95101;157181
+9883;7960;Nancy;Lee;21;3.38;2003-11-15;Brandenburger Tor 1, Berlin, Germany 10117;359022
+1050;5654;Eric;Anderson;28;4.11;2004-06-14;Brandenburger Tor 1, Berlin, Germany 10117;234366
+9129;1522;Samuel;Roberts;29;3.45;1967-01-16;159 Birch Street, San Antonio, TX 78201;287501
+702;317;Anna;Taylor;29;3.66;1974-09-26;Forbidden City 4, Beijing, China 100006;924238
+3607;2352;Christopher;Thomas;25;4.69;2001-04-01;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;546196
+9064;7413;Robert;Moore;35;4.37;2000-08-03;Marina Bay Sands 10, Singapore 018956;588034
+7707;1604;Emma;Hill;20;3.13;1979-01-05;Marina Bay Sands 10, Singapore 018956;398809
+2522;5402;Samantha;Lee;24;3.55;1966-07-13;Taj Mahal, Agra, India 282001;294317
+6877;4094;Dorothy;Jackson;2;3.58;1969-07-18;Piazza San Marco 1, Venice, Italy 30124;295118
+8223;4949;Jerry;Nguyen;8;4.26;1965-01-03;Piazza San Marco 1, Venice, Italy 30124;97322
+8656;0;Janet;Hill;15;4.03;1976-03-04;789 Pine Road, Chicago, IL 60601;238868
+1040;5890;Samuel;Johnson;37;4.72;1977-03-09;555 Mountain Street, Washington, DC 20001;641392
+7846;2946;Rachel;King;46;4.6;1998-12-23;Brandenburger Tor 1, Berlin, Germany 10117;845357
+9127;9274;Dennis;Johnson;2;4.52;1999-09-25;789 Pine Road, Chicago, IL 60601;472055
+7508;8520;Samuel;Hernandez;20;4.84;1964-10-05;Red Square 1, Moscow, Russia 109012;643990
+140;9627;Betty;Taylor;44;4.3;2004-09-26;Brandenburger Tor 1, Berlin, Germany 10117;110277
+7482;5127;Mark;Wright;48;4.13;1967-05-04;753 Willow Avenue, San Diego, CA 92101;298609
+9738;3301;Jennifer;Ramirez;20;4.72;1970-12-15;Table Mountain Rd, Cape Town, South Africa 8001;870124
+4647;1094;Helen;Lee;1;3.21;1977-09-13;666 Ocean Avenue, Miami, FL 33101;732728
+7689;3843;Larry;Moore;46;3.54;1961-02-05;864 Palm Drive, San Jose, CA 95101;357924
+1568;2111;Samantha;Martinez;41;3.21;1997-03-05;333 River Road, Seattle, WA 98101;774154
+3602;9926;Steven;Smith;42;3.89;1991-02-22;Table Mountain Rd, Cape Town, South Africa 8001;884860
+8568;2278;Nancy;Brown;21;3.03;1994-10-10;Taj Mahal, Agra, India 282001;452285
+662;8;Matthew;Wilson;45;4.47;1963-06-27;Table Mountain Rd, Cape Town, South Africa 8001;30036
+7272;8986;Carolyn;Rivera;32;4.99;1965-02-09;753 Willow Avenue, San Diego, CA 92101;725808
+1613;3963;Laura;Green;22;4.22;1961-06-17;Piazza San Marco 1, Venice, Italy 30124;93723
+2957;6546;Jerry;Thompson;10;4.23;1977-05-15;CN Tower 301, Toronto, Canada M5V 2T6;556685
+5997;8021;George;Hernandez;3;4.87;1992-12-03;159 Birch Street, San Antonio, TX 78201;303474
+1229;7015;Nicholas;Lewis;21;4.81;1991-10-04;Burj Khalifa 1, Dubai, UAE;951152
+3124;1673;William;Davis;11;4.12;1985-10-09;333 River Road, Seattle, WA 98101;904049
+8004;6907;Ashley;Davis;3;4.33;2000-08-13;Burj Khalifa 1, Dubai, UAE;11831
+954;8211;Elizabeth;Nelson;3;4.12;1962-08-20;246 Spruce Road, Dallas, TX 75201;876084
+7391;8927;Maria;Flores;5;3.9;1980-07-19;Champs-Élysées 75, Paris, France 75008;250370
+9461;1485;Edward;Young;10;3.98;1990-04-03;Piazza San Marco 1, Venice, Italy 30124;844602
+9695;5981;Gary;Thompson;40;4.26;1979-05-10;333 River Road, Seattle, WA 98101;973607
+5543;3515;Steven;Perez;25;4.37;1978-12-17;Red Square 1, Moscow, Russia 109012;373781
+2719;7888;Brandon;Clark;5;3.03;1980-02-09;789 Pine Road, Chicago, IL 60601;394604
+8049;7855;Sarah;Williams;39;3.23;1978-10-26;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;490827
+6131;7921;Amanda;Hill;31;4.04;1998-12-14;Burj Khalifa 1, Dubai, UAE;527131
+1867;8263;Frank;Thompson;4;4.67;2007-08-25;666 Ocean Avenue, Miami, FL 33101;941051
+3113;7994;Jacob;Brown;31;3.25;1964-04-19;555 Mountain Street, Washington, DC 20001;30646
+1079;7359;Brian;Scott;25;3.98;1981-08-17;222 Park Avenue, Boston, MA 02101;789419
+3091;6643;Eric;Garcia;14;3.76;2006-12-08;Shibuya Crossing 2, Tokyo, Japan 150-0043;22161
+2552;3367;Patrick;Davis;18;3.68;1993-01-28;Taj Mahal, Agra, India 282001;840389
+4610;3533;Mary;Sanchez;22;3.44;1980-03-31;654 Maple Drive, Phoenix, AZ 85001;244065
+4989;6449;Sandra;Rodriguez;45;3.73;1964-01-18;321 Elm Boulevard, Houston, TX 77001;256000
+6210;7155;Eric;Adams;43;4.0;2001-01-09;Marina Bay Sands 10, Singapore 018956;220453
+7704;1655;Jessica;Hall;25;4.44;1998-08-26;Champs-Élysées 75, Paris, France 75008;842505
+642;1633;Lisa;Smith;25;3.22;1964-12-02;321 Elm Boulevard, Houston, TX 77001;355094
+5990;6593;Dennis;Williams;27;3.21;1994-01-19;159 Birch Street, San Antonio, TX 78201;952865
+3283;1684;Nicholas;Torres;44;4.67;1985-12-10;Gyeongbokgung Palace 161, Seoul, South Korea 03045;748695
+8411;3309;Rachel;Allen;39;3.31;1991-02-12;222 Park Avenue, Boston, MA 02101;777842
+89;771;Carol;Campbell;33;4.61;2003-10-24;Table Mountain Rd, Cape Town, South Africa 8001;968500
+6060;6652;Anna;Brown;20;3.19;1977-08-18;Burj Khalifa 1, Dubai, UAE;809541
+5272;3096;Gary;Taylor;44;3.77;1996-07-29;666 Ocean Avenue, Miami, FL 33101;987527
+8113;6869;Susan;Anderson;33;4.36;1979-09-01;456 Oak Avenue, Los Angeles, CA 90001;345065
+2571;5513;Janet;Brown;4;3.77;2001-02-22;Sydney Opera House, Sydney, Australia 2000;899468
+696;9568;Jessica;Lopez;33;3.99;1997-12-15;159 Birch Street, San Antonio, TX 78201;11063
+5653;2277;Susan;Mitchell;45;3.94;1983-08-14;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;18791
+9023;9879;Linda;Wright;19;4.18;1993-08-15;753 Willow Avenue, San Diego, CA 92101;334473
+3360;5024;Andrew;Hall;31;3.96;1996-01-28;789 Pine Road, Chicago, IL 60601;422808
+3030;7982;Larry;Wright;34;4.01;1998-01-15;654 Maple Drive, Phoenix, AZ 85001;95153
+1667;8739;Gary;Smith;25;3.21;1985-03-05;Table Mountain Rd, Cape Town, South Africa 8001;418563
+4756;1503;Jeffrey;Perez;28;3.39;1991-09-30;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;760198
+5897;9531;Thomas;Anderson;43;3.67;1972-12-28;Piazza San Marco 1, Venice, Italy 30124;381255
+2454;1660;Christine;Garcia;21;3.56;1971-04-01;Burj Khalifa 1, Dubai, UAE;120436
+6458;1315;George;Hernandez;0;3.56;1961-10-13;123 Main Street, New York, NY 10001;870501
+6307;4533;Charles;Roberts;21;4.89;1992-03-21;Marina Bay Sands 10, Singapore 018956;442958
+4804;9991;Donald;Campbell;16;3.51;1978-09-30;333 River Road, Seattle, WA 98101;145302
+3745;9990;George;Martin;41;3.81;2000-01-25;789 Pine Road, Chicago, IL 60601;688664
+7730;4410;Brandon;Nelson;18;4.81;2003-10-22;Red Square 1, Moscow, Russia 109012;696346
+6217;4579;Ronald;Miller;37;3.67;1977-04-28;987 Cedar Lane, Philadelphia, PA 19101;978576
+9559;5905;Emily;Robinson;48;3.2;1995-12-04;Taj Mahal, Agra, India 282001;334267
+4371;5204;Catherine;Baker;45;3.37;1987-09-27;Shibuya Crossing 2, Tokyo, Japan 150-0043;628197
+8286;3306;Andrew;Rivera;40;4.28;1968-01-07;Champs-Élysées 75, Paris, France 75008;275137
+6892;7075;Michael;Gonzalez;0;4.52;1969-09-06;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;553715
+6277;7115;Brandon;Perez;40;3.71;1961-09-08;321 Elm Boulevard, Houston, TX 77001;58707
+6686;5046;Brian;Gonzalez;44;3.85;1961-12-02;246 Spruce Road, Dallas, TX 75201;664361
+1560;8651;Carolyn;Clark;0;3.06;2007-07-31;Champs-Élysées 75, Paris, France 75008;114618
+9377;5243;Jerry;Smith;33;3.0;2007-07-12;444 Lake View, Denver, CO 80201;441234
+1224;3486;Virginia;Brown;6;3.11;1994-09-01;123 Main Street, New York, NY 10001;154809
+7369;5367;Deborah;Carter;19;4.95;1971-03-06;Piazza San Marco 1, Venice, Italy 30124;316079
+4641;8894;Katherine;Baker;45;3.96;1982-06-25;Brandenburger Tor 1, Berlin, Germany 10117;980437
+8861;6693;Steven;Perez;29;4.44;1964-03-23;Shibuya Crossing 2, Tokyo, Japan 150-0043;245488
+7710;399;Scott;Walker;35;3.16;1968-03-08;CN Tower 301, Toronto, Canada M5V 2T6;594601
+3084;5402;Anna;Carter;38;4.76;1992-07-17;CN Tower 301, Toronto, Canada M5V 2T6;706392
+7480;6697;Brian;Taylor;43;4.95;1995-05-07;Champs-Élysées 75, Paris, France 75008;866187
+5652;5367;Jennifer;Rodriguez;37;3.66;2000-08-19;Sydney Opera House, Sydney, Australia 2000;355253
+9351;9468;Matthew;Mitchell;0;4.1;1992-09-10;555 Mountain Street, Washington, DC 20001;55294
+6555;5011;Joseph;Mitchell;12;4.95;1983-02-24;Taj Mahal, Agra, India 282001;342270
+4959;8573;Samuel;Lewis;20;4.83;1991-11-02;666 Ocean Avenue, Miami, FL 33101;792660
+7959;4324;Ronald;Campbell;33;4.04;1999-01-13;Shibuya Crossing 2, Tokyo, Japan 150-0043;478116
+6225;3423;Helen;Gonzalez;35;4.94;1965-10-07;Sydney Opera House, Sydney, Australia 2000;973279
+6272;8855;Paul;Sanchez;27;3.93;1966-10-15;Taj Mahal, Agra, India 282001;246584
+8786;6960;Karen;Baker;46;3.51;2002-10-26;Sydney Opera House, Sydney, Australia 2000;284102
+5950;192;David;Sanchez;1;3.33;1974-01-28;123 Main Street, New York, NY 10001;17487
+901;9220;Ryan;Lopez;23;4.86;1970-06-20;444 Lake View, Denver, CO 80201;366651
+9094;4004;Anna;Moore;6;3.87;1994-02-21;Forbidden City 4, Beijing, China 100006;391020
+7940;6587;Brandon;Thompson;1;3.37;1986-01-08;444 Lake View, Denver, CO 80201;61639
+4376;4013;Samuel;Ramirez;10;4.06;1996-03-27;Forbidden City 4, Beijing, China 100006;260925
+1509;4306;Dennis;Flores;17;4.22;2005-11-22;987 Cedar Lane, Philadelphia, PA 19101;652977
+8100;9746;Ashley;King;23;3.54;1991-12-12;Sydney Opera House, Sydney, Australia 2000;56631
+9149;9518;Kevin;Lee;35;3.6;1991-04-01;123 Main Street, New York, NY 10001;173980
+5382;6614;Michelle;Wilson;14;4.47;2002-04-23;Marina Bay Sands 10, Singapore 018956;616988
+3294;1917;Anthony;Gonzalez;42;4.57;1967-07-20;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;242248
+3688;9770;Janet;Wright;27;4.64;1992-06-03;Sagrada Família 401, Barcelona, Spain 08013;462550
+8725;2739;Jonathan;Nelson;45;4.22;1994-11-17;666 Ocean Avenue, Miami, FL 33101;698210
+6088;6997;Kevin;King;40;4.55;1965-12-18;Burj Khalifa 1, Dubai, UAE;876113
+1347;5067;John;Anderson;26;4.31;1967-04-11;Gyeongbokgung Palace 161, Seoul, South Korea 03045;126840
+6405;9930;Jason;Thomas;29;3.12;1986-05-05;Red Square 1, Moscow, Russia 109012;325946
+729;5425;George;Nelson;3;4.48;1983-04-22;Piazza San Marco 1, Venice, Italy 30124;997304
+8972;971;Linda;Smith;27;4.29;1990-03-06;333 River Road, Seattle, WA 98101;908557
+6957;6421;Anthony;Sanchez;8;4.95;2007-01-04;Gyeongbokgung Palace 161, Seoul, South Korea 03045;988795
+3190;8;Jacob;Miller;46;4.84;1986-05-08;Table Mountain Rd, Cape Town, South Africa 8001;136703
+4094;5720;Betty;Torres;33;4.43;1970-11-25;Forbidden City 4, Beijing, China 100006;118298
+6305;1594;Rebecca;Johnson;25;4.94;2000-12-12;Taj Mahal, Agra, India 282001;145063
+4982;4;Sandra;Thompson;11;3.13;1971-04-08;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;886779
+1039;5607;Karen;Taylor;44;3.2;1993-02-24;CN Tower 301, Toronto, Canada M5V 2T6;285080
+7832;4027;Carolyn;Thomas;9;3.15;1998-03-06;123 Main Street, New York, NY 10001;872397
+6175;1639;Nicholas;Thomas;48;4.18;1983-04-13;Gyeongbokgung Palace 161, Seoul, South Korea 03045;509753
+418;3527;William;Johnson;18;4.77;1960-12-10;Burj Khalifa 1, Dubai, UAE;271607
+1285;7271;William;Perez;47;4.05;1966-11-17;456 Oak Avenue, Los Angeles, CA 90001;596867
+9779;2248;Emily;Hernandez;24;3.19;2000-08-10;864 Palm Drive, San Jose, CA 95101;668850
+5049;6410;Justin;Miller;7;4.89;1963-11-23;Table Mountain Rd, Cape Town, South Africa 8001;824277
+8850;1183;Steven;Jackson;7;3.26;1992-08-01;159 Birch Street, San Antonio, TX 78201;441947
+5208;9519;John;Campbell;17;4.02;1974-04-02;789 Pine Road, Chicago, IL 60601;863750
+4606;3169;Virginia;Williams;50;3.23;1971-07-12;753 Willow Avenue, San Diego, CA 92101;927478
+2475;7096;Anna;Rivera;48;4.05;1970-11-18;Red Square 1, Moscow, Russia 109012;41700
+436;3635;Sandra;Anderson;9;3.01;1971-08-23;Burj Khalifa 1, Dubai, UAE;601077
+9661;2826;Michael;Smith;16;3.7;1994-08-14;Burj Khalifa 1, Dubai, UAE;283269
+7754;6531;David;Green;12;4.73;1983-12-25;987 Cedar Lane, Philadelphia, PA 19101;667263
+5637;4918;Jennifer;Jones;42;4.57;1992-01-25;789 Pine Road, Chicago, IL 60601;483873
+5506;8670;Rachel;Torres;27;4.17;1969-10-21;321 Elm Boulevard, Houston, TX 77001;335569
+9874;8199;Justin;Thomas;5;3.3;1962-10-01;CN Tower 301, Toronto, Canada M5V 2T6;629390
+3699;9223;Susan;Johnson;26;3.93;1998-07-08;Marina Bay Sands 10, Singapore 018956;23961
+5084;3782;Jessica;Walker;34;4.25;1979-09-13;246 Spruce Road, Dallas, TX 75201;37767
+6255;4431;Angela;King;27;4.52;1976-08-15;Champs-Élysées 75, Paris, France 75008;367795
+5786;5968;Mary;Jones;10;3.6;1984-12-29;666 Ocean Avenue, Miami, FL 33101;626786
+7073;1298;Cynthia;Miller;8;4.6;2007-09-01;753 Willow Avenue, San Diego, CA 92101;415599
+8037;6881;Steven;Lewis;32;3.72;2001-12-06;Champs-Élysées 75, Paris, France 75008;101318
+3497;9610;Anthony;Torres;33;3.94;1962-06-19;321 Elm Boulevard, Houston, TX 77001;471807
+4359;6489;Donald;Johnson;23;3.53;1971-10-04;456 Oak Avenue, Los Angeles, CA 90001;447761
+3949;3303;James;Perez;22;3.86;1971-03-30;Taj Mahal, Agra, India 282001;575657
+2215;9710;Benjamin;Campbell;40;3.15;2003-05-23;Forbidden City 4, Beijing, China 100006;946729
+3957;3571;Lisa;Hall;28;3.71;1987-11-06;CN Tower 301, Toronto, Canada M5V 2T6;729114
+2660;7046;Mary;Hall;21;4.19;2004-12-26;666 Ocean Avenue, Miami, FL 33101;822039
+309;1976;Jeffrey;Allen;36;4.29;2005-11-04;753 Willow Avenue, San Diego, CA 92101;920085
+123;5889;Justin;Moore;27;4.71;1974-05-09;123 Main Street, New York, NY 10001;273055
+7782;6367;Jason;Martin;21;3.86;1968-11-23;222 Park Avenue, Boston, MA 02101;302882
+4081;5370;Carolyn;Martinez;3;3.36;1968-09-27;Burj Khalifa 1, Dubai, UAE;878508
+5801;6939;Daniel;Smith;16;3.67;1974-06-03;123 Main Street, New York, NY 10001;436889
+9742;2643;Patricia;Sanchez;7;4.36;1964-02-06;864 Palm Drive, San Jose, CA 95101;77202
+129;922;Benjamin;Johnson;1;5.01;1970-03-12;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;29311
+1442;3361;Debra;Nelson;12;4.55;1989-09-07;864 Palm Drive, San Jose, CA 95101;465671
+7370;6579;Debra;Martin;30;3.49;2003-08-02;Shibuya Crossing 2, Tokyo, Japan 150-0043;163521
+2908;5966;Paul;Taylor;3;3.25;1976-11-26;789 Pine Road, Chicago, IL 60601;154738
+665;2486;Nicholas;Martinez;32;4.42;1972-03-01;789 Pine Road, Chicago, IL 60601;454257
+4341;9720;Brian;Garcia;31;3.03;1980-05-15;555 Mountain Street, Washington, DC 20001;435548
+1555;423;Benjamin;Moore;32;3.18;1997-07-27;789 Pine Road, Chicago, IL 60601;281681
+2107;4894;Ryan;Hernandez;1;4.94;2000-04-05;321 Elm Boulevard, Houston, TX 77001;430690
+6528;7772;Linda;Baker;2;3.98;1961-06-10;864 Palm Drive, San Jose, CA 95101;464109
+1785;1757;Emma;Martin;18;4.37;2002-01-18;Forbidden City 4, Beijing, China 100006;443925
+6562;8449;Justin;Moore;33;3.7;1979-08-06;Champs-Élysées 75, Paris, France 75008;785122
+6236;6352;Kathleen;Johnson;14;3.81;1993-09-18;Sydney Opera House, Sydney, Australia 2000;929322
+126;4935;Rebecca;Jackson;46;4.67;1999-09-10;Brandenburger Tor 1, Berlin, Germany 10117;115580
+9003;5594;Rachel;Martinez;33;3.73;1990-04-09;159 Birch Street, San Antonio, TX 78201;877134
+6607;3369;Nancy;Young;17;3.79;1992-09-27;753 Willow Avenue, San Diego, CA 92101;149875
+3603;3789;Jacob;Perez;45;4.41;1994-11-20;222 Park Avenue, Boston, MA 02101;984523
+9550;9256;Jessica;Ramirez;10;3.64;1977-03-16;159 Birch Street, San Antonio, TX 78201;703882
+7837;6980;Jacob;Perez;35;3.49;1992-02-19;Taj Mahal, Agra, India 282001;752731
+2395;8209;Robert;King;45;4.27;1985-01-22;864 Palm Drive, San Jose, CA 95101;693086
+9506;3471;Christopher;Baker;18;3.6;2005-10-23;987 Cedar Lane, Philadelphia, PA 19101;558851
+2167;1202;Amanda;Lewis;0;4.72;1997-12-26;Red Square 1, Moscow, Russia 109012;607449
+2218;394;Alexander;Mitchell;9;3.19;1961-01-31;Table Mountain Rd, Cape Town, South Africa 8001;53917
+9341;8;Jason;Davis;4;4.38;1978-04-14;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;645299
+3355;2738;Pamela;Thompson;35;4.95;1964-06-29;456 Oak Avenue, Los Angeles, CA 90001;924684
+6517;9260;Charles;Jones;40;3.57;1984-12-16;Sydney Opera House, Sydney, Australia 2000;248225
+1516;9750;Sandra;Adams;4;3.42;1994-05-12;666 Ocean Avenue, Miami, FL 33101;12263
+2025;3838;Dennis;Garcia;20;3.33;2006-09-02;CN Tower 301, Toronto, Canada M5V 2T6;113972
+7554;5338;Timothy;Martinez;23;3.75;1987-03-14;Table Mountain Rd, Cape Town, South Africa 8001;871058
+360;8376;Andrew;Sanchez;33;4.16;2002-08-12;Sagrada Família 401, Barcelona, Spain 08013;663604
+4293;6791;Paul;Rodriguez;1;4.37;1976-04-27;Piazza San Marco 1, Venice, Italy 30124;895376
+1617;8607;Anthony;Martinez;3;4.92;1963-05-12;159 Birch Street, San Antonio, TX 78201;357163
+5246;7380;Samantha;Adams;37;3.88;2001-01-28;456 Oak Avenue, Los Angeles, CA 90001;767584
+2783;1480;Ashley;Flores;9;4.25;1989-12-06;Shibuya Crossing 2, Tokyo, Japan 150-0043;481702
+4283;7461;Brenda;Adams;19;4.21;1961-10-07;333 River Road, Seattle, WA 98101;468648
+8104;8914;Janet;Lopez;22;4.83;1972-08-12;555 Mountain Street, Washington, DC 20001;727240
+9159;8262;Scott;King;38;3.55;1965-10-03;987 Cedar Lane, Philadelphia, PA 19101;454908
+5871;4896;Donald;Baker;1;3.86;1968-06-12;222 Park Avenue, Boston, MA 02101;499394
+3837;83;Christopher;Rivera;20;4.61;1974-06-08;123 Main Street, New York, NY 10001;201324
+7510;2081;Thomas;Roberts;21;3.07;1968-12-24;Red Square 1, Moscow, Russia 109012;203782
+5466;3847;Edward;Gonzalez;45;3.23;1993-06-23;Brandenburger Tor 1, Berlin, Germany 10117;495465
+1572;3042;Emily;Jackson;43;4.79;1989-08-24;654 Maple Drive, Phoenix, AZ 85001;403431
+2428;7027;Ryan;Smith;0;3.05;1995-07-22;Sydney Opera House, Sydney, Australia 2000;808144
+8884;6892;Catherine;Garcia;2;3.91;1997-10-20;123 Main Street, New York, NY 10001;47185
+6972;7802;Katherine;Anderson;22;4.91;1964-03-09;Gyeongbokgung Palace 161, Seoul, South Korea 03045;948145
+8587;7769;Patricia;Nguyen;24;4.26;1986-03-28;Shibuya Crossing 2, Tokyo, Japan 150-0043;2084
+2907;445;Rachel;Johnson;20;4.8;2002-01-05;Shibuya Crossing 2, Tokyo, Japan 150-0043;151271
+6524;7246;Virginia;Jackson;37;3.6;1986-11-29;Gyeongbokgung Palace 161, Seoul, South Korea 03045;629386
+441;4945;Helen;Lee;2;3.36;1963-07-16;Sagrada Família 401, Barcelona, Spain 08013;774457
+4188;9476;Helen;Garcia;10;3.0;1996-09-18;Shibuya Crossing 2, Tokyo, Japan 150-0043;17615
+3094;6482;Steven;Robinson;8;3.8;1982-06-01;Gyeongbokgung Palace 161, Seoul, South Korea 03045;405660
+8727;7103;Lisa;Garcia;40;4.72;2006-09-10;333 River Road, Seattle, WA 98101;664004
+7472;6849;Sarah;Brown;3;4.72;1996-07-23;Piazza San Marco 1, Venice, Italy 30124;163991
+1463;3436;Eric;Anderson;45;4.54;1983-03-23;456 Oak Avenue, Los Angeles, CA 90001;550602
+4168;6542;Ruth;Nelson;17;3.89;2005-01-10;Table Mountain Rd, Cape Town, South Africa 8001;192655
+8006;4993;Justin;Johnson;49;3.04;1982-07-02;456 Oak Avenue, Los Angeles, CA 90001;844105
+1723;2611;Patricia;Sanchez;40;3.19;1993-11-09;789 Pine Road, Chicago, IL 60601;999086
+8254;4849;Eric;Jones;10;3.85;1974-12-22;789 Pine Road, Chicago, IL 60601;255202
+7247;2045;Sharon;Johnson;29;4.73;1976-08-01;444 Lake View, Denver, CO 80201;658180
+1264;3579;Jessica;Taylor;9;4.55;1972-12-15;Shibuya Crossing 2, Tokyo, Japan 150-0043;942193
+4689;3506;Alexander;Torres;28;3.71;1997-03-26;555 Mountain Street, Washington, DC 20001;328404
+9476;81;Ashley;Lee;31;4.61;1987-04-17;123 Main Street, New York, NY 10001;227763
+9744;2642;Michelle;Jackson;23;4.55;1980-08-08;987 Cedar Lane, Philadelphia, PA 19101;699451
+136;3137;Anthony;Harris;21;3.0;2004-07-06;Sydney Opera House, Sydney, Australia 2000;650664
+9239;6853;Elizabeth;Smith;11;3.74;1967-01-03;Sydney Opera House, Sydney, Australia 2000;305991
+7862;6071;Larry;Wright;7;4.92;1962-02-22;555 Mountain Street, Washington, DC 20001;44078
+6923;3754;Karen;Thomas;43;4.58;1994-07-08;Sydney Opera House, Sydney, Australia 2000;262589
+7516;9267;Timothy;Garcia;20;4.62;1970-08-17;987 Cedar Lane, Philadelphia, PA 19101;799806
+2161;4645;Margaret;Walker;22;4.24;2002-07-14;Gyeongbokgung Palace 161, Seoul, South Korea 03045;137977
+8156;8481;Nicole;Gonzalez;18;4.27;1978-02-05;Marina Bay Sands 10, Singapore 018956;409427
+2887;5088;Brenda;Lee;8;4.17;1967-02-08;654 Maple Drive, Phoenix, AZ 85001;161647
+1388;7229;Edward;Hall;47;3.76;1993-12-03;Piazza San Marco 1, Venice, Italy 30124;581692
+6362;7655;George;Walker;27;4.24;1999-07-05;Shibuya Crossing 2, Tokyo, Japan 150-0043;647346
+975;5176;Richard;Hernandez;15;3.48;1985-09-06;753 Willow Avenue, San Diego, CA 92101;60337
+805;1173;Rachel;Walker;18;3.17;1977-06-16;Champs-Élysées 75, Paris, France 75008;295075
+9124;7479;Janet;Flores;45;3.35;1977-05-15;321 Elm Boulevard, Houston, TX 77001;914257
+8166;9080;Paul;Ramirez;34;3.57;1961-05-10;Red Square 1, Moscow, Russia 109012;59342
+1656;1764;Pamela;Clark;17;3.68;1981-03-27;456 Oak Avenue, Los Angeles, CA 90001;913927
+1267;8130;Brenda;Rodriguez;15;4.08;1967-06-04;753 Willow Avenue, San Diego, CA 92101;227190
+6635;4883;David;Miller;4;3.77;1980-09-16;Shibuya Crossing 2, Tokyo, Japan 150-0043;654147
+7216;56;Stephanie;Lewis;48;4.16;1965-02-24;Sydney Opera House, Sydney, Australia 2000;970508
+4743;2836;Linda;Taylor;49;4.67;1972-01-07;123 Main Street, New York, NY 10001;602968
+9945;5517;Thomas;Thompson;16;3.09;2000-02-22;444 Lake View, Denver, CO 80201;965804
+3014;5963;Larry;Nguyen;43;4.86;1992-11-19;333 River Road, Seattle, WA 98101;884603
+1128;8680;George;Gonzalez;19;4.0;1962-08-02;321 Elm Boulevard, Houston, TX 77001;132452
+9028;8251;Larry;Davis;29;3.39;1973-01-08;654 Maple Drive, Phoenix, AZ 85001;831712
+1782;3672;Kevin;Clark;13;4.7;1983-10-25;CN Tower 301, Toronto, Canada M5V 2T6;172487
+6147;2255;Angela;Baker;41;4.99;1992-02-04;Sagrada Família 401, Barcelona, Spain 08013;447940
+9327;8197;Rachel;Sanchez;27;4.09;1998-09-16;222 Park Avenue, Boston, MA 02101;430306
+1281;5956;Melissa;Williams;41;3.29;1998-10-15;321 Elm Boulevard, Houston, TX 77001;622838
+1423;438;Amanda;Scott;41;3.01;1998-09-06;Burj Khalifa 1, Dubai, UAE;450763
+9253;7717;William;Nelson;31;4.5;1981-02-16;Shibuya Crossing 2, Tokyo, Japan 150-0043;696670
+9606;7727;Brenda;Ramirez;31;3.55;1979-08-03;Sydney Opera House, Sydney, Australia 2000;8735
+2972;6252;Nicholas;Lopez;42;4.36;1964-12-04;Champs-Élysées 75, Paris, France 75008;134674
+5085;687;Margaret;King;27;3.09;1966-10-16;864 Palm Drive, San Jose, CA 95101;821319
+7039;5613;Donna;Wright;29;3.29;1962-08-23;Gyeongbokgung Palace 161, Seoul, South Korea 03045;883276
+9396;3099;Jeffrey;Rivera;28;3.94;1989-05-05;CN Tower 301, Toronto, Canada M5V 2T6;800540
+8071;6067;Brian;Hernandez;8;3.09;1973-04-26;Piazza San Marco 1, Venice, Italy 30124;258054
+7923;1370;Jerry;Martin;13;3.4;2007-01-04;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;284540
+8442;6751;Ryan;Campbell;36;4.08;1999-08-05;123 Main Street, New York, NY 10001;348785
+9933;7796;Carol;Wright;16;4.63;2007-07-16;123 Main Street, New York, NY 10001;825501
+957;2579;Christopher;Garcia;50;3.95;1979-03-04;Forbidden City 4, Beijing, China 100006;119940
+6447;9907;David;Robinson;21;4.43;1995-04-18;Burj Khalifa 1, Dubai, UAE;220021
+6260;8764;Nicholas;Hill;5;3.91;1996-01-06;987 Cedar Lane, Philadelphia, PA 19101;339396
+7780;7012;Patrick;Smith;18;4.09;2002-07-30;Burj Khalifa 1, Dubai, UAE;512976
+675;3880;David;Anderson;5;3.71;1963-04-29;Table Mountain Rd, Cape Town, South Africa 8001;193489
+3219;5493;Nancy;Clark;26;3.25;2003-05-20;CN Tower 301, Toronto, Canada M5V 2T6;402781
+7914;3630;Frank;Davis;15;3.92;2000-01-12;222 Park Avenue, Boston, MA 02101;257524
+3202;4601;Christopher;Wilson;27;4.67;1992-05-20;555 Mountain Street, Washington, DC 20001;386764
+2483;1901;Janet;Adams;9;4.28;1979-11-06;Champs-Élysées 75, Paris, France 75008;459797
+7257;7928;Brandon;Wright;34;3.97;2003-02-08;Taj Mahal, Agra, India 282001;575891
+7699;3514;Andrew;Garcia;41;3.31;1973-04-19;222 Park Avenue, Boston, MA 02101;593174
+9589;3740;Angela;Green;23;4.61;1993-07-03;123 Main Street, New York, NY 10001;626418
+1832;8772;Steven;Lewis;28;4.29;1981-08-17;789 Pine Road, Chicago, IL 60601;247019
+3481;9101;Karen;Hill;26;4.2;2001-04-13;555 Mountain Street, Washington, DC 20001;886952
+9040;3830;Charles;Smith;32;3.07;1991-04-02;Sydney Opera House, Sydney, Australia 2000;154365
+2805;8883;Kenneth;Taylor;35;3.27;2002-12-10;Champs-Élysées 75, Paris, France 75008;387402
+9818;6515;Angela;Young;21;4.72;2000-11-24;Brandenburger Tor 1, Berlin, Germany 10117;966496
+8199;4135;Gary;Martinez;14;3.82;1987-08-30;666 Ocean Avenue, Miami, FL 33101;521733
+7398;1745;Michael;Gonzalez;39;4.97;1992-12-07;246 Spruce Road, Dallas, TX 75201;505432
+7356;4637;Angela;Sanchez;11;4.54;1974-04-04;Piazza San Marco 1, Venice, Italy 30124;830704
+7652;5880;Michelle;Adams;1;4.18;1977-12-07;159 Birch Street, San Antonio, TX 78201;80207
+8690;2748;James;Perez;47;4.0;1967-08-30;Brandenburger Tor 1, Berlin, Germany 10117;359553
+6988;7074;Donald;Campbell;44;4.34;1988-01-07;321 Elm Boulevard, Houston, TX 77001;167821
+4936;8967;Kenneth;Roberts;31;3.85;1973-07-20;CN Tower 301, Toronto, Canada M5V 2T6;424467
+8466;7502;Nancy;Anderson;25;4.72;1970-09-16;Red Square 1, Moscow, Russia 109012;539987
+3854;162;Kevin;Moore;42;4.85;1981-07-07;123 Main Street, New York, NY 10001;71998
+3137;6109;Jason;Perez;41;3.73;1995-11-07;Gyeongbokgung Palace 161, Seoul, South Korea 03045;187624
+3805;6031;Jason;Wright;15;3.61;1980-05-01;Gyeongbokgung Palace 161, Seoul, South Korea 03045;612643
+959;9776;Katherine;Ramirez;37;4.88;1992-05-01;123 Main Street, New York, NY 10001;891309
+5889;4289;Justin;Martin;17;4.96;1997-06-30;333 River Road, Seattle, WA 98101;748396
+1449;570;Nicholas;Davis;21;3.65;2004-04-14;Marina Bay Sands 10, Singapore 018956;841303
+1221;8745;Angela;Garcia;8;4.81;1961-01-07;333 River Road, Seattle, WA 98101;398887
+328;3903;Barbara;Rivera;41;3.27;1985-10-10;Piazza San Marco 1, Venice, Italy 30124;987
+9151;2086;Debra;Moore;29;4.81;1975-09-29;987 Cedar Lane, Philadelphia, PA 19101;902185
+1817;6423;Kenneth;Baker;10;4.36;1988-07-30;159 Birch Street, San Antonio, TX 78201;537799
+5340;9548;Nicholas;Flores;19;3.19;1972-10-20;456 Oak Avenue, Los Angeles, CA 90001;358090
+8321;6935;Emily;Miller;18;4.31;2003-02-11;Sagrada Família 401, Barcelona, Spain 08013;342989
+2267;2576;Brenda;Hall;30;3.91;1996-10-23;789 Pine Road, Chicago, IL 60601;668896
+7809;4622;Raymond;Perez;42;4.15;1983-07-04;Champs-Élysées 75, Paris, France 75008;964153
+1264;9705;Betty;Harris;35;4.77;2004-08-20;555 Mountain Street, Washington, DC 20001;160877
+8594;2606;Kevin;Miller;2;4.58;1968-08-10;CN Tower 301, Toronto, Canada M5V 2T6;788102
+5783;2767;Katherine;Torres;15;3.33;1968-11-06;987 Cedar Lane, Philadelphia, PA 19101;458190
+8285;3793;William;Moore;28;3.22;1977-03-27;Red Square 1, Moscow, Russia 109012;432039
+2083;5803;Patricia;White;49;4.57;2006-05-29;222 Park Avenue, Boston, MA 02101;146324
+2158;144;Elizabeth;Davis;1;4.87;2004-09-14;123 Main Street, New York, NY 10001;454521
+8032;4420;Timothy;Perez;31;3.93;1975-12-09;789 Pine Road, Chicago, IL 60601;405709
+777;7282;Christopher;Johnson;28;4.79;1972-09-02;864 Palm Drive, San Jose, CA 95101;316665
+4612;4651;Amanda;Lopez;21;3.02;2001-08-31;Marina Bay Sands 10, Singapore 018956;657913
+772;5845;Mary;Robinson;38;4.19;1990-10-28;Table Mountain Rd, Cape Town, South Africa 8001;420089
+1445;801;Andrew;Sanchez;31;3.07;1993-06-27;CN Tower 301, Toronto, Canada M5V 2T6;435592
+876;4936;Gregory;Jones;16;4.93;1997-03-30;444 Lake View, Denver, CO 80201;431059
+3654;2676;Ryan;Taylor;30;4.74;1987-11-21;222 Park Avenue, Boston, MA 02101;270722
+7803;340;Samantha;Carter;17;3.37;1980-07-28;Champs-Élysées 75, Paris, France 75008;602534
+3463;4887;George;Moore;27;4.63;1970-12-23;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;954264
+2444;3104;James;Clark;23;4.57;1997-05-07;Table Mountain Rd, Cape Town, South Africa 8001;694278
+6647;8515;Cynthia;Carter;7;3.68;1995-05-06;654 Maple Drive, Phoenix, AZ 85001;138771
+4485;8484;Steven;Jones;26;4.83;2001-10-05;222 Park Avenue, Boston, MA 02101;696787
+3088;3461;Brenda;Jackson;8;3.12;1979-09-25;Forbidden City 4, Beijing, China 100006;933692
+1931;160;Emily;Nguyen;1;3.65;1991-08-27;246 Spruce Road, Dallas, TX 75201;718300
+4605;2974;Jerry;Clark;50;4.45;1975-09-30;Brandenburger Tor 1, Berlin, Germany 10117;919923
+3215;6321;Jeffrey;Martinez;30;3.64;1970-11-16;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;273387
+1039;913;Jack;Wright;47;3.46;2000-12-25;Gyeongbokgung Palace 161, Seoul, South Korea 03045;494418
+9346;1042;Steven;Thomas;33;3.68;1970-08-15;654 Maple Drive, Phoenix, AZ 85001;123690
+3640;874;Helen;Brown;14;4.26;2005-05-05;Red Square 1, Moscow, Russia 109012;90137
+1895;1342;Justin;Walker;43;3.56;1971-03-16;654 Maple Drive, Phoenix, AZ 85001;75526
+8991;4515;Patrick;Clark;41;3.43;1981-12-03;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;793707
+7556;9101;Amanda;White;42;3.4;1976-04-20;654 Maple Drive, Phoenix, AZ 85001;873374
+1259;381;Karen;Perez;46;4.32;2003-08-08;Marina Bay Sands 10, Singapore 018956;107124
+3086;2109;Jonathan;Williams;25;3.35;2004-08-23;789 Pine Road, Chicago, IL 60601;19836
+8012;1216;Michelle;Moore;20;4.5;1999-11-09;246 Spruce Road, Dallas, TX 75201;664627
+8930;3199;George;Flores;38;3.95;2001-10-16;123 Main Street, New York, NY 10001;839393
+2034;2591;James;Mitchell;5;3.91;1996-10-20;Table Mountain Rd, Cape Town, South Africa 8001;931047
+7749;6714;Steven;Hill;39;3.67;1973-01-28;Taj Mahal, Agra, India 282001;116635
+3765;4446;Katherine;Wilson;10;3.2;2001-07-31;246 Spruce Road, Dallas, TX 75201;83431
+1109;1693;Emily;Wright;17;4.98;1996-06-18;666 Ocean Avenue, Miami, FL 33101;446958
+5147;8676;Larry;Johnson;24;4.77;2003-06-04;Gyeongbokgung Palace 161, Seoul, South Korea 03045;272170
+1068;5137;Andrew;Robinson;16;4.29;1964-11-22;333 River Road, Seattle, WA 98101;821245
+397;411;Pamela;Hernandez;7;4.15;1995-04-20;Sagrada Família 401, Barcelona, Spain 08013;824680
+6582;3943;Dennis;Ramirez;28;4.55;2001-02-08;456 Oak Avenue, Los Angeles, CA 90001;707680
+169;1563;Amy;Hernandez;33;4.17;2006-02-21;753 Willow Avenue, San Diego, CA 92101;159058
+1758;9490;Christopher;Wright;11;3.96;1968-09-04;CN Tower 301, Toronto, Canada M5V 2T6;135297
+3268;6062;Charles;Hernandez;4;4.35;1986-01-13;456 Oak Avenue, Los Angeles, CA 90001;995100
+4929;364;Katherine;Thompson;32;3.76;1973-04-19;Brandenburger Tor 1, Berlin, Germany 10117;488208
+5594;8425;Ashley;Brown;25;3.81;1972-10-22;Sagrada Família 401, Barcelona, Spain 08013;928921
+1125;9274;Jessica;Hall;1;4.64;1999-12-16;444 Lake View, Denver, CO 80201;224767
+5507;1496;Alexander;Rivera;0;4.58;1985-10-16;666 Ocean Avenue, Miami, FL 33101;759921
+1384;4523;Kathleen;Young;19;3.25;1995-03-30;864 Palm Drive, San Jose, CA 95101;156519
+2978;3617;Catherine;Harris;11;4.86;1983-12-11;Shibuya Crossing 2, Tokyo, Japan 150-0043;985339
+3721;9312;Mary;Lee;31;3.19;1961-06-26;Champs-Élysées 75, Paris, France 75008;288206
+736;9624;Alexander;Martinez;41;4.85;1980-11-05;753 Willow Avenue, San Diego, CA 92101;391351
+5481;5759;Steven;Hill;12;4.51;1964-05-01;Taj Mahal, Agra, India 282001;26348
+4343;292;Sharon;Garcia;24;4.95;1973-05-16;Sydney Opera House, Sydney, Australia 2000;553625
+3207;8313;Christine;Lee;39;3.1;1962-10-30;Sagrada Família 401, Barcelona, Spain 08013;339910
+7803;8331;Dorothy;White;6;3.6;2000-12-29;Shibuya Crossing 2, Tokyo, Japan 150-0043;324323
+1755;2618;Michael;Lopez;41;4.57;1967-03-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;512140
+9244;4450;Margaret;Torres;10;4.99;1993-11-03;Table Mountain Rd, Cape Town, South Africa 8001;795320
+7309;8427;Pamela;Martinez;8;3.43;1979-05-12;Brandenburger Tor 1, Berlin, Germany 10117;892899
+7280;422;James;Wilson;42;3.41;1993-07-24;444 Lake View, Denver, CO 80201;694609
+3677;5810;Rebecca;Young;50;4.41;2006-08-20;456 Oak Avenue, Los Angeles, CA 90001;16255
+9652;8138;Jonathan;Carter;42;3.84;2003-08-28;159 Birch Street, San Antonio, TX 78201;340986
+1932;9837;Sarah;Nelson;4;3.01;1992-08-11;Sydney Opera House, Sydney, Australia 2000;575443
+6172;963;Jessica;Perez;15;3.34;1982-07-04;Forbidden City 4, Beijing, China 100006;52672
+1246;2596;Joshua;Allen;29;3.98;1966-01-23;Sagrada Família 401, Barcelona, Spain 08013;587702
+6089;7035;Paul;Davis;37;3.77;1992-05-18;333 River Road, Seattle, WA 98101;563697
+3216;9272;Debra;King;24;4.16;2003-03-21;Champs-Élysées 75, Paris, France 75008;933993
+8848;9899;Jonathan;Williams;29;4.92;1974-04-18;Brandenburger Tor 1, Berlin, Germany 10117;553666
+6649;7395;Kathleen;King;11;3.7;1961-11-13;CN Tower 301, Toronto, Canada M5V 2T6;303911
+8142;850;Edward;Taylor;15;4.29;1988-11-07;Sagrada Família 401, Barcelona, Spain 08013;241927
+7332;7086;Justin;Lewis;31;3.63;1982-11-25;Shibuya Crossing 2, Tokyo, Japan 150-0043;972343
+2964;6763;Steven;Jackson;17;4.26;2001-06-16;Piazza San Marco 1, Venice, Italy 30124;187933
+4923;58;Carol;Garcia;41;3.41;2003-12-22;Sydney Opera House, Sydney, Australia 2000;891816
+6371;1845;Carolyn;Perez;46;4.53;1962-09-18;222 Park Avenue, Boston, MA 02101;408444
+6885;189;Steven;White;15;4.02;2007-03-29;159 Birch Street, San Antonio, TX 78201;158302
+1493;6690;Ashley;Hall;43;4.36;1986-09-10;Shibuya Crossing 2, Tokyo, Japan 150-0043;433466
+9981;2973;Karen;Young;17;4.99;1983-12-30;666 Ocean Avenue, Miami, FL 33101;512083
+9827;7654;Jason;Jones;38;3.35;1983-10-24;Brandenburger Tor 1, Berlin, Germany 10117;201374
+6579;1436;Justin;Lewis;18;3.42;1981-07-30;222 Park Avenue, Boston, MA 02101;116196
+8724;9116;Timothy;Mitchell;16;4.46;1971-07-04;Marina Bay Sands 10, Singapore 018956;296584
+7376;4210;Anthony;Allen;5;4.69;1974-08-09;666 Ocean Avenue, Miami, FL 33101;283836
+5586;7602;Eric;Campbell;1;4.86;1967-11-02;Sydney Opera House, Sydney, Australia 2000;2478
+8218;5748;Cynthia;Allen;44;3.82;1990-02-03;246 Spruce Road, Dallas, TX 75201;513024
+2582;4754;Joshua;Lewis;4;4.48;2006-11-27;Shibuya Crossing 2, Tokyo, Japan 150-0043;851941
+2878;9030;Patricia;Martinez;40;5.01;1999-06-28;Marina Bay Sands 10, Singapore 018956;833319
+3087;5803;Lisa;Rodriguez;46;4.45;1961-06-12;Sydney Opera House, Sydney, Australia 2000;655293
+5457;2768;Michael;King;41;4.91;1986-05-29;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;768716
+4981;6130;Emily;Anderson;41;4.86;1992-02-02;Taj Mahal, Agra, India 282001;488392
+8295;3725;Ashley;Smith;33;3.67;1969-10-09;753 Willow Avenue, San Diego, CA 92101;653639
+1973;9408;Sharon;Williams;29;4.85;1974-12-09;Shibuya Crossing 2, Tokyo, Japan 150-0043;948875
+445;1231;Joshua;Green;2;3.4;1963-06-13;444 Lake View, Denver, CO 80201;974832
+6466;8951;Daniel;Lee;14;4.44;1991-09-15;321 Elm Boulevard, Houston, TX 77001;628063
+9854;5334;Jacob;Rodriguez;33;4.39;1967-12-04;456 Oak Avenue, Los Angeles, CA 90001;125646
+6506;4134;Cynthia;Lewis;36;4.1;2000-07-25;CN Tower 301, Toronto, Canada M5V 2T6;619087
+5027;2779;Karen;Taylor;8;4.3;2002-10-23;666 Ocean Avenue, Miami, FL 33101;33879
+4163;1086;Kathleen;Thomas;49;3.0;1967-06-27;789 Pine Road, Chicago, IL 60601;971331
+1583;9805;Alexander;Nguyen;40;4.4;1961-07-27;444 Lake View, Denver, CO 80201;926630
+4514;5044;Emily;Rivera;28;4.12;1990-01-27;Piazza San Marco 1, Venice, Italy 30124;15865
+5970;4650;Susan;Harris;39;4.19;1978-03-17;Burj Khalifa 1, Dubai, UAE;118621
+2652;2677;Helen;Taylor;37;3.8;1979-01-28;Marina Bay Sands 10, Singapore 018956;222176
+280;2092;Sharon;Hall;46;3.52;1961-08-28;987 Cedar Lane, Philadelphia, PA 19101;770068
+7765;3401;Catherine;Adams;6;4.13;1998-04-16;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;427438
+6255;720;Mary;Thomas;42;4.37;1991-11-22;555 Mountain Street, Washington, DC 20001;113537
+1964;8671;Paul;Jones;18;4.86;2005-07-25;Marina Bay Sands 10, Singapore 018956;274146
+4388;2000;Gary;Robinson;48;4.99;1981-05-02;159 Birch Street, San Antonio, TX 78201;673980
+6466;1816;Betty;Wright;17;4.33;1979-11-18;666 Ocean Avenue, Miami, FL 33101;727003
+8195;8950;Joshua;Smith;7;4.0;1972-01-02;Table Mountain Rd, Cape Town, South Africa 8001;843623
+4621;8356;Anna;Miller;9;4.99;1992-08-04;Sagrada Família 401, Barcelona, Spain 08013;514523
+5806;9483;Melissa;Lopez;34;4.42;2003-08-05;321 Elm Boulevard, Houston, TX 77001;185644
+8600;5587;Timothy;Martinez;11;4.24;1976-10-01;Table Mountain Rd, Cape Town, South Africa 8001;138098
+2997;2595;Jonathan;Walker;36;3.25;2003-05-18;987 Cedar Lane, Philadelphia, PA 19101;522414
+9039;2018;Donna;Smith;4;4.34;1974-02-16;864 Palm Drive, San Jose, CA 95101;998052
+4776;20;Linda;Gonzalez;34;4.81;1999-09-04;222 Park Avenue, Boston, MA 02101;868367
+8304;3340;Andrew;Hall;9;3.91;1979-05-08;555 Mountain Street, Washington, DC 20001;717236
+9630;5480;Christine;Sanchez;6;3.13;1985-04-20;Gyeongbokgung Palace 161, Seoul, South Korea 03045;195323
+8924;5368;Justin;Scott;19;3.15;1984-04-08;222 Park Avenue, Boston, MA 02101;471450
+3940;3496;Jeffrey;Williams;19;3.43;2007-06-14;Burj Khalifa 1, Dubai, UAE;738328
+9740;2333;Patrick;Miller;0;4.33;1968-11-20;Sydney Opera House, Sydney, Australia 2000;300656
+7247;8778;Ronald;Anderson;41;4.52;1961-12-06;Brandenburger Tor 1, Berlin, Germany 10117;971674
+6008;1047;Kevin;Walker;5;4.52;1970-11-18;159 Birch Street, San Antonio, TX 78201;425642
+1607;5795;Jason;Thomas;8;4.78;1980-11-11;246 Spruce Road, Dallas, TX 75201;942038
+2491;9102;Nicholas;Torres;10;4.87;1970-08-01;Marina Bay Sands 10, Singapore 018956;794292
+4911;7723;Raymond;Nelson;50;4.93;2000-11-21;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;555439
+1954;8527;Donna;King;41;4.47;1973-10-08;987 Cedar Lane, Philadelphia, PA 19101;749335
+1012;5373;Kevin;Torres;31;4.15;1973-12-20;Brandenburger Tor 1, Berlin, Germany 10117;880827
+9621;5924;Katherine;Campbell;41;3.82;1981-08-21;654 Maple Drive, Phoenix, AZ 85001;325481
+898;5550;Frank;Thompson;41;4.14;1981-04-10;654 Maple Drive, Phoenix, AZ 85001;993736
+171;7927;Sharon;Flores;35;3.86;1988-12-10;Brandenburger Tor 1, Berlin, Germany 10117;837459
+5193;780;Justin;Williams;50;3.51;2002-11-14;Piazza San Marco 1, Venice, Italy 30124;753629
+5895;1290;Joseph;King;17;3.52;1969-09-16;Champs-Élysées 75, Paris, France 75008;130602
+2033;6210;Angela;Anderson;50;4.0;1976-07-13;Shibuya Crossing 2, Tokyo, Japan 150-0043;278597
+6060;7785;Virginia;Jones;6;4.16;2003-01-29;Champs-Élysées 75, Paris, France 75008;244485
+7137;7700;Benjamin;Thomas;41;4.59;2007-07-01;Brandenburger Tor 1, Berlin, Germany 10117;167348
+1230;3727;Richard;Thompson;17;4.9;1998-04-28;555 Mountain Street, Washington, DC 20001;759493
+9270;6115;Richard;Jackson;26;3.69;1978-07-25;Sagrada Família 401, Barcelona, Spain 08013;87615
+3651;9546;Barbara;Baker;11;3.59;1972-09-22;321 Elm Boulevard, Houston, TX 77001;30816
+6459;6338;Brian;Young;46;3.47;1961-01-04;Table Mountain Rd, Cape Town, South Africa 8001;240026
+8101;4449;Emma;King;15;3.1;1971-05-23;246 Spruce Road, Dallas, TX 75201;876782
+1243;1741;Benjamin;Young;39;3.13;2004-09-14;555 Mountain Street, Washington, DC 20001;605978
+1904;9894;Mark;Clark;39;4.31;1984-11-22;Piazza San Marco 1, Venice, Italy 30124;46792
+7877;5150;Larry;Young;36;3.81;1973-12-04;789 Pine Road, Chicago, IL 60601;170905
+1076;130;Jessica;Gonzalez;20;4.34;1986-12-29;Piazza San Marco 1, Venice, Italy 30124;838650
+5697;3882;Richard;Young;24;4.54;1992-11-06;CN Tower 301, Toronto, Canada M5V 2T6;320720
+9799;1815;Alexander;Scott;32;4.22;2006-04-26;456 Oak Avenue, Los Angeles, CA 90001;597920
+31;9148;Jason;Brown;8;4.32;2007-04-20;Shibuya Crossing 2, Tokyo, Japan 150-0043;851775
+6676;9864;Carolyn;Nguyen;39;4.58;1980-11-19;333 River Road, Seattle, WA 98101;38379
+9236;2581;Amy;Wright;18;3.42;1994-01-29;Sagrada Família 401, Barcelona, Spain 08013;376773
+6530;6484;Rebecca;Green;37;4.55;1999-01-21;Sagrada Família 401, Barcelona, Spain 08013;688925
+3389;9368;Donald;Walker;47;3.12;1989-08-26;654 Maple Drive, Phoenix, AZ 85001;191692
+4578;8405;Virginia;Perez;40;3.83;1978-01-22;Red Square 1, Moscow, Russia 109012;653738
+9422;2301;Linda;Torres;50;5.01;1995-06-03;Red Square 1, Moscow, Russia 109012;754673
+1785;4473;Amy;Hill;42;4.68;1971-07-15;Brandenburger Tor 1, Berlin, Germany 10117;252147
+6534;4124;Angela;Gonzalez;43;4.91;1969-01-24;666 Ocean Avenue, Miami, FL 33101;66076
+7338;1199;Patricia;Jones;8;3.51;1985-11-18;222 Park Avenue, Boston, MA 02101;637482
+1449;4537;Eric;Robinson;49;4.12;1977-10-17;555 Mountain Street, Washington, DC 20001;356978
+610;1104;Sarah;Nelson;50;3.75;1985-05-04;Sagrada Família 401, Barcelona, Spain 08013;75689
+7940;2435;Jessica;Harris;11;4.91;1988-11-02;123 Main Street, New York, NY 10001;849326
+7282;9145;Michelle;Mitchell;13;3.5;1992-03-17;555 Mountain Street, Washington, DC 20001;360835
+3756;1266;Janet;Allen;0;3.01;1965-05-04;333 River Road, Seattle, WA 98101;583890
+1491;8615;Frank;Nelson;35;3.42;2007-01-15;Table Mountain Rd, Cape Town, South Africa 8001;911075
+4067;4939;Ryan;Perez;13;3.0;1986-12-16;666 Ocean Avenue, Miami, FL 33101;547298
+9455;5131;Rebecca;Williams;25;4.16;1966-01-07;CN Tower 301, Toronto, Canada M5V 2T6;409889
+698;3147;Benjamin;Lewis;17;3.67;1969-04-27;Forbidden City 4, Beijing, China 100006;81752
+895;9218;Christopher;Rodriguez;42;3.84;2004-09-07;Red Square 1, Moscow, Russia 109012;169098
+8685;4692;Daniel;Rodriguez;44;3.14;1963-02-02;Sagrada Família 401, Barcelona, Spain 08013;57591
+5869;914;Anna;Adams;16;3.91;1967-11-05;Brandenburger Tor 1, Berlin, Germany 10117;750137
+8717;6087;Emma;Baker;44;4.7;1975-01-26;Red Square 1, Moscow, Russia 109012;893185
+4575;3772;Katherine;Lee;4;3.04;1984-03-20;333 River Road, Seattle, WA 98101;726580
+3294;213;Kathleen;Williams;15;3.11;1965-09-20;666 Ocean Avenue, Miami, FL 33101;58159
+2123;1557;Ruth;Davis;28;3.41;1963-05-20;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;85496
+1322;5106;Benjamin;Anderson;50;3.11;2002-04-25;Shibuya Crossing 2, Tokyo, Japan 150-0043;693569
+5308;8048;Anna;Lee;44;4.19;1996-04-11;Piazza San Marco 1, Venice, Italy 30124;634042
+5959;6697;Benjamin;Hall;40;3.09;1989-07-21;666 Ocean Avenue, Miami, FL 33101;964567
+845;6106;Kenneth;Robinson;38;3.86;2001-08-08;444 Lake View, Denver, CO 80201;339437
+9723;4944;Larry;Williams;11;3.19;1993-11-24;Marina Bay Sands 10, Singapore 018956;309840
+7474;9196;Margaret;Rivera;27;3.16;1989-12-01;987 Cedar Lane, Philadelphia, PA 19101;303185
+5439;2062;Sandra;Scott;40;3.89;1967-03-29;Piazza San Marco 1, Venice, Italy 30124;140637
+673;143;Ashley;Flores;0;4.06;2006-11-28;456 Oak Avenue, Los Angeles, CA 90001;696777
+1001;5343;Joshua;Thompson;10;4.77;1971-01-25;456 Oak Avenue, Los Angeles, CA 90001;981724
+5255;7060;Jessica;Hill;49;3.17;1976-09-14;654 Maple Drive, Phoenix, AZ 85001;669481
+5988;435;Charles;Young;15;3.01;1969-11-04;789 Pine Road, Chicago, IL 60601;521272
+3757;7340;Christine;White;36;4.88;1967-01-24;123 Main Street, New York, NY 10001;927588
+1795;1988;Matthew;Hall;18;3.45;2006-03-16;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;390382
+5281;1753;Amanda;Lee;40;3.96;1977-02-16;246 Spruce Road, Dallas, TX 75201;690549
+1447;1880;Steven;Campbell;29;4.76;1993-11-02;246 Spruce Road, Dallas, TX 75201;669833
+7511;6031;Frank;Thompson;48;3.15;2006-02-21;Shibuya Crossing 2, Tokyo, Japan 150-0043;213065
+4004;5983;Helen;Jackson;35;4.06;1974-02-17;CN Tower 301, Toronto, Canada M5V 2T6;739713
+5895;4150;Ryan;Roberts;49;4.13;1975-06-09;Taj Mahal, Agra, India 282001;403285
+3527;4793;Melissa;Williams;27;4.25;1999-08-11;321 Elm Boulevard, Houston, TX 77001;294786
+3199;9827;William;Johnson;33;4.71;2005-03-21;222 Park Avenue, Boston, MA 02101;123222
+5453;9423;Anthony;Torres;7;3.4;1996-02-13;555 Mountain Street, Washington, DC 20001;173658
+7926;1497;Donald;Flores;25;3.5;1981-07-01;Brandenburger Tor 1, Berlin, Germany 10117;554478
+7503;8070;Jonathan;Robinson;28;4.86;1997-05-31;789 Pine Road, Chicago, IL 60601;402873
+8486;7078;Steven;Jackson;41;4.45;1999-05-15;Sydney Opera House, Sydney, Australia 2000;888239
+7684;2717;Dorothy;Smith;25;3.47;2006-02-18;Shibuya Crossing 2, Tokyo, Japan 150-0043;101866
+4754;525;Emma;Williams;14;3.07;1999-02-12;Marina Bay Sands 10, Singapore 018956;654129
+3033;8983;Ronald;Clark;1;4.66;1977-07-03;789 Pine Road, Chicago, IL 60601;360203
+6266;6578;Brandon;Hernandez;29;3.45;1986-03-10;555 Mountain Street, Washington, DC 20001;83842
+6250;8341;Amanda;Gonzalez;43;3.88;1998-09-07;555 Mountain Street, Washington, DC 20001;164560
+9504;7155;Linda;Davis;43;4.07;1973-12-18;987 Cedar Lane, Philadelphia, PA 19101;984684
+2402;8787;Amanda;Taylor;27;3.49;1991-09-26;246 Spruce Road, Dallas, TX 75201;22639
+6095;6570;Kevin;Lewis;2;3.19;1979-11-01;Sagrada Família 401, Barcelona, Spain 08013;631656
+9195;2452;Charles;Nelson;48;3.62;1974-02-07;Sagrada Família 401, Barcelona, Spain 08013;119228
+3093;3793;Alexander;Rodriguez;23;4.38;2002-04-17;666 Ocean Avenue, Miami, FL 33101;465168
+4635;3912;Jerry;Lee;23;4.24;1972-02-25;159 Birch Street, San Antonio, TX 78201;544526
+4384;1693;Kevin;Rivera;28;4.7;1972-08-03;Red Square 1, Moscow, Russia 109012;304024
+4667;1109;Ashley;Lee;1;3.34;1994-11-06;Shibuya Crossing 2, Tokyo, Japan 150-0043;254489
+930;477;Mark;Baker;15;4.6;1990-01-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;106632
+4839;518;Brenda;Sanchez;26;3.04;1960-12-04;159 Birch Street, San Antonio, TX 78201;911896
+1220;4277;Alexander;Green;9;3.56;1985-09-24;864 Palm Drive, San Jose, CA 95101;959913
+1483;7451;Stephanie;Rodriguez;14;3.33;1977-08-28;Taj Mahal, Agra, India 282001;899290
+2194;6524;Jack;Campbell;30;3.98;1992-06-13;864 Palm Drive, San Jose, CA 95101;680729
+6557;8208;Kevin;Harris;4;4.27;1995-04-14;Forbidden City 4, Beijing, China 100006;92302
+7984;2211;Edward;Thomas;19;4.3;2006-05-18;246 Spruce Road, Dallas, TX 75201;597108
+9732;7819;Patrick;Garcia;36;3.84;1981-03-09;321 Elm Boulevard, Houston, TX 77001;934651
+9541;2060;Angela;Miller;8;3.17;1997-12-06;Red Square 1, Moscow, Russia 109012;750711
+3704;7907;Joseph;Johnson;10;4.02;1993-03-24;753 Willow Avenue, San Diego, CA 92101;54204
+9884;4740;Helen;Adams;13;3.64;1985-09-20;246 Spruce Road, Dallas, TX 75201;816811
+7392;2686;Steven;Lewis;20;3.78;1998-12-16;333 River Road, Seattle, WA 98101;85170
+8836;182;Larry;Green;6;3.41;1986-12-30;Piazza San Marco 1, Venice, Italy 30124;808874
+5699;2703;Robert;Campbell;41;3.21;1976-02-09;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;162031
+5429;5227;Cynthia;Hall;25;3.8;1984-09-05;666 Ocean Avenue, Miami, FL 33101;461642
+5856;1281;Rebecca;Smith;31;4.42;1974-08-18;Marina Bay Sands 10, Singapore 018956;610945
+3206;6637;James;Martinez;40;4.87;1990-11-26;789 Pine Road, Chicago, IL 60601;5904
+8523;2645;John;Flores;11;4.47;1979-03-14;Gyeongbokgung Palace 161, Seoul, South Korea 03045;39638
+1234;1327;Gary;Mitchell;47;4.67;1980-03-18;Brandenburger Tor 1, Berlin, Germany 10117;23332
+7091;2116;Kenneth;King;42;4.02;1994-11-29;666 Ocean Avenue, Miami, FL 33101;963291
+9497;9689;Nicholas;Garcia;40;3.14;1962-01-30;Piazza San Marco 1, Venice, Italy 30124;670011
+476;8563;Ruth;Hill;43;4.36;1977-11-27;Brandenburger Tor 1, Berlin, Germany 10117;589800
+3375;6507;Christopher;Ramirez;8;4.47;1968-09-28;Shibuya Crossing 2, Tokyo, Japan 150-0043;94469
+4790;3439;Stephanie;Lopez;23;4.24;1987-02-11;864 Palm Drive, San Jose, CA 95101;564699
+7641;6747;Ryan;Thomas;0;3.33;1994-03-11;159 Birch Street, San Antonio, TX 78201;148272
+7927;6585;Justin;Harris;6;4.51;2001-08-09;555 Mountain Street, Washington, DC 20001;186617
+4969;4092;Carol;Harris;40;3.68;2004-08-18;222 Park Avenue, Boston, MA 02101;381610
+8343;8353;Karen;White;43;3.72;1993-03-31;Sagrada Família 401, Barcelona, Spain 08013;491312
+2605;779;Carolyn;Thompson;16;4.01;1993-01-28;456 Oak Avenue, Los Angeles, CA 90001;680336
+656;9196;Raymond;Hall;2;3.25;1977-06-10;Gyeongbokgung Palace 161, Seoul, South Korea 03045;339161
+2043;7590;Amy;Perez;30;3.84;1968-06-16;Red Square 1, Moscow, Russia 109012;593010
+4718;1251;Nancy;Baker;21;3.91;1981-08-16;Taj Mahal, Agra, India 282001;593872
+3811;5317;Mary;Garcia;28;3.69;1995-08-17;Shibuya Crossing 2, Tokyo, Japan 150-0043;602465
+7929;7630;William;Jackson;17;3.12;1970-12-01;987 Cedar Lane, Philadelphia, PA 19101;641489
+281;6332;Jerry;Ramirez;1;4.21;1966-03-04;654 Maple Drive, Phoenix, AZ 85001;890851
+8444;3830;Maria;Anderson;47;3.19;1979-07-09;753 Willow Avenue, San Diego, CA 92101;1100
+4486;3587;Jack;Young;50;4.32;1985-10-01;Taj Mahal, Agra, India 282001;679217
+9756;2298;Daniel;Green;28;4.47;1980-04-14;Table Mountain Rd, Cape Town, South Africa 8001;584401
+6620;9132;William;Jackson;23;3.21;1963-12-15;Piazza San Marco 1, Venice, Italy 30124;602721
+1603;2114;Janet;Johnson;30;4.37;2006-12-16;Champs-Élysées 75, Paris, France 75008;557472
+6078;9440;Jason;Brown;17;3.32;1970-07-03;666 Ocean Avenue, Miami, FL 33101;772700
+7144;7891;Eric;Sanchez;49;4.69;1972-08-03;Piazza San Marco 1, Venice, Italy 30124;776611
+7700;1827;Emma;Rivera;46;4.94;1966-07-05;654 Maple Drive, Phoenix, AZ 85001;398982
+7719;7301;Joshua;Miller;20;4.91;1981-12-07;456 Oak Avenue, Los Angeles, CA 90001;836349
+7171;3118;Michael;Garcia;37;4.71;1981-02-07;987 Cedar Lane, Philadelphia, PA 19101;426744
+7024;5334;Dorothy;Hernandez;14;4.91;2001-08-20;CN Tower 301, Toronto, Canada M5V 2T6;85421
+2598;2919;Rachel;Nelson;17;4.96;2007-07-15;321 Elm Boulevard, Houston, TX 77001;213485
+8323;4515;Melissa;Harris;28;4.81;1989-05-24;Burj Khalifa 1, Dubai, UAE;364998
+6468;5542;Robert;Adams;32;4.8;2002-11-15;Shibuya Crossing 2, Tokyo, Japan 150-0043;120401
+6545;9577;Michelle;Allen;49;3.46;1979-09-12;Burj Khalifa 1, Dubai, UAE;200392
+5436;8499;Ruth;Mitchell;19;4.95;1997-01-01;Taj Mahal, Agra, India 282001;994532
+216;8668;Catherine;Harris;37;4.91;1985-11-02;Sydney Opera House, Sydney, Australia 2000;8150
+2138;2847;Emily;Flores;18;4.72;1993-07-12;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;524835
+7854;3997;Justin;Adams;23;3.36;1980-12-31;Taj Mahal, Agra, India 282001;925662
+6992;2218;George;Johnson;27;3.5;1982-07-17;Table Mountain Rd, Cape Town, South Africa 8001;64028
+2166;80;Timothy;White;48;3.04;1988-12-20;444 Lake View, Denver, CO 80201;435569
+4503;988;Jeffrey;Sanchez;35;3.81;1981-06-11;Red Square 1, Moscow, Russia 109012;322400
+5172;8794;Mark;Rodriguez;20;4.99;1964-03-18;Champs-Élysées 75, Paris, France 75008;142517
+8078;7504;Dorothy;Rodriguez;40;4.22;2003-05-04;987 Cedar Lane, Philadelphia, PA 19101;408921
+6074;7079;Brian;Flores;38;4.25;2000-12-10;159 Birch Street, San Antonio, TX 78201;922304
+8891;4317;Jacob;Williams;45;4.14;1982-04-22;246 Spruce Road, Dallas, TX 75201;886087
+4434;5781;Joshua;Flores;7;3.25;1998-03-06;Piazza San Marco 1, Venice, Italy 30124;396637
+2566;812;Larry;Campbell;23;4.06;2003-04-01;864 Palm Drive, San Jose, CA 95101;470289
+3377;9149;Justin;Flores;36;4.34;1964-01-15;Forbidden City 4, Beijing, China 100006;81363
+636;2555;Jeffrey;Adams;19;3.74;1971-09-06;Forbidden City 4, Beijing, China 100006;395938
+4533;7799;Alexander;Wright;7;3.28;1993-11-30;555 Mountain Street, Washington, DC 20001;663307
+1189;5359;Jennifer;Garcia;16;4.29;1990-11-15;Forbidden City 4, Beijing, China 100006;315171
+5905;1042;Joshua;Jackson;5;3.35;2006-07-26;Shibuya Crossing 2, Tokyo, Japan 150-0043;119695
+4766;5088;Brian;Rodriguez;8;4.31;1992-03-03;789 Pine Road, Chicago, IL 60601;607452
+1923;1904;Kevin;Hernandez;30;4.66;2000-02-24;Table Mountain Rd, Cape Town, South Africa 8001;338452
+7929;287;Ryan;Smith;47;4.87;1970-01-27;159 Birch Street, San Antonio, TX 78201;969448
+5070;9589;Ruth;Taylor;46;4.73;2000-05-29;666 Ocean Avenue, Miami, FL 33101;642820
+9879;1881;Sharon;Davis;13;4.44;1967-07-06;864 Palm Drive, San Jose, CA 95101;95193
+4420;8018;Brandon;Clark;37;4.3;2000-08-20;Shibuya Crossing 2, Tokyo, Japan 150-0043;209138
+1170;618;Barbara;Perez;8;4.84;1973-01-26;555 Mountain Street, Washington, DC 20001;245486
+7611;1025;Jeffrey;Flores;42;4.28;1985-03-04;753 Willow Avenue, San Diego, CA 92101;735365
+3664;4430;Linda;Lopez;16;4.05;2007-09-14;789 Pine Road, Chicago, IL 60601;859743
+263;3312;Dorothy;Johnson;37;3.97;2003-11-03;555 Mountain Street, Washington, DC 20001;304073
+6950;8787;Frank;Miller;34;3.73;1965-03-20;Forbidden City 4, Beijing, China 100006;874063
+6865;1608;Sandra;Martin;17;4.1;1974-03-16;222 Park Avenue, Boston, MA 02101;911531
+8726;8946;Nancy;Scott;0;4.78;1978-09-19;CN Tower 301, Toronto, Canada M5V 2T6;990277
+8567;2250;Michelle;Torres;9;3.7;1977-06-30;Forbidden City 4, Beijing, China 100006;945598
+4860;7397;Stephen;Sanchez;12;4.49;1989-04-16;864 Palm Drive, San Jose, CA 95101;188230
+7929;9670;Robert;Walker;18;4.35;1965-05-12;222 Park Avenue, Boston, MA 02101;888240
+6813;6648;Janet;Mitchell;22;4.42;1968-02-14;555 Mountain Street, Washington, DC 20001;332123
+6350;7522;Scott;Moore;24;3.32;1994-09-18;123 Main Street, New York, NY 10001;354356
+6845;4908;Melissa;Lopez;2;4.63;2000-01-23;Gyeongbokgung Palace 161, Seoul, South Korea 03045;616994
+722;9426;Jonathan;Nelson;2;3.14;1988-05-25;159 Birch Street, San Antonio, TX 78201;523457
+2126;1583;Donna;Hall;36;4.48;1973-04-13;666 Ocean Avenue, Miami, FL 33101;72726
+850;1348;Stephanie;Carter;21;4.01;2002-03-30;987 Cedar Lane, Philadelphia, PA 19101;132492
+4838;4389;Nancy;Anderson;36;3.0;2007-04-18;Table Mountain Rd, Cape Town, South Africa 8001;589354
+8657;6879;Dennis;Martinez;36;4.79;1995-11-23;222 Park Avenue, Boston, MA 02101;644752
+5230;5952;Kevin;Torres;27;3.99;1979-10-09;123 Main Street, New York, NY 10001;781373
+993;3803;Dorothy;Scott;40;3.25;1982-09-21;Marina Bay Sands 10, Singapore 018956;453803
+8635;3819;Deborah;King;34;3.85;2004-10-17;654 Maple Drive, Phoenix, AZ 85001;646475
+8867;5552;John;White;1;3.04;1989-10-18;753 Willow Avenue, San Diego, CA 92101;848844
+137;3223;Jacob;Davis;24;4.3;1964-06-30;Sydney Opera House, Sydney, Australia 2000;746671
+4022;9902;Helen;Campbell;36;4.31;1974-12-09;321 Elm Boulevard, Houston, TX 77001;165955
+1151;363;Paul;Torres;10;3.97;1990-06-11;333 River Road, Seattle, WA 98101;891726
+1715;2503;Karen;Rivera;12;3.19;1974-11-19;654 Maple Drive, Phoenix, AZ 85001;233762
+1423;6836;Jerry;Williams;42;3.02;2004-01-17;555 Mountain Street, Washington, DC 20001;314512
+4776;9793;Susan;Adams;17;4.87;1968-02-19;159 Birch Street, San Antonio, TX 78201;298764
+3176;6907;Christine;Moore;21;4.32;2002-12-28;789 Pine Road, Chicago, IL 60601;377253
+3008;8597;Jennifer;Robinson;22;4.74;1978-10-29;654 Maple Drive, Phoenix, AZ 85001;820162
+5897;2433;Kimberly;Thomas;21;4.12;1996-02-06;753 Willow Avenue, San Diego, CA 92101;401393
+6932;4108;Nicholas;Walker;7;4.45;1964-12-11;444 Lake View, Denver, CO 80201;65320
+3086;8310;Elizabeth;Wright;9;4.38;2007-05-01;444 Lake View, Denver, CO 80201;479198
+1302;2702;Charles;Miller;25;3.72;1983-07-10;Gyeongbokgung Palace 161, Seoul, South Korea 03045;311638
+7943;8250;Richard;Nelson;10;4.42;1961-04-21;456 Oak Avenue, Los Angeles, CA 90001;103574
+2207;1451;Joseph;Martin;48;3.41;1983-11-12;864 Palm Drive, San Jose, CA 95101;586943
+2402;2646;Brandon;Young;6;3.03;1982-10-04;Sagrada Família 401, Barcelona, Spain 08013;454112
+6505;9221;Angela;Torres;19;4.09;1983-12-13;Brandenburger Tor 1, Berlin, Germany 10117;366667
+2290;3377;Christine;Ramirez;1;4.23;1985-12-27;Sagrada Família 401, Barcelona, Spain 08013;37299
+7307;359;Susan;Clark;12;3.62;1991-04-10;444 Lake View, Denver, CO 80201;422136
+9328;1227;Patricia;Campbell;17;4.39;1994-09-24;Gyeongbokgung Palace 161, Seoul, South Korea 03045;252208
+2739;1859;Betty;Sanchez;7;4.41;1963-05-13;Table Mountain Rd, Cape Town, South Africa 8001;44210
+4620;8099;Laura;Robinson;33;4.82;1999-02-24;654 Maple Drive, Phoenix, AZ 85001;682490
+2544;9850;Kathleen;Williams;5;3.36;1993-02-10;CN Tower 301, Toronto, Canada M5V 2T6;28838
+396;8799;Elizabeth;Green;5;4.15;1991-02-17;Brandenburger Tor 1, Berlin, Germany 10117;270479
+5174;6198;Eric;Nelson;50;3.53;1974-10-03;333 River Road, Seattle, WA 98101;162007
+2273;8770;Samuel;Garcia;21;3.69;1969-12-21;Brandenburger Tor 1, Berlin, Germany 10117;392743
+8934;8270;Angela;Davis;48;4.17;1968-03-13;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;352377
+9948;1970;Jason;Nguyen;24;3.59;1993-08-04;Red Square 1, Moscow, Russia 109012;144494
+9367;4422;Sandra;Wright;30;4.34;1962-11-23;Gyeongbokgung Palace 161, Seoul, South Korea 03045;957004
+1227;9909;Timothy;Rivera;22;3.27;1996-03-25;654 Maple Drive, Phoenix, AZ 85001;571644
+9913;1145;Rebecca;Lee;20;3.85;1999-12-06;Marina Bay Sands 10, Singapore 018956;762337
+2416;4675;Ryan;Wright;17;3.29;1968-12-17;CN Tower 301, Toronto, Canada M5V 2T6;994151
+521;2327;Sharon;White;21;3.36;1975-03-20;864 Palm Drive, San Jose, CA 95101;568379
+9048;2057;Ashley;Roberts;15;3.08;1967-07-23;Sagrada Família 401, Barcelona, Spain 08013;642416
+3911;1527;Nicole;Lewis;9;3.26;1981-02-12;222 Park Avenue, Boston, MA 02101;314576
+7772;4375;Helen;Roberts;36;4.89;1990-07-09;Marina Bay Sands 10, Singapore 018956;521091
+1105;6427;Jennifer;Scott;32;4.5;1996-03-02;Burj Khalifa 1, Dubai, UAE;821197
+5318;7292;Lisa;Nelson;28;3.06;1963-01-30;333 River Road, Seattle, WA 98101;638101
+3403;8539;Nancy;Anderson;47;3.34;1966-04-09;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;148836
+1838;9620;Angela;Allen;42;3.23;1979-12-27;246 Spruce Road, Dallas, TX 75201;291926
+716;1961;Andrew;Rivera;15;4.34;1992-10-07;654 Maple Drive, Phoenix, AZ 85001;692119
+9455;9581;Kimberly;Miller;18;4.89;2002-02-21;654 Maple Drive, Phoenix, AZ 85001;937988
+7999;8197;Anna;Gonzalez;15;4.2;1968-11-26;987 Cedar Lane, Philadelphia, PA 19101;59227
+7038;3711;Katherine;Jones;23;3.75;1974-02-20;159 Birch Street, San Antonio, TX 78201;717488
+4944;5584;Patricia;Anderson;36;3.96;1974-07-02;246 Spruce Road, Dallas, TX 75201;225580
+4280;2441;William;Wright;19;3.72;1992-11-22;753 Willow Avenue, San Diego, CA 92101;889444
+7664;6183;Charles;Lee;2;4.83;2005-04-14;864 Palm Drive, San Jose, CA 95101;202594
+2264;3651;Timothy;Hill;24;4.52;1991-11-27;Burj Khalifa 1, Dubai, UAE;875182
+5258;6629;Edward;Thompson;41;4.89;1962-06-09;456 Oak Avenue, Los Angeles, CA 90001;444707
+1134;2681;Ryan;Miller;32;4.51;2007-03-04;Champs-Élysées 75, Paris, France 75008;429663
+568;5817;Kimberly;Baker;11;5.01;1964-05-21;222 Park Avenue, Boston, MA 02101;936392
+5790;6150;Jacob;Perez;15;3.31;1986-07-01;654 Maple Drive, Phoenix, AZ 85001;409547
+9701;6870;Mark;Hall;40;4.92;1999-08-15;333 River Road, Seattle, WA 98101;933041
+1844;6496;Kimberly;Carter;48;4.82;1980-08-15;753 Willow Avenue, San Diego, CA 92101;139761
+6632;1737;Thomas;Martin;3;4.22;1998-09-03;666 Ocean Avenue, Miami, FL 33101;369325
+10000;4456;Sandra;Gonzalez;37;4.69;1990-11-12;456 Oak Avenue, Los Angeles, CA 90001;253485
+7871;6136;Melissa;Gonzalez;41;4.85;1973-06-20;753 Willow Avenue, San Diego, CA 92101;919469
+5378;4884;Lisa;Smith;22;4.95;1994-07-05;Taj Mahal, Agra, India 282001;209984
+2040;7916;Daniel;Ramirez;4;3.4;1977-02-26;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;902664
+8372;3360;Carol;Nelson;2;3.17;1995-10-02;321 Elm Boulevard, Houston, TX 77001;597132
+5752;5290;Frank;Roberts;14;4.37;1979-10-14;Shibuya Crossing 2, Tokyo, Japan 150-0043;531696
+8373;9731;Stephen;Allen;47;4.97;2003-05-17;222 Park Avenue, Boston, MA 02101;78791
+5779;8266;Janet;King;11;3.26;1989-04-04;555 Mountain Street, Washington, DC 20001;711021
+4952;2441;Susan;Perez;38;3.16;1980-08-09;789 Pine Road, Chicago, IL 60601;756503
+4560;6291;David;Torres;30;4.2;2000-01-18;555 Mountain Street, Washington, DC 20001;50378
+138;4633;Amy;Sanchez;42;4.35;1998-06-21;654 Maple Drive, Phoenix, AZ 85001;186387
+2634;8590;Maria;Gonzalez;39;3.84;1970-03-05;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;64064
+9850;975;Christine;Clark;37;4.77;1965-01-29;Taj Mahal, Agra, India 282001;956413
+2984;1335;Jacob;Thomas;20;3.16;1978-06-14;Red Square 1, Moscow, Russia 109012;145794
+7954;5722;Jerry;Garcia;22;4.79;1974-11-12;444 Lake View, Denver, CO 80201;753120
+3816;294;Dennis;Anderson;46;3.43;1976-09-18;159 Birch Street, San Antonio, TX 78201;47762
+361;1853;Joshua;Thompson;32;3.97;1999-03-11;Sydney Opera House, Sydney, Australia 2000;133468
+933;9090;Maria;Lee;43;3.59;1983-01-21;Burj Khalifa 1, Dubai, UAE;678479
+7781;5001;Donna;Green;11;4.73;1966-10-23;Brandenburger Tor 1, Berlin, Germany 10117;548080
+8286;5077;Donald;Sanchez;50;3.54;1970-03-31;987 Cedar Lane, Philadelphia, PA 19101;331715
+9193;1119;Betty;Taylor;37;4.92;1963-01-08;456 Oak Avenue, Los Angeles, CA 90001;870311
+1644;1768;Elizabeth;Hill;35;3.02;1990-04-14;789 Pine Road, Chicago, IL 60601;842196
+8680;8749;Dorothy;Hernandez;30;3.66;1961-08-04;Piazza San Marco 1, Venice, Italy 30124;213785
+657;8685;Nancy;Hill;45;3.44;1966-08-11;Champs-Élysées 75, Paris, France 75008;172682
+6576;2807;Nancy;Robinson;36;3.73;1996-04-16;CN Tower 301, Toronto, Canada M5V 2T6;351947
+1267;4556;Frank;Mitchell;35;3.67;2007-07-06;321 Elm Boulevard, Houston, TX 77001;801235
+386;5814;Anna;Campbell;38;3.93;1999-12-09;222 Park Avenue, Boston, MA 02101;465467
+784;9145;Helen;Green;9;3.24;1992-07-20;Marina Bay Sands 10, Singapore 018956;941700
+4279;7436;Benjamin;Walker;50;4.7;1984-01-18;246 Spruce Road, Dallas, TX 75201;917406
+8087;822;Gregory;Thompson;8;4.31;1995-02-15;Champs-Élysées 75, Paris, France 75008;165953
+2410;5658;Gregory;Thompson;12;3.52;1965-11-08;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;632749
+9149;2229;Laura;Taylor;18;4.15;1965-01-14;Sagrada Família 401, Barcelona, Spain 08013;331838
+1489;7154;Margaret;Torres;3;3.81;2006-03-11;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;966246
+5180;7507;Mark;Thomas;13;3.56;2005-01-29;Burj Khalifa 1, Dubai, UAE;409748
+9970;7799;Samantha;Hill;23;4.59;1967-05-31;987 Cedar Lane, Philadelphia, PA 19101;715166
+3102;3225;John;Rodriguez;7;3.72;1987-06-01;753 Willow Avenue, San Diego, CA 92101;761685
+500;5464;Sharon;Jackson;38;3.67;1988-01-11;222 Park Avenue, Boston, MA 02101;803185
+9064;1021;Cynthia;Anderson;23;4.9;1973-08-29;555 Mountain Street, Washington, DC 20001;962222
+4566;8373;Jennifer;Campbell;3;4.74;1985-05-10;666 Ocean Avenue, Miami, FL 33101;287137
+4922;4855;Christine;Thomas;19;4.87;1991-02-24;Brandenburger Tor 1, Berlin, Germany 10117;849840
+5675;7404;Rebecca;White;29;3.59;1963-01-08;246 Spruce Road, Dallas, TX 75201;184550
+1518;3004;Joshua;Roberts;25;4.39;1965-05-03;864 Palm Drive, San Jose, CA 95101;345168
+3158;605;Maria;Rodriguez;32;4.87;1974-02-25;555 Mountain Street, Washington, DC 20001;908381
+9092;2890;Timothy;Davis;25;4.41;1982-12-09;222 Park Avenue, Boston, MA 02101;927978
+8445;144;Thomas;Perez;15;3.95;2003-02-17;555 Mountain Street, Washington, DC 20001;218522
+4663;6212;Anthony;Rivera;21;3.91;1986-03-20;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;387257
+3854;5115;Kimberly;Torres;31;3.67;1975-11-17;Brandenburger Tor 1, Berlin, Germany 10117;37411
+1266;1974;Stephen;Johnson;40;4.92;1973-01-28;654 Maple Drive, Phoenix, AZ 85001;719805
+8160;1828;Anna;Torres;11;3.06;1980-04-29;Brandenburger Tor 1, Berlin, Germany 10117;265930
+9247;8266;Jeffrey;Taylor;46;4.27;1994-07-15;Forbidden City 4, Beijing, China 100006;955830
+4627;3755;Debra;Martin;15;4.44;1995-05-23;Brandenburger Tor 1, Berlin, Germany 10117;787147
+745;8389;David;Torres;33;4.67;1992-02-05;123 Main Street, New York, NY 10001;753994
+5560;7098;Kevin;White;15;3.47;1997-10-16;Red Square 1, Moscow, Russia 109012;593566
+6113;6810;Anna;Jackson;27;3.23;1973-10-08;Forbidden City 4, Beijing, China 100006;384496
+2382;971;Amanda;Lopez;26;3.67;1963-06-06;Sagrada Família 401, Barcelona, Spain 08013;173579
+9359;4917;Dorothy;Perez;10;3.67;1975-07-23;Piazza San Marco 1, Venice, Italy 30124;678666
+5837;263;Ryan;Martinez;30;4.99;1993-05-29;Red Square 1, Moscow, Russia 109012;882831
+856;6229;Mark;Jackson;5;3.72;1969-10-29;555 Mountain Street, Washington, DC 20001;917441
+4450;2732;Kathleen;Davis;16;4.87;1965-04-07;123 Main Street, New York, NY 10001;990367
+7915;6666;Kathleen;Jones;24;3.06;1975-07-27;333 River Road, Seattle, WA 98101;880748
+6574;936;Kimberly;Thompson;9;3.05;1972-08-03;Taj Mahal, Agra, India 282001;195809
+9390;1166;Emily;Brown;6;4.06;1975-03-31;CN Tower 301, Toronto, Canada M5V 2T6;761080
+3220;6951;Gary;King;4;3.7;2001-11-03;Shibuya Crossing 2, Tokyo, Japan 150-0043;137072
+7095;2501;Donald;Miller;1;3.11;1970-07-25;159 Birch Street, San Antonio, TX 78201;452877
+192;3130;Helen;Ramirez;21;4.86;1970-09-09;Gyeongbokgung Palace 161, Seoul, South Korea 03045;196828
+858;2535;Stephanie;Rodriguez;21;4.86;1968-09-23;Red Square 1, Moscow, Russia 109012;880421
+6796;6845;Rebecca;Martin;27;4.03;1993-10-21;789 Pine Road, Chicago, IL 60601;908838
+7383;1196;Sharon;Moore;27;3.78;1991-05-05;246 Spruce Road, Dallas, TX 75201;602188
+6321;9211;John;Flores;43;4.71;1999-10-09;753 Willow Avenue, San Diego, CA 92101;282118
+2245;3545;Raymond;Harris;7;4.83;1972-07-30;Brandenburger Tor 1, Berlin, Germany 10117;177351
+8160;7530;Nicole;Robinson;9;3.46;1998-02-01;123 Main Street, New York, NY 10001;645192
+3129;4682;Karen;Perez;35;4.84;1968-11-03;654 Maple Drive, Phoenix, AZ 85001;251012
+4537;599;David;Taylor;5;3.95;1996-12-15;Burj Khalifa 1, Dubai, UAE;62159
+1994;6930;Edward;Smith;29;4.9;1970-09-28;Burj Khalifa 1, Dubai, UAE;334199
+5325;2297;Katherine;Walker;25;3.04;1989-04-30;444 Lake View, Denver, CO 80201;7743
+394;3557;Nancy;Martinez;50;4.07;1977-06-22;Brandenburger Tor 1, Berlin, Germany 10117;538980
+7446;1139;Sandra;Thompson;20;4.76;1963-11-06;Red Square 1, Moscow, Russia 109012;455565
+2284;4098;Margaret;Walker;39;3.97;1995-04-27;Sydney Opera House, Sydney, Australia 2000;704550
+2115;5458;Amy;Perez;38;3.84;1970-05-23;444 Lake View, Denver, CO 80201;352122
+9423;874;Patrick;Perez;8;4.63;1988-02-22;CN Tower 301, Toronto, Canada M5V 2T6;352714
+5565;1750;Margaret;Roberts;7;3.66;1986-03-22;Sagrada Família 401, Barcelona, Spain 08013;520905
+4817;7368;Ronald;Smith;21;3.4;1996-11-11;444 Lake View, Denver, CO 80201;844738
+9654;5209;Janet;Hall;22;3.52;2001-08-23;Sagrada Família 401, Barcelona, Spain 08013;614833
+6399;265;William;Robinson;39;3.83;1993-06-13;Sydney Opera House, Sydney, Australia 2000;937585
+3921;4042;Ronald;Torres;19;3.26;1969-01-30;Burj Khalifa 1, Dubai, UAE;281025
+6255;3748;Jacob;Carter;5;3.5;1997-05-20;Gyeongbokgung Palace 161, Seoul, South Korea 03045;220523
+9289;9297;Rebecca;Johnson;33;3.62;1986-07-06;Brandenburger Tor 1, Berlin, Germany 10117;329805
+5;3132;Donald;White;37;3.87;1967-08-11;Sydney Opera House, Sydney, Australia 2000;484379
+3413;6922;Ronald;Baker;43;4.8;1985-06-30;246 Spruce Road, Dallas, TX 75201;900009
+3788;7406;Margaret;Jackson;34;4.74;1979-05-20;Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011;364857
+6152;8428;Pamela;Adams;10;3.72;1984-02-28;Table Mountain Rd, Cape Town, South Africa 8001;336889
+2739;8574;Sharon;Garcia;50;3.97;1996-06-27;Taj Mahal, Agra, India 282001;77397
+6187;7723;Amanda;Davis;0;3.1;2005-09-06;Champs-Élysées 75, Paris, France 75008;347427
+1983;5957;Betty;Rodriguez;27;4.85;1984-05-30;987 Cedar Lane, Philadelphia, PA 19101;745546
+8811;3002;Nancy;Nelson;27;4.31;2005-09-14;Taj Mahal, Agra, India 282001;517759
+806;1719;Timothy;Adams;3;4.48;1968-08-31;Sagrada Família 401, Barcelona, Spain 08013;433624
+2364;5766;Emily;Torres;22;4.82;1992-12-05;246 Spruce Road, Dallas, TX 75201;590698
+5923;7007;Ryan;Brown;8;3.5;1986-04-03;864 Palm Drive, San Jose, CA 95101;820111
+2274;4828;Gregory;Hernandez;31;4.95;1972-10-23;789 Pine Road, Chicago, IL 60601;924140
+1136;8867;Michael;Carter;21;4.76;1969-03-22;444 Lake View, Denver, CO 80201;736158
+1572;6596;Brandon;Clark;45;4.49;1970-04-07;Champs-Élysées 75, Paris, France 75008;958767
+9016;8161;Gary;Carter;34;4.03;1987-09-24;333 River Road, Seattle, WA 98101;772326
+3349;1588;Sharon;Rodriguez;26;3.58;1999-11-15;Sagrada Família 401, Barcelona, Spain 08013;119189
+2144;1965;Donald;Gonzalez;39;3.26;1971-03-23;321 Elm Boulevard, Houston, TX 77001;701662
+3552;1919;Patricia;Martin;27;3.75;1982-06-28;444 Lake View, Denver, CO 80201;266344
+6245;7604;Kathleen;Davis;16;4.84;1997-12-19;CN Tower 301, Toronto, Canada M5V 2T6;556022
+5699;3055;Carol;Johnson;30;4.28;1971-10-28;666 Ocean Avenue, Miami, FL 33101;879101
+6800;1719;Laura;King;3;4.34;1995-04-02;Red Square 1, Moscow, Russia 109012;726972
+7135;7953;Christopher;White;1;4.72;1986-12-31;CN Tower 301, Toronto, Canada M5V 2T6;81552
+3501;3024;Maria;Lopez;42;4.96;1987-04-05;159 Birch Street, San Antonio, TX 78201;640564
+1552;4063;Justin;Clark;16;3.14;2001-09-15;753 Willow Avenue, San Diego, CA 92101;380635
+6886;3390;Andrew;Harris;27;4.86;1965-05-05;333 River Road, Seattle, WA 98101;28911
+6169;8709;Donna;Harris;20;4.05;2007-04-03;Marina Bay Sands 10, Singapore 018956;286205
+6707;464;Helen;Lewis;17;3.58;1990-01-29;CN Tower 301, Toronto, Canada M5V 2T6;182753
+9568;3189;Jack;Nguyen;20;3.56;2007-06-22;444 Lake View, Denver, CO 80201;67810
+656;5807;Larry;Robinson;19;3.45;1997-11-30;Shibuya Crossing 2, Tokyo, Japan 150-0043;130134
+1112;3877;Anna;Campbell;35;3.24;1980-12-20;444 Lake View, Denver, CO 80201;91709
+9878;9726;Donna;Lee;24;4.19;1963-06-08;753 Willow Avenue, San Diego, CA 92101;23386
+8321;1966;Brandon;Sanchez;23;3.94;1971-12-17;333 River Road, Seattle, WA 98101;836618
+1202;2905;Brian;Nelson;41;3.92;1976-07-16;864 Palm Drive, San Jose, CA 95101;304050
+9708;9983;Mark;Moore;32;4.29;1964-01-20;666 Ocean Avenue, Miami, FL 33101;52938
+5285;5128;Jennifer;Lewis;22;3.98;1971-11-29;Gyeongbokgung Palace 161, Seoul, South Korea 03045;710579
+51;350;Susan;Robinson;39;4.71;1974-05-09;Sydney Opera House, Sydney, Australia 2000;749824
+2419;5191;Alexander;Clark;26;4.9;2007-03-05;Red Square 1, Moscow, Russia 109012;581146
+1576;6235;Frank;White;11;4.42;1960-12-29;Piazza San Marco 1, Venice, Italy 30124;693582
+6976;5032;Jerry;King;13;4.08;1977-02-05;Marina Bay Sands 10, Singapore 018956;947245
+7892;2513;Gregory;Moore;34;3.02;1999-06-13;321 Elm Boulevard, Houston, TX 77001;73622
+5024;4731;Frank;Davis;12;4.5;1993-02-12;Table Mountain Rd, Cape Town, South Africa 8001;245545
+4618;1462;Angela;Allen;21;4.97;2006-11-16;Marina Bay Sands 10, Singapore 018956;753356
+2876;2034;Barbara;Rivera;14;3.14;1989-11-17;321 Elm Boulevard, Houston, TX 77001;403292
+4194;9939;Kathleen;Rodriguez;5;3.52;1981-09-04;444 Lake View, Denver, CO 80201;638089
+4693;906;Eric;Nelson;5;3.73;1975-11-05;123 Main Street, New York, NY 10001;127789
+9006;2868;Gregory;Wright;36;4.15;1984-04-18;666 Ocean Avenue, Miami, FL 33101;553509
+2573;7526;Ronald;Lewis;1;3.66;1972-11-09;222 Park Avenue, Boston, MA 02101;112510
+7337;1180;Jerry;Scott;27;4.79;1997-10-21;Piazza San Marco 1, Venice, Italy 30124;837658
+2595;4472;Gregory;Wilson;50;4.71;1962-12-11;Piazza San Marco 1, Venice, Italy 30124;760295
+6773;7195;Katherine;Williams;22;4.89;2000-06-30;987 Cedar Lane, Philadelphia, PA 19101;747862
+5225;7271;Janet;Gonzalez;8;3.13;1962-05-18;Taj Mahal, Agra, India 282001;562734
+3955;3824;Anthony;Lopez;49;4.38;1985-10-28;444 Lake View, Denver, CO 80201;911213
+6287;9777;Michelle;Campbell;25;4.03;1989-01-29;Table Mountain Rd, Cape Town, South Africa 8001;63366
+2362;7216;Kathleen;Martinez;6;4.05;1998-07-14;654 Maple Drive, Phoenix, AZ 85001;941675
+9626;3905;Brenda;Robinson;43;4.21;1984-09-29;Brandenburger Tor 1, Berlin, Germany 10117;65700
+9059;5388;Amy;Flores;1;4.61;2000-03-29;Gyeongbokgung Palace 161, Seoul, South Korea 03045;921639
+5398;5139;Edward;Lopez;38;4.52;1998-05-14;789 Pine Road, Chicago, IL 60601;617135
+8245;9458;Brandon;Harris;13;4.11;1998-12-26;Burj Khalifa 1, Dubai, UAE;581262
+5952;5740;Frank;Smith;40;4.49;1968-03-22;333 River Road, Seattle, WA 98101;492802
+4367;9107;Brenda;Nelson;35;3.86;1961-06-19;CN Tower 301, Toronto, Canada M5V 2T6;763956
+371;4078;Mary;Roberts;22;4.61;1972-05-26;Table Mountain Rd, Cape Town, South Africa 8001;94
+9387;4263;Amy;Hill;32;3.02;2002-07-27;159 Birch Street, San Antonio, TX 78201;459621
+722;7771;Ronald;Clark;29;4.52;2005-05-28;Brandenburger Tor 1, Berlin, Germany 10117;262159
+1166;7934;Raymond;Williams;29;3.06;2004-03-02;123 Main Street, New York, NY 10001;590751
+598;5150;Deborah;Smith;1;3.41;1982-03-03;Sydney Opera House, Sydney, Australia 2000;383044
+6784;785;Christopher;Adams;2;3.28;1968-10-23;Forbidden City 4, Beijing, China 100006;468015
+4147;34;Jonathan;Gonzalez;19;4.14;1981-09-19;333 River Road, Seattle, WA 98101;3190
+2485;6195;Patrick;Torres;3;3.0;1969-10-25;Forbidden City 4, Beijing, China 100006;653060
+6469;2449;Jerry;Taylor;8;4.77;1999-04-23;Sydney Opera House, Sydney, Australia 2000;686999
+2843;7019;William;Adams;45;4.03;1977-05-28;Burj Khalifa 1, Dubai, UAE;22938
+780;362;Gary;Brown;22;3.14;1969-04-15;CN Tower 301, Toronto, Canada M5V 2T6;659099
+5747;380;William;Johnson;31;4.73;1969-08-13;Burj Khalifa 1, Dubai, UAE;156471
+7315;8892;Joshua;Brown;1;4.46;2005-11-03;321 Elm Boulevard, Houston, TX 77001;913014
+4000;4665;Jason;Nguyen;42;3.95;1985-10-20;789 Pine Road, Chicago, IL 60601;654656
+7767;7119;Samuel;Walker;21;4.85;1962-10-13;Brandenburger Tor 1, Berlin, Germany 10117;667111
+8267;7371;Jennifer;King;43;3.64;1981-10-27;Red Square 1, Moscow, Russia 109012;246838
+315;9633;Janet;Rivera;38;4.51;2005-03-07;Shibuya Crossing 2, Tokyo, Japan 150-0043;209840
+6198;9377;Emily;Thomas;41;4.25;1983-09-01;Sydney Opera House, Sydney, Australia 2000;884699
+8913;1773;Patrick;Taylor;16;3.87;1988-12-03;Gyeongbokgung Palace 161, Seoul, South Korea 03045;901211
+2940;2088;Samantha;Lewis;41;3.18;2005-01-15;159 Birch Street, San Antonio, TX 78201;211582
+3320;6613;Joseph;Roberts;17;4.3;1964-12-12;Forbidden City 4, Beijing, China 100006;716897
+9314;8246;Debra;Williams;9;3.31;1961-07-29;CN Tower 301, Toronto, Canada M5V 2T6;806447
+1182;9642;Helen;King;34;4.59;2004-05-22;Champs-Élysées 75, Paris, France 75008;480786
+1789;1224;Ruth;Thompson;50;3.48;1972-11-07;Marina Bay Sands 10, Singapore 018956;119160
+834;556;Christine;Martinez;13;4.37;1968-03-04;Forbidden City 4, Beijing, China 100006;39206
+1863;5997;Lisa;Gonzalez;27;3.93;1969-11-20;Champs-Élysées 75, Paris, France 75008;95461
+8753;652;Janet;King;15;4.31;1963-01-15;Table Mountain Rd, Cape Town, South Africa 8001;621598
+6768;6946;Steven;Williams;21;4.81;1969-11-26;Champs-Élysées 75, Paris, France 75008;860332
+3817;1990;Rachel;Gonzalez;5;3.55;1984-10-22;789 Pine Road, Chicago, IL 60601;892135
+3881;4219;Melissa;Adams;16;3.79;1990-03-12;789 Pine Road, Chicago, IL 60601;115440
+3769;9435;Catherine;Lee;28;3.71;2005-02-08;222 Park Avenue, Boston, MA 02101;564819
+8331;8814;Betty;Smith;18;4.03;1979-05-23;444 Lake View, Denver, CO 80201;147733
