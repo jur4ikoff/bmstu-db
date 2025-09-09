@@ -9,6 +9,7 @@ COPY_SQL = script_dir + "/sql/copy_tables.sql"
 DROP_SQL = script_dir + "/sql/drop_tables.sql"
 LIMITATION_SQL = script_dir + "/sql/limitations.sql"
 
+
 class Settings(BaseSettings):
     DB_HOST: str
     DB_PORT: int
@@ -25,12 +26,7 @@ settings = Settings()
 
 
 def get_db_url():
-    print(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"))
-    return True
-
-
-# def get_db_url():
-#     return (
-#         f"postgresql+asyncpg://{settings.DB_USER}:{settings.DB_PASSWORD}@"
-#         f"{settings.DB_HOST}:{settings.DB_PORT}/{settings.DB_NAME}"
-#     )
+    return (
+        f"postgresql+asyncpg://{settings.DB_USER}:{settings.DB_PASSWORD}@"
+        f"{settings.DB_HOST}:{settings.DB_PORT}/{settings.DB_NAME}"
+    )

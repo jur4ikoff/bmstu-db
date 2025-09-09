@@ -23,7 +23,7 @@ class Driver:
     car_id: int
     first_name: str
     last_name: str
-    experience: str
+    experience: int
     score: str
     date_of_birthday: date
     adress: str
@@ -40,8 +40,8 @@ class Driver:
     def generate(cls):
         driver: Driver = Driver()
 
-        driver.driver_id = random.randint(0, 10000)
-        driver.car_id = random.randint(0, 10000)
+        driver.driver_id = random.randint(0, 100000)
+        driver.car_id = random.randint(0, 100000)
 
         driver.first_name = first_name_list[random.randint(0, len(first_name_list) - 1)]
         driver.last_name = last_name_list[random.randint(0, len(last_name_list) - 1)]
@@ -103,9 +103,9 @@ class Trip:
 
         trip.trip_id = random.randint(0, 100000)
 
-        trip.driver_id = random.randint(0, 10000)
-        trip.passenger_id = random.randint(0, 10000)
-        trip.payment_id = random.randint(0, 1000)
+        trip.driver_id = random.randint(0, 100000)
+        trip.passenger_id = random.randint(0, 100000)
+        trip.payment_id = random.randint(0, 100000)
         trip.source_adress = random_adresses[
             random.randint(0, len(random_adresses) - 1)
         ]
@@ -164,7 +164,7 @@ class Passenger:
     def generate(cls):
         passenger = Passenger()
 
-        passenger.passenger_id = random.randint(0, 10000)
+        passenger.passenger_id = random.randint(0, 100000)
         passenger.first_name = first_name_list[
             random.randint(0, len(first_name_list) - 1)
         ]
@@ -207,7 +207,7 @@ class Payment:
     def generate(cls):
         payment = Payment()
 
-        payment.payment_id = random.randint(0, 1000)
+        payment.payment_id = random.randint(0, 100000)
         payment.invoice = random.randint(1000000, 9999999)
         payment.status = True
 

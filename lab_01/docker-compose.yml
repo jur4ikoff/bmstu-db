@@ -4,13 +4,14 @@ services:
     container_name: postgres_container
     environment:
       POSTGRES_USER: postgres_user
-      POSTGRES_PASSWORD: qwerty1234
+      POSTGRES_PASSWORD: postgres_password
       POSTGRES_DB: postgres_db
       PGDATA: /var/lib/postgresql/data/pgdata
     ports:
       - "5430:5432"
     volumes:
       - ./pgdata:/var/lib/postgresql/data/pgdata
+      - ./data:/data
     deploy:
       resources:
         limits:
