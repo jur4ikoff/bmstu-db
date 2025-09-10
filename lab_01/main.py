@@ -26,12 +26,9 @@ def generate_csv(model, filename: str):
         os.remove(filename)
 
     with open(file=filename, mode="w", newline="", encoding="utf-8") as file:
-        for i in range(GENERATE_COUNT + 1):
-            if i == 0:
-                line = model.headers()
-            else:
-                generate_model = model.generate()
-                line = generate_model.to_list()
+        for i in range(GENERATE_COUNT):
+            generate_model = model.generate(primary_key=i + 1)
+            line = generate_model.to_list()
 
             writer = csv.writer(file, delimiter=";")
             writer.writerow(line)
@@ -40,20 +37,22 @@ def generate_csv(model, filename: str):
 async def main():
     print("create database")
     database = DataBase()
+    try:
+        await database.drop_table()
+    except Exception as e:
+        print("database doesn`t exist")
 
-    # # try:
-    # await database.drop_table()
-    # # except Exception as e:
-    # #     print("Error while dropping")
+    print("create tables")
+    await database.create_tables()
 
-    # await database.create_tables()
+    generate_csv(Driver, DRIVERS_FILE)
+    generate_csv(Trip, TRIPS_FILE)
+    generate_csv(Passenger, PASSENGERS_FILE)
+    generate_csv(Payment, PAYMENTS_FILE)
+    generate_csv(Car, CARS_FILE)
+
+    print("copying")
     await database.copy_tables()
-    # print("Generating data")
-    # generate_csv(Driver, DRIVERS_FILE)
-    # generate_csv(Trip, TRIPS_FILE)
-    # generate_csv(Passenger, PASSENGERS_FILE)
-    # generate_csv(Payment, PAYMENTS_FILE)
-    # generate_csv(Car, CARS_FILE)
 
 
 if __name__ == "__main__":

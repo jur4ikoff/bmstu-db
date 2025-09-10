@@ -1,8 +1,5 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
-from sqlalchemy.orm import DeclarativeBase, declared_attr, Mapped, mapped_column
 from sqlalchemy import func, text
-from datetime import datetime
-from typing import Annotated
 
 from config import get_db_url, CREATE_SQL, COPY_SQL, DROP_SQL, LIMITATION_SQL
 
@@ -17,49 +14,54 @@ class DataBase:
         pass
 
     @classmethod
-    def parse_sql_file(cls, filepath):
-        with open(filepath, "r") as f:
+    def read_sql_file(cls, filepath):
+        with open(filepath, mode="r", encoding="utf-8") as f:
             content = f.read()
+            return content
 
-        queries = []
-        for query in content.split(";"):
-            query = query.strip()
+    @classmethod
+    def parse_sql(cls, response):
+        content = response.split(";")
 
-            if query and not query.startswith("--"):
-                queries.append(query + ";")
-
-        return queries
+        return content
 
     async def create_tables(self):
-        with open(file=CREATE_SQL, mode="r", encoding="utf-8") as file:
-            sql_content = file.read()
+        create_contents = self.read_sql_file(CREATE_SQL)
+        create_contents = self.parse_sql(create_contents)
+
+        limitations_contents = self.read_sql_file(LIMITATION_SQL)
+        limitations_contents = self.parse_sql(limitations_contents)
 
         async with async_session_maker() as session:
-            statements = sql_content.split(";")
-            for statement in statements:
-                statement.strip()
-                if statement:
-                    await session.execute(text(statement))
-            print(1)
+            for create_content in create_contents:
+                await session.execute(text(create_content))
+
+            for limitation_content in limitations_contents:
+                await session.execute(text(limitation_content))
+
             await session.commit()
 
     async def copy_tables(self):
-        with open(COPY_SQL, "r") as f:
-            content = f.read()
-        
+        content = self.read_sql_file(COPY_SQL)
+        content = content.split(";")
+
         async with async_session_maker() as session:
-            await session.execute(text(content))
+            for i in content:
+                i.strip()
+                if i == "'" or not i:
+                    continue
+            
+                if i[-1] == "'":
+                    i += ";'"
+
+                await session.execute(text(i))
+
             await session.commit()
 
+
     async def drop_table(self):
-        with open(file=DROP_SQL, mode="r", encoding="utf-8") as file:
-            sql_content = file.read()
+        content = self.read_sql_file(DROP_SQL)
 
         async with async_session_maker() as session:
-            statements = sql_content.split(";")
-            for statement in statements:
-                statement.strip()
-                if statement:
-                    await session.execute(text(statement))
-
+            await session.execute(text(content))
             await session.commit()
