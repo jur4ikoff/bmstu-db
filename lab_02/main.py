@@ -35,7 +35,7 @@ def generate_csv(model, filename: str):
 
 
 async def main():
-    print("create database")
+    print("create database") 
     database = DataBase()
     try:
         await database.drop_table()
