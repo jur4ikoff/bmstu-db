@@ -1,0 +1,1 @@
+DROP TABLE Driver, Trip, Passenger, Payment, Car
