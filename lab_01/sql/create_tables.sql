@@ -1,6 +1,6 @@
-CREATE TABLE if NOT EXISTS Car
+CREATE TABLE IF NOT EXISTS Car
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     vin_number VARCHAR(15),
     registration_plate VARCHAR(15),
     brand VARCHAR(31),
@@ -8,9 +8,9 @@ CREATE TABLE if NOT EXISTS Car
     mileage INTEGER
 );
 
-CREATE TABLE if not EXISTS Driver
+CREATE TABLE IF NOT EXISTS Driver
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     car_id INTEGER,
     first_name VARCHAR(63), 
     last_name VARCHAR(63),
@@ -18,12 +18,12 @@ CREATE TABLE if not EXISTS Driver
     score NUMERIC,
     date_of_birthday DATE,
     address VARCHAR(128),
-    document_number BIGINT UNIQUE
+    document_number BIGINT
 );
 
-CREATE TABLE if not EXISTS Passenger
+CREATE TABLE IF NOT EXISTS Passenger
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     first_name VARCHAR(63),
     last_name VARCHAR(63),
     date_of_birthday DATE,
@@ -31,24 +31,22 @@ CREATE TABLE if not EXISTS Passenger
 );
 
 
-CREATE TABLE if not EXISTS Payment
+CREATE TABLE IF NOT EXISTS Payment
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     invoice INTEGER,
     status BOOL
 );
 
-CREATE TABLE if not EXISTS Trip
+CREATE TABLE IF NOT EXISTS Trip
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     driver_id INTEGER,
     passenger_id INTEGER,
     payment_id BIGINT,
     source_address VARCHAR(128),
     destenation_address VARCHAR(128),
     price INTEGER,
-    score INTEGER,
-
-    FOREIGN KEY (driver_id) REFERENCES Driver (id),
-    FOREIGN KEY (passenger_id) REFERENCES Passenger (id)
+    score INTEGER
 );
+

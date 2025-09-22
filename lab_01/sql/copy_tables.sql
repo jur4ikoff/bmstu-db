@@ -1,4 +1,4 @@
-COPY Car(id, vin_number, registration_plate, brand, model, mileage) FROM '/data/cars.csv' delimiter ';';
+COPY Car(id, vin_number, registration_plate, brand, model, mileage) FROM '/data/cars.csv' delimiter ';'; 
 COPY Driver(id, car_id, first_name, last_name, experience, score, date_of_birthday, address, document_number) FROM '/data/drivers.csv' delimiter ';';
 COPY Passenger(id, first_name, last_name, date_of_birthday, address) FROM '/data/passengers.csv' delimiter ';';
 COPY Payment(id, invoice, status) FROM '/data/payments.csv' delimiter ';';

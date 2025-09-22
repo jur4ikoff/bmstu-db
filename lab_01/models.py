@@ -37,14 +37,14 @@ class Driver:
         )
 
     @classmethod
-    def generate(cls, primary_key=None):
-        driver: Driver = Driver()
+    def generate(cls, primary_key: int, secondary_key: list):
+        """secondary_key - Массив, из которого будут брать данные для FK"""
 
-        if primary_key:
-            driver.id = primary_key
-        else:
-            driver.id = random.randint(1, 1000000)
-        driver.car_id = random.randint(1, 1000000)
+        driver: Driver = Driver()
+        driver.id = primary_key
+
+        car_id_index = random.randint(0, len(secondary_key) - 1)
+        driver.car_id = secondary_key.pop(car_id_index)
 
         driver.first_name = first_name_list[random.randint(0, len(first_name_list) - 1)]
         driver.last_name = last_name_list[random.randint(0, len(last_name_list) - 1)]
@@ -85,18 +85,20 @@ class Trip:
     score: int
 
     @classmethod
-    def generate(cls, primary_key=None):
+    def generate(
+        cls, id: int, payment_id: list
+    ):
         trip = Trip()
         global trip_count
 
-        if primary_key:
-            trip.id = primary_key
-        else:
-            trip.id = random.randint(1, 1000000)
+        trip.id = id
 
-        trip.driver_id = random.randint(1, 200)
-        trip.passenger_id = random.randint(1, 200)
-        trip.payment_id = random.randint(1, 1000000)
+        trip.driver_id = random.randint(1, 1000)
+        trip.passenger_id = random.randint(1, 1000)
+
+        payment_id_index = random.randint(0, len(payment_id) - 1)
+        trip.payment_id= payment_id.pop(payment_id_index)
+
         trip.source_address = random_adresses[
             random.randint(0, len(random_adresses) - 1)
         ]
@@ -179,13 +181,9 @@ class Payment:
     status: bool
 
     @classmethod
-    def generate(cls, primary_key=None):
+    def generate(cls, primary_key: int):
         payment = Payment()
-
-        if primary_key:
-            payment.id = primary_key
-        else:
-            payment.id = random.randint(0, 1000000)
+        payment.id = primary_key
 
         payment.invoice = random.randint(100000, 999999)
         payment.status = True
@@ -245,6 +243,7 @@ class Car:
             car.id = primary_key
         else:
             car.id = random.randint(1, 100000)
+
         car.vin_number = cls.generate_vin_numbrer()
         car.registration_plate = cls.generate_plate()
 
