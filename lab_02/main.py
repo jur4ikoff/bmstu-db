@@ -46,6 +46,7 @@ async def dml_operations(filedir: str):
 
     for file in files:
         if ".sql" in file: 
+            file = DML_FILEDIR + "/" + file
             await database.dml_run(file)
 
 
@@ -55,6 +56,7 @@ async def main():
 
     # Запуск dml, вторая лаба
     await dml_operations(DML_FILEDIR)
+    pass
 
 
 if __name__ == "__main__":

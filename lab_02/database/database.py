@@ -24,18 +24,19 @@ class DataBase:
     @classmethod
     def read_sql_file_no_comments(cls, filepath):
         with open(filepath, mode="r", encoding="utf-8") as f:
-            
+
             content = []
 
             line = f.readline()
             while line:
-                if (line.startswith("--")):
+                if line.startswith("--") or not line:
                     line = f.readline()
                     continue
 
-                content.append(line.strip())
+                content.append(line)
                 line = f.readline()
-            
+
+            content = "".join(content)
             return content
 
     @classmethod
@@ -72,7 +73,7 @@ class DataBase:
 
                 if i[-1] == "'":
                     i += ";'"
-                    
+
                 await session.execute(text(i))
 
             await session.commit()
@@ -84,17 +85,14 @@ class DataBase:
             await session.execute(text(content))
             await session.commit()
 
-
     async def dml_run(self, filepath: str):
-        content = self.read_sql_file(filepath)
-        print(content)
-        # async with async_session_maker() as session:
-        #     for i, element in enumerate(content):
-        #         print(f"Запуск {i}-ой задачи:")
+        content = self.read_sql_file_no_comments(filepath)
 
-        #         response = await session.execute(text(element))
-        #         print(response.all())
-
+        async with async_session_maker() as session:
+            print(f"\033[92mЗапрос из файла: {filepath}\033[0m")
+            response = await session.execute(text(content))
+            print(response.fetchall())
+            print('___________________________________\n\n')
 
         # async with async_session_maker() as session:
         #     for i in content:
@@ -104,7 +102,7 @@ class DataBase:
 
         #         if i[-1] == "'":
         #             i += ";'"
-                    
+
         #         await session.execute(text(i))
 
         #     await session.commit()
