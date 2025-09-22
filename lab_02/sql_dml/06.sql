@@ -1,5 +1,8 @@
--- SQL файл 06.sql
--- Автоматически создан
+-- 6. Инструкция SELECT, использующая предикат сравнения с квантором. 
+SELECT *
+FROM Trip
+WHERE price > ALL (SELECT price
+				FROM Trip
+				WHERE score < 3)
 
-SELECT 'Hello from 06.sql' as message;
-
+ORDER BY price
