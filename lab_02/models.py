@@ -37,14 +37,14 @@ class Driver:
         )
 
     @classmethod
-    def generate(cls, primary_key=None):
-        driver: Driver = Driver()
+    def generate(cls, primary_key: int, secondary_key: list):
+        """secondary_key - Массив, из которого будут брать данные для FK"""
 
-        if primary_key:
-            driver.id = primary_key
-        else:
-            driver.id = random.randint(1, 1000000)
-        driver.car_id = random.randint(1, 1000000)
+        driver: Driver = Driver()
+        driver.id = primary_key
+
+        car_id_index = random.randint(0, len(secondary_key) - 1)
+        driver.car_id = secondary_key.pop(car_id_index)
 
         driver.first_name = first_name_list[random.randint(0, len(first_name_list) - 1)]
         driver.last_name = last_name_list[random.randint(0, len(last_name_list) - 1)]
@@ -245,6 +245,7 @@ class Car:
             car.id = primary_key
         else:
             car.id = random.randint(1, 100000)
+
         car.vin_number = cls.generate_vin_numbrer()
         car.registration_plate = cls.generate_plate()
 

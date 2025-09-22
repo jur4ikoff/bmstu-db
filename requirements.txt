@@ -5,3 +5,4 @@ pydantic-settings
 asyncpg
 asyncio
 greenlet
+pandas

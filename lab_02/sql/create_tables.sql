@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS Car
 
 CREATE TABLE IF NOT EXISTS Driver
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     car_id INTEGER,
     first_name VARCHAR(63), 
     last_name VARCHAR(63),
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Driver
 
 CREATE TABLE IF NOT EXISTS Passenger
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     first_name VARCHAR(63),
     last_name VARCHAR(63),
     date_of_birthday DATE,
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS Passenger
 
 CREATE TABLE IF NOT EXISTS Payment
 (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     invoice INTEGER,
     status BOOL
 );
@@ -47,9 +47,6 @@ CREATE TABLE IF NOT EXISTS Trip
     source_address VARCHAR(128),
     destenation_address VARCHAR(128),
     price INTEGER,
-    score INTEGER,
-   
-    FOREIGN KEY (driver_id) REFERENCES Driver (id),
-    FOREIGN KEY (passenger_id) REFERENCES Passenger (id)
+    score INTEGER
 );
 
