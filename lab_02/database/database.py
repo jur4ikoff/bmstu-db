@@ -22,6 +22,23 @@ class DataBase:
             return content
 
     @classmethod
+    def read_sql_file_no_comments(cls, filepath):
+        with open(filepath, mode="r", encoding="utf-8") as f:
+            
+            content = []
+
+            line = f.readline()
+            while line:
+                if (line.startswith("--")):
+                    line = f.readline()
+                    continue
+
+                content.append(line.strip())
+                line = f.readline()
+            
+            return content
+
+    @classmethod
     def parse_sql(cls, response):
         content = response.split(";")
 
@@ -66,3 +83,28 @@ class DataBase:
         async with async_session_maker() as session:
             await session.execute(text(content))
             await session.commit()
+
+
+    async def dml_run(self, filepath: str):
+        content = self.read_sql_file(filepath)
+        print(content)
+        # async with async_session_maker() as session:
+        #     for i, element in enumerate(content):
+        #         print(f"Запуск {i}-ой задачи:")
+
+        #         response = await session.execute(text(element))
+        #         print(response.all())
+
+
+        # async with async_session_maker() as session:
+        #     for i in content:
+        #         i.strip()
+        #         if i == "'" or not i:
+        #             continue
+
+        #         if i[-1] == "'":
+        #             i += ";'"
+                    
+        #         await session.execute(text(i))
+
+        #     await session.commit()

@@ -17,6 +17,7 @@ CARS_FILE = script_dir + "/data/cars.csv"
 
 from database.database import DataBase
 
+
 async def generate():
     print("create database")
     database = DataBase()
@@ -37,9 +38,9 @@ async def generate():
     print("copying")
     await database.copy_tables()
 
+
 async def main():
     await generate()
-
 
 
 if __name__ == "__main__":

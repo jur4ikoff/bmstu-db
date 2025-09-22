@@ -15,11 +15,15 @@ PASSENGERS_FILE = script_dir + "/data/passengers.csv"
 PAYMENTS_FILE = script_dir + "/data/payments.csv"
 CARS_FILE = script_dir + "/data/cars.csv"
 
-from database.database import DataBase
+# Файлы для второй лабы
+DML_FILEDIR = script_dir + "/sql_dml"
+DML_OPEATIONS_PATH = script_dir + "/sql_dml/2_lab.sql"
 
-async def main():
-    print("create database")
-    database = DataBase()
+from database.database import DataBase
+database = DataBase()
+
+async def generate():
+    print("dropping database")
     try:
         await database.drop_table()
     except Exception as e:
@@ -36,6 +40,21 @@ async def main():
 
     print("copying")
     await database.copy_tables()
+
+async def dml_operations(filedir: str):
+    files = os.listdir(filedir)
+
+    for file in files:
+        if ".sql" in file: 
+            await database.dml_run(file)
+
+
+async def main():
+    # Создание базы данных - первая лаба
+    # await generate()
+
+    # Запуск dml, вторая лаба
+    await dml_operations(DML_FILEDIR)
 
 
 if __name__ == "__main__":

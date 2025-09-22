@@ -4,10 +4,10 @@ import os
 script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path)
 
-CREATE_SQL = script_dir + "/sql/create_tables.sql"
-COPY_SQL = script_dir + "/sql/copy_tables.sql"
-DROP_SQL = script_dir + "/sql/drop_tables.sql"
-LIMITATION_SQL = script_dir + "/sql/limitations.sql"
+CREATE_SQL = script_dir + "/sql_create/create_tables.sql"
+COPY_SQL = script_dir + "/sql_create/copy_tables.sql"
+DROP_SQL = script_dir + "/sql_create/drop_tables.sql"
+LIMITATION_SQL = script_dir + "/sql_create/limitations.sql"
 
 
 class Settings(BaseSettings):
