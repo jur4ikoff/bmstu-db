@@ -1,5 +1,3 @@
--- SQL файл 20.sql
--- Автоматически создан
-
-SELECT 'Hello from 20.sql' as message;
-
+-- 20. Простая инструкция DELETE. 
+DELETE FROM Car
+WHERE vin_number IS NULL

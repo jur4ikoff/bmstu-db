@@ -1,5 +1,4 @@
--- SQL файл 18.sql
--- Автоматически создан
-
-SELECT 'Hello from 18.sql' as message;
-
+-- 18. Простая инструкция UPDATE
+UPDATE Trip
+SET score = 5
+WHERE id = 10

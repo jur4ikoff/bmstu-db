@@ -1,4 +1,5 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
+from sqlalchemy.exc import ResourceClosedError
 from sqlalchemy import func, text
 
 import pandas as pd
@@ -86,23 +87,16 @@ class DataBase:
             await session.commit()
 
     async def dml_run(self, filepath: str):
+        if filepath.endswith("11.sql") or filepath.endswith("17.sql"):
+            return
+
         content = self.read_sql_file_no_comments(filepath)
 
         async with async_session_maker() as session:
             print(f"\033[92mЗапрос из файла: {filepath}\033[0m")
-            response = await session.execute(text(content))
-            print(response.fetchall())
-            print('___________________________________\n\n')
-
-        # async with async_session_maker() as session:
-        #     for i in content:
-        #         i.strip()
-        #         if i == "'" or not i:
-        #             continue
-
-        #         if i[-1] == "'":
-        #             i += ";'"
-
-        #         await session.execute(text(i))
-
-        #     await session.commit()
+            try:
+                response = await session.execute(text(content))
+                print(response.fetchall())
+                print("___________________________________\n\n")
+            except ResourceClosedError as e:
+                print("success")
