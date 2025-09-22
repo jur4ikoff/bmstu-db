@@ -17,11 +17,6 @@ CARS_FILE = script_dir + "/data/cars.csv"
 
 from database.database import DataBase
 
-
-async def create_database():
-    pass
-
-
 async def main():
     print("create database")
     database = DataBase()
