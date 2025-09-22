@@ -12,6 +12,8 @@ def generate_csv(model, filename: str):
         os.remove(filename)
 
     car_id_list = list(range(1, GENERATE_COUNT + 1))
+    payment_id_list = list(range(1, GENERATE_COUNT + 1))
+
     with open(file=filename, mode="w", newline="", encoding="utf-8") as file:
         for i in range(GENERATE_COUNT):
             
@@ -20,6 +22,8 @@ def generate_csv(model, filename: str):
                 generate_model = model.generate(primary_key=i + 1)
             elif model == Driver:
                 generate_model = model.generate(primary_key=i + 1, secondary_key=car_id_list)
+            elif model == Trip:
+                generate_model = model.generate(id=i + 1, payment_id=payment_id_list)
             else:
                 generate_model = model.generate(primary_key=i + 1)
 

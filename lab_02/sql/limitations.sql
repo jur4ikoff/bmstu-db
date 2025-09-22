@@ -27,4 +27,5 @@ ALTER COLUMN destenation_address SET NOT NULL,
 ADD PRIMARY KEY (id),
 ADD FOREIGN KEY (driver_id) REFERENCES Driver (id),
 ADD FOREIGN KEY (passenger_id) REFERENCES Passenger (id),
+ADD FOREIGN KEY (payment_id) REFERENCES Payment (id),
 ADD CHECK (price >= 0);
