@@ -1,6 +1,8 @@
--- Доделать
+-- 23. Инструкция SELECT, использующая рекурсивное обобщенное табличное выражение
+-- Весто 
+
 WITH RECURSIVE SimpleHierarchy AS (
-    -- Начинаем с первого водителя
+	-- Первый человек становится закрепленным элементом
     SELECT 
         id,
         first_name,
@@ -10,9 +12,7 @@ WITH RECURSIVE SimpleHierarchy AS (
     FROM Driver
     WHERE id = 1
     
-    UNION ALL
-    
-    -- Каждый следующий водитель подчиняется предыдущему
+    UNION ALL   
     SELECT 
         d.id,
         d.first_name,
@@ -20,9 +20,11 @@ WITH RECURSIVE SimpleHierarchy AS (
         sh.id AS manager_id,
         sh.level + 1 AS level
     FROM Driver d
-    INNER JOIN SimpleHierarchy sh ON d.id = sh.id + 1
+    JOIN SimpleHierarchy sh ON d.id = sh.id + 1 -- Возьми водителя, чей id на 1 больше предыдущего
     WHERE d.id <= (SELECT MAX(id) FROM Driver)  -- останавливаемся на максимальном ID
 )
+
+-- Запрос для вывода данных из таблицы
 SELECT 
     level AS "Уровень",
     id AS "ID водителя",

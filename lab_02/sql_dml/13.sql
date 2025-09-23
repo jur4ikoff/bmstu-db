@@ -1,5 +1,5 @@
 -- 13. Инструкция SELECT, использующая вложенные подзапросы с уровнем вложенности 3
-SELECT 'Highest mileage car' AS criteria,
+SELECT 'Наивысший пробег' AS criteria,
        brand || ' ' || model AS car_info,
        mileage
 FROM Car
