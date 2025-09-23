@@ -1,6 +1,8 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
 from sqlalchemy import func, text
 
+import pandas as pd
+
 from config import get_db_url, CREATE_SQL, COPY_SQL, DROP_SQL, LIMITATION_SQL
 
 DATABASE_URL = get_db_url()
@@ -50,14 +52,13 @@ class DataBase:
                 i.strip()
                 if i == "'" or not i:
                     continue
-            
+
                 if i[-1] == "'":
                     i += ";'"
-
+                    
                 await session.execute(text(i))
 
             await session.commit()
-
 
     async def drop_table(self):
         content = self.read_sql_file(DROP_SQL)
