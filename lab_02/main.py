@@ -52,11 +52,10 @@ async def dml_operations(filedir: str):
 
 async def main():
     # Создание базы данных - первая лаба
-    # await generate()
+    await generate()
 
     # Запуск dml, вторая лаба
-    await dml_operations(DML_FILEDIR)
-    pass
+    # await dml_operations(DML_FILEDIR)
 
 
 if __name__ == "__main__":
