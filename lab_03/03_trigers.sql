@@ -1,5 +1,4 @@
 -- Триггеры
--- Триггер AFTER
 -- Функция для триггера AFTER
 CREATE OR REPLACE FUNCTION update_car_mileage()
 RETURNS TRIGGER AS $$
@@ -24,36 +23,22 @@ AFTER INSERT ON Trip
 FOR EACH ROW
 EXECUTE FUNCTION update_car_mileage();
 
+-- Проверка пробега
+SELECT t.id, driver_id, passenger_id, price, t.score as trip_score, d.score as driver_score,
+first_name, last_name, c.id, mileage
+FROM Trip t
+LEFT OUTER JOIN Driver d ON d.id = t.driver_id
+LEFT OUTER JOIN Car c ON c.id = d.car_id
+WHERE driver_id = 1
 
--- Функция для триггера AFTER
-CREATE OR REPLACE FUNCTION update_car_mileage()
-RETURNS TRIGGER AS $$
-BEGIN
-    -- Предположим, что каждая поездка добавляет 10 км к пробегу машины
-    -- В реальной системе здесь была бы логика расчета расстояния
-    UPDATE Car 
-    SET mileage = mileage + 10
-    WHERE id = (
-        SELECT car_id 
-        FROM Driver 
-        WHERE id = NEW.driver_id
-    );
-    
-    RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
--- Триггер AFTER
-CREATE TRIGGER after_trip_insert
-AFTER INSERT ON Trip
-FOR EACH ROW
-EXECUTE FUNCTION update_car_mileage();
+-- Добавление записи
+INSERT INTO Trip(driver_id, passenger_id, payment_id, source_address, destenation_address)
+VALUES(1, 1, 1, 'test', 'test');
 
 
 -------------------------------------------
 --- Тригер INSTEAD OF
--- Создаем представление, которое объединяет водителей и их машины
--- Создаем представление, которое объединяет водителей и их машины
+-- Представление, которое объединяет водителей и их машины
 CREATE OR REPLACE VIEW driver_car_view AS
 SELECT 
     d.id as driver_id,
@@ -71,7 +56,7 @@ LEFT JOIN Car c ON d.car_id = c.id;
 CREATE OR REPLACE FUNCTION insert_driver_car()
 RETURNS TRIGGER AS $$
 BEGIN
-    -- Сначала проверяем, существует ли машина
+    -- Проверяем, существует ли машина
     IF NEW.car_id IS NOT NULL AND NOT EXISTS (SELECT 1 FROM Car WHERE id = NEW.car_id) THEN
         RAISE EXCEPTION 'Car with id % does not exist', NEW.car_id;
     END IF;
@@ -82,11 +67,11 @@ BEGIN
         NEW.car_id,
         NEW.first_name,
         NEW.last_name,
-        COALESCE(NEW.experience, 0),  -- если опыт не указан, ставим 0
-        5.0,  -- начальный рейтинг
-        CURRENT_DATE,  -- дата рождения по умолчанию
-        'Unknown',  -- адрес по умолчанию
-        floor(random() * 9000000000 + 1000000000)::bigint  -- случайный номер документа
+        COALESCE(NEW.experience, 0),
+        5.0,  -- Начальный рейтинг
+        CURRENT_DATE,  -- Дата рождения
+        'Unknown',  -- Адрес
+        floor(random() * 9000000000 + 1000000000)::bigint  -- Номер документа
     );
     
     RETURN NEW;

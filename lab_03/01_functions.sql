@@ -6,6 +6,8 @@
 
 --------------------------------------------------------
 -- Скалярная функцию
+-- AGE вычисляет разницу между тек датой и ДР
+-- EXTRACT - извлекает кол-во лет
 CREATE OR REPLACE FUNCTION calculate_avg_driver_age()
 RETURNS NUMERIC AS $$
 DECLARE
@@ -68,7 +70,6 @@ RETURNS TABLE(
 DECLARE
     driver_record RECORD;
 BEGIN
-    -- Создаем временную таблицу для результатов
     CREATE TEMP TABLE temp_driver_analysis (
         driver_id INTEGER,
         full_name VARCHAR(127),
@@ -129,7 +130,7 @@ RETURNS TABLE(
 BEGIN
     RETURN QUERY
     WITH RECURSIVE trip_tree AS (
-        -- Базовый случай: начальная поездка
+        -- Базовый случай
         SELECT 
             t.id,
             t.source_address,
@@ -140,7 +141,7 @@ BEGIN
         
         UNION ALL
         
-        -- Рекурсивный случай: следующие поездки
+        -- Рекурсивный случай
         SELECT 
             t.id,
             t.source_address,
@@ -148,7 +149,7 @@ BEGIN
             tt.level + 1
         FROM Trip t
         INNER JOIN trip_tree tt ON t.id = tt.id + 1
-        WHERE tt.level < 10 -- ограничиваем глубину рекурсии
+        WHERE tt.level < 10 -- Глубина рекурсии
     )
     SELECT 
         tt.level,

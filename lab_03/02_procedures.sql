@@ -27,7 +27,7 @@ BEGIN
     RAISE NOTICE 'Цепочка поездок начиная с ID %:', start_trip_id;
     RAISE NOTICE '================================';
     
-    -- Простая рекурсивная цепочка поездок по порядку ID
+    -- Рекурсивная цепочка поездок по порядку ID
     FOR rec IN (
         WITH RECURSIVE trip_sequence AS (
             -- Базовый случай: начальная поездка
@@ -36,13 +36,13 @@ BEGIN
                 source_address,
                 destenation_address,
                 price,
-                1 as level
+                0 as level
             FROM Trip 
             WHERE id = start_trip_id
             
             UNION ALL
             
-            -- Рекурсивный случай: следующая поездка (ID + 1)
+            -- Рекурсивный случай
             SELECT 
                 t.id,
                 t.source_address,
@@ -51,7 +51,7 @@ BEGIN
                 ts.level + 1
             FROM Trip t
             INNER JOIN trip_sequence ts ON t.id = ts.id + 1
-            WHERE ts.level < 5  -- Максимум 5 поездок в цепочке
+            WHERE ts.level < 5  -- Глубина максимум 5
         )
         SELECT 
             level,
