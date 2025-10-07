@@ -1,25 +1,36 @@
--- Определяемый пользователем тип данных
--- CREATE TYPE driver_name AS (
---     first_name TEXT,
---     last_name TEXT
--- );
-
-CREATE OR REPLACE FUNCTION get_driver_name(driver_id_param INTEGER)
-RETURNS driver_name
-LANGUAGE plpython3u
+CREATE OR REPLACE FUNCTION change_score()
+RETURNS TRIGGER
 AS $$
-    plan = plpy.prepare("SELECT first_name, last_name FROM driver WHERE id = $1", ["integer"])
-    result = plpy.execute(plan, [driver_id_param])
-    
-    if result:
-        # Возвращаем словарь — PL/Python сопоставит его с типом driver_name
-        return {
-            "first_name": result[0]["first_name"],
-            "last_name": result[0]["last_name"]
-        }
-    else:
-        return None
-$$;
+    driver_id = TD["new"]["driver_id"]
 
--- Получить имя водителя с ID = 1
-SELECT get_driver_name(1);
+    plan = plpy.prepare("SELECT score FROM Trip WHERE driver_id = $1 AND score IS NOT NULL", ["integer"])
+    result = plpy.execute(plan, [driver_id])
+    
+    if len(result) == 0:
+        new_score = None
+    else:
+        scores = [row["score"] for row in result]
+        new_score = sum(scores) / len(scores)
+    
+    update_plan = plpy.prepare("UPDATE Driver SET score = $1 WHERE id = $2", ["numeric", "integer"])
+    plpy.execute(update_plan, [new_score, driver_id])
+    
+    return None
+$$ LANGUAGE plpython3u;
+
+
+DROP TRIGGER IF EXISTS trigger_suspicious_trip ON Trip;
+
+CREATE TRIGGER trigger_change_score
+    AFTER INSERT ON Trip
+    FOR EACH ROW
+    EXECUTE FUNCTION change_score();
+
+
+-- SELECT setval('trip_id_seq', (SELECT MAX(id) FROM trip));
+-- SELECT * FROM Trip
+
+-- SELECT setval(pg_get_serial_sequence('car', 'id'), COALESCE(MAX(id), 0) + 1) FROM trip;
+
+INSERT INTO Trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score)
+VALUES (1, 1, 1, 'A', 'B', 2000, 5);
