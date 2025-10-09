@@ -1,4 +1,4 @@
-from models import Driver, Trip, Car, Passenger, Payment
+from models.gen_models import GenDriver, GenTrip, GenCar, GenPassenger, GenPayment
 
 import os
 import csv
@@ -18,11 +18,11 @@ def generate_csv(model, filename: str):
         for i in range(GENERATE_COUNT):
             
             
-            if model == Car:
+            if model == GenCar:
                 generate_model = model.generate(primary_key=i + 1)
-            elif model == Driver:
+            elif model == GenDriver:
                 generate_model = model.generate(primary_key=i + 1, secondary_key=car_id_list)
-            elif model == Trip:
+            elif model == GenTrip:
                 generate_model = model.generate(id=i + 1, payment_id=payment_id_list)
             else:
                 generate_model = model.generate(primary_key=i + 1)

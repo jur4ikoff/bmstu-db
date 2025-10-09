@@ -1,8 +1,6 @@
-from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
+from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 from sqlalchemy.exc import ResourceClosedError
-from sqlalchemy import func, text
-
-import pandas as pd
+from sqlalchemy import text
 
 from config import get_db_url, CREATE_SQL, COPY_SQL, DROP_SQL, LIMITATION_SQL
 

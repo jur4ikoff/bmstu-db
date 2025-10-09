@@ -18,7 +18,7 @@ def generate_birth_date(min_age=18, max_age=65):
     return (min_birth_date + timedelta(days=random_days)).date()
 
 
-class Driver:
+class GenDriver:
     id: int
     car_id: int
     first_name: str
@@ -40,7 +40,7 @@ class Driver:
     def generate(cls, primary_key: int, secondary_key: list):
         """secondary_key - Массив, из которого будут брать данные для FK"""
 
-        driver: Driver = Driver()
+        driver: GenDriver = GenDriver()
         driver.id = primary_key
 
         car_id_index = random.randint(0, len(secondary_key) - 1)
@@ -74,7 +74,7 @@ class Driver:
         return res
 
 
-class Trip:
+class GenTrip:
     id: int
     driver_id: int
     passenger_id: int
@@ -88,7 +88,7 @@ class Trip:
     def generate(
         cls, id: int, payment_id: list
     ):
-        trip = Trip()
+        trip = GenTrip()
         global trip_count
 
         trip.id = id
@@ -132,7 +132,7 @@ class Trip:
         return res
 
 
-class Passenger:
+class GenPassenger:
     id: int
     first_name: str
     last_name: str
@@ -141,7 +141,7 @@ class Passenger:
 
     @classmethod
     def generate(cls, primary_key=None):
-        passenger = Passenger()
+        passenger = GenPassenger()
 
         if primary_key:
             passenger.id = primary_key
@@ -175,14 +175,14 @@ class Passenger:
         return res
 
 
-class Payment:
+class GenPayment:
     id: int
     invoice: int
     status: bool
 
     @classmethod
     def generate(cls, primary_key: int):
-        payment = Payment()
+        payment = GenPayment()
         payment.id = primary_key
 
         payment.invoice = random.randint(100000, 999999)
@@ -203,7 +203,7 @@ class Payment:
         return f"id={self.id}, invoice={self.invoice}, status={self.status}"
 
 
-class Car:
+class GenCar:
     id: int
     vin_number: int
     registration_plate: str
@@ -237,7 +237,7 @@ class Car:
 
     @classmethod
     def generate(cls, primary_key=None):
-        car = Car()
+        car = GenCar()
 
         if primary_key:
             car.id = primary_key
