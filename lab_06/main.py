@@ -164,7 +164,29 @@ async def task_7():
 
 
 async def task_8():
-    pass
+    print(f"{Colors.GREEN}Вызов системной функции, информация о версии{Colors.RESET}")
+    result = await DataFirstDao.call_system_function()
+    print(result)
+
+
+async def task_9():
+    print(f"{Colors.GREEN}Создание таблицы в базе данных{Colors.RESET}")
+    await DataFirstDao.cretion_table()
+    print(f"{Colors.GREEN}Таблица успешно создана{Colors.RESET}")
+
+
+async def task_10():
+    driver_id = 4
+    trip_id = 4
+    passenger_id = 4
+    score = 2
+    comment = "test"
+    print(
+        f"{Colors.GREEN}Вставка оценки в таблицу Review(driver_id={driver_id}), trip_id={trip_id}, passenger_id={passenger_id}, score={score}, comment={comment}{Colors.RESET}"
+    )
+    await DataFirstDao.insert_to_reviews(
+        trip_id, passenger_id, driver_id, score, comment
+    )
 
 
 async def main():
@@ -190,6 +212,11 @@ async def main():
             await task_7()
         case 8:
             await task_8()
+        case 9:
+            await task_9()
+        case 10:
+            await task_10()
+
 
 if __name__ == "__main__":
     asyncio.run(main())

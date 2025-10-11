@@ -7,7 +7,8 @@ from models.schemes import (
     SelectRequestTripWithScore,
     SelectDriverTripStats,
     SelectMetadata,
-    SelectTripsDriverPassengerInfo, SScoreBeforeAfterRequest
+    SelectTripsDriverPassengerInfo,
+    SScoreBeforeAfterRequest,
 )
 
 from typing import Any
@@ -180,7 +181,9 @@ class DataFirstDao:
         return None
 
     @classmethod
-    async def call_procedure(cls, driver_id: int, score: float) -> SScoreBeforeAfterRequest:
+    async def call_procedure(
+        cls, driver_id: int, score: float
+    ) -> SScoreBeforeAfterRequest:
         result_dict = dict()
 
         create_procedure_request = text(
@@ -218,3 +221,57 @@ class DataFirstDao:
 
         result: SScoreBeforeAfterRequest = SScoreBeforeAfterRequest(**result_dict)
         return result
+
+    @classmethod
+    async def call_system_function(cls):
+        request = text("SELECT version();")
+
+        async with async_session_maker() as session:
+            result = await session.execute(request)
+
+        return result.all()
+
+    @classmethod
+    async def cretion_table(cls):
+        request = text(
+            "CREATE TABLE IF NOT EXISTS Review ( \
+            id SERIAL PRIMARY KEY, \
+            trip_id INTEGER NOT NULL, \
+            passenger_id INTEGER NOT NULL, \
+            driver_id INTEGER NOT NULL, \
+            rating SMALLINT NOT NULL CHECK (rating >= 1 AND rating <= 5), \
+            comment TEXT, \
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, \
+            FOREIGN KEY (trip_id) REFERENCES Trip(id) ON DELETE CASCADE, \
+            FOREIGN KEY (passenger_id) REFERENCES Passenger(id) ON DELETE CASCADE, \
+            FOREIGN KEY (driver_id) REFERENCES Driver(id) ON DELETE CASCADE \
+);"
+        )
+
+        async with async_session_maker() as session:
+            await session.execute(request)
+            await session.commit()
+
+    @classmethod
+    async def insert_to_reviews(
+        cls, trip_id, passenger_id, driver_id, rating, comment=None
+    ):
+        request = text(
+            """
+            INSERT INTO Review (trip_id, passenger_id, driver_id, rating, comment)
+            VALUES (:trip_id, :passenger_id, :driver_id, :rating, :comment)
+            """
+        )
+
+        async with async_session_maker() as session:
+            await session.execute(
+                request,
+                {
+                    "trip_id": trip_id,
+                    "passenger_id": passenger_id,
+                    "driver_id": driver_id,
+                    "rating": rating,
+                    "comment": comment,
+                },
+            )
+            await session.commit()
