@@ -26,3 +26,29 @@ class SelectRequestTripWithScore(BaseModel):
     price: int
     trip_score: int
     driver_score: float
+
+class SelectDriverTripStats(BaseModel):
+    id: int
+    name: str
+    experience: int
+    score: float
+    trip_count: int
+
+class SelectMetadata(BaseModel):
+    table_name: str
+    column_name: str
+    data_type: str
+    is_nullable: bool
+
+class SelectTripsDriverPassengerInfo(BaseModel):
+    trip_id: int
+    driver_name: str
+    passenger_name: str
+    source_addr: str
+    dest_addr: str  
+    trip_price: int
+
+
+class SScoreBeforeAfterRequest(BaseModel):
+    before: float | None
+    after: float | None

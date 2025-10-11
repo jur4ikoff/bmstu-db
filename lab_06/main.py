@@ -6,7 +6,14 @@ from models.gen_models import (
     GenPayment,
 )
 
-from models.schemes import SelectCarScheme, SelectRequestTripWithScore
+from models.schemes import (
+    SelectCarScheme,
+    SelectRequestTripWithScore,
+    SelectDriverTripStats,
+    SelectMetadata,
+    SelectTripsDriverPassengerInfo,
+    SScoreBeforeAfterRequest,
+)
 
 from database.database import DataBase
 from database.data_first import DataFirstDao
@@ -91,7 +98,9 @@ def print_result(result: list):
 
 async def task_1():
     limit = 10
-    print(f"{Colors.GREEN}Машины с пробегом больше среднего, лимит {limit}{Colors.RESET}")
+    print(
+        f"{Colors.GREEN}Машины с пробегом больше среднего, лимит {limit}{Colors.RESET}"
+    )
     result: list[SelectCarScheme] = await DataFirstDao.get_cars_above_avg_mileage(
         limit=limit
     )
@@ -100,7 +109,9 @@ async def task_1():
 
 async def task_2():
     limit = 10
-    print(f"{Colors.GREEN}Вывод поездок, где оценка водителя больше 4.5, лимит {limit}{Colors.RESET}")
+    print(
+        f"{Colors.GREEN}Вывод поездок, где оценка водителя больше 4.5, лимит {limit}{Colors.RESET}"
+    )
     result: list[SelectRequestTripWithScore] = await DataFirstDao.join_request(
         limit=limit
     )
@@ -108,7 +119,53 @@ async def task_2():
 
 
 async def task_3():
+    limit = 10
+    print(
+        f"{Colors.GREEN}Сортировка водителей по количеству поездок{limit}{Colors.RESET}"
+    )
+
+    result: list[SelectDriverTripStats] = await DataFirstDao.cte_request(limit=limit)
+    print_result(result)
+
+
+async def task_4():
+    print(f"{Colors.GREEN}Запрос к метаданным{Colors.RESET}")
+
+    result: list[SelectMetadata] = await DataFirstDao.metadata()
+    print_result(result)
+
+
+async def task_5():
+    print(f"{Colors.GREEN}Вызов функции, которая считает средний возраст{Colors.RESET}")
+    result = await DataFirstDao.driver_avg_age()
+    print(f"Средний возраст водителей: {result}")
+
+
+async def task_6():
+    low = 4200
+    high = 4500
+    print(f"{Colors.GREEN}Вывод поездок ценой от {low} до {high}{Colors.RESET}")
+    result: list[SelectTripsDriverPassengerInfo] = (
+        await DataFirstDao.get_trips_by_price(low, high)
+    )
+    print_result(result)
+
+
+async def task_7():
+    driver_id = 4
+    new_score = 2
+    print(
+        f"{Colors.GREEN}Обновление рейтингра Driver(id={driver_id}) Score={new_score}{Colors.RESET}"
+    )
+    result: SScoreBeforeAfterRequest = await DataFirstDao.call_procedure(
+        driver_id, new_score
+    )
+    print(result)
+
+
+async def task_8():
     pass
+
 
 async def main():
     # Генерация базы данных
@@ -122,8 +179,17 @@ async def main():
         case 2:
             await task_2()
         case 3:
-            pass
-
+            await task_3()
+        case 4:
+            await task_4()
+        case 5:
+            await task_5()
+        case 6:
+            await task_6()
+        case 7:
+            await task_7()
+        case 8:
+            await task_8()
 
 if __name__ == "__main__":
     asyncio.run(main())
