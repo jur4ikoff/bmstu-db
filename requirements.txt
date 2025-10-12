@@ -6,3 +6,5 @@ asyncpg
 asyncio
 greenlet
 pandas
+py_linq
+pandas
