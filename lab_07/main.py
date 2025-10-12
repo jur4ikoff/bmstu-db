@@ -18,6 +18,7 @@ from models.sschemes import (
 from database.database import DataBase
 from database.data_first import DataFirstDao
 from database.task_1 import PyLinqClass
+from database.task_2 import PyLinqJson
 from generator import generate_csv
 from config import Colors
 
@@ -85,10 +86,6 @@ async def generate():
     await database.copy_tables()
 
 
-async def task_1():
-    await PyLinqClass.query_1()
-
-
 async def main():
     # Генерация базы данных
     # await generate()
@@ -97,7 +94,9 @@ async def main():
 
     match operation:
         case 1:
-            await task_1()
+            await PyLinqClass.task_1()
+        case 2:
+            await PyLinqJson.task_2()
 
 
 if __name__ == "__main__":
