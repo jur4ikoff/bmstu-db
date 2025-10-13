@@ -5,8 +5,10 @@ LINQ to Object. Создать не менее пять запросов с ис
 первой лабораторной работе
 """
 
-from models.drivers import SDriverScheme
-from models.trip import STripScheme
+from models.driver.schemes import SDriverScheme
+from models.trip.schemes import STripScheme
+
+from dev import print_result
 
 from datetime import date
 
@@ -50,11 +52,6 @@ class PyLinqClass:
         df = pd.read_csv(path_to_csv, delimiter=";", header=header, names=column_names)
         drivers = [scheme(**row) for row in df.to_dict(orient="records")]
         return drivers
-
-    @classmethod
-    def print_result(cls, result):
-        for i in range(min(len(result), LIMIT)):
-            print(result[i])
 
     @classmethod
     async def query_1_where_select(cls, drivers):
@@ -135,15 +132,15 @@ class PyLinqClass:
             f"\n{Colors.BG_GREEN}2. Получить 2 водителя с наивысшим рейтингом, пропустив первого{Colors.RESET}"
         )
         result = await PyLinqClass.query_1_where_select(drivers)
-        PyLinqClass.print_result(result)
+        print_result(result)
 
         print(f"\n{Colors.BG_GREEN}2. Вывод топ 2 и 3 водителей{Colors.RESET}")
         result = await PyLinqClass.query_2_order_by_take_skip(drivers)
-        PyLinqClass.print_result(result)
+        print_result(result)
 
         print(f"\n{Colors.BG_GREEN}3. Количество поездок на водителя{Colors.RESET}")
         result = await PyLinqClass.query_3_group_by(trips)
-        PyLinqClass.print_result(result)
+        print_result(result)
 
         print(
             f"\n{Colors.BG_GREEN}4. Комбинированная проверка, Есть ли водители < 25 и Все ли с рейтингом > 3{Colors.RESET}"
@@ -155,4 +152,4 @@ class PyLinqClass:
             f"\n{Colors.BG_GREEN}5. Получить 3 самых молодых водителя{Colors.RESET}"
         )
         result = await PyLinqClass.query_5_youngest_drivers(drivers)
-        PyLinqClass.print_result(result)
+        print_result(result)

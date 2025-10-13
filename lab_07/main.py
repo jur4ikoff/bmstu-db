@@ -6,19 +6,10 @@ from models.gen_models import (
     GenPayment,
 )
 
-from models.sschemes import (
-    SCarScheme,
-    SRequestTripWithScore,
-    SDriverTripStats,
-    SMetadata,
-    STripsDriverPassengerInfo,
-    SScoreBeforeAfterRequest,
-)
-
 from database.database import DataBase
-from database.data_first import DataFirstDao
 from database.task_1 import PyLinqClass
 from database.task_2 import PyLinqJson
+from database.task_3 import task_3
 from generator import generate_csv
 from config import Colors
 
@@ -97,6 +88,8 @@ async def main():
             await PyLinqClass.task_1()
         case 2:
             await PyLinqJson.task_2()
+        case 3:
+            await task_3()
 
 
 if __name__ == "__main__":

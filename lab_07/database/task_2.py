@@ -1,6 +1,8 @@
 from database.database import async_session_maker
 from config import Colors
 
+from dev import print_result
+
 from sqlalchemy import text
 import json
 import decimal
@@ -14,11 +16,6 @@ LIMIT = 4
 
 
 class PyLinqJson:
-    @classmethod
-    def print_result(cls, result):
-        for i in range(min(len(result), LIMIT)):
-            print(result[i])
-
     @classmethod
     async def __fetch_data_as_json(cls) -> List[Dict[str, Any]]:
         async with async_session_maker() as session:
@@ -79,7 +76,7 @@ class PyLinqJson:
         return updated
 
     @classmethod
-    def linq_add(cls, json_data: List[Dict]) -> List[Dict]:
+    def __linq_add(cls, json_data: List[Dict]) -> List[Dict]:
         """Добавить нового водителя в список"""
         new_driver = {
             "id": max(d["id"] for d in json_data) + 1 if json_data else 1,
@@ -106,12 +103,12 @@ class PyLinqJson:
             f"\n{Colors.BG_GREEN}1. Чтение водителей с опытом >5 лет и рейтингом >4.0:{Colors.RESET}"
         )
         read_result = PyLinqJson.__linq_read(json_data)
-        PyLinqJson.print_result(read_result)
+        print_result(read_result)
         # res = json.dumps(read_result, indent=2, ensure_ascii=False)
 
         print(f"\n{Colors.BG_GREEN}2. Обновить рейтинг у всех на +0.1{Colors.RESET}")
         updated_data = PyLinqJson.__linq_update(json_data)
-        PyLinqJson.print_result(updated_data)
+        print_result(updated_data)
         # print(json.dumps(updated_data[:2], indent=2, ensure_ascii=False))
 
         print(f"\n{Colors.BG_GREEN}3. Добавление нового водителя{Colors.RESET}")
@@ -122,4 +119,4 @@ class PyLinqJson:
 
         with open(JSON_UPDATE_PATH, "w", encoding="utf-8") as f:
             json.dump(data_with_new, f, indent=2, ensure_ascii=False)
-        print(f"\n{Colors.BG_GREEN}Финальный JSON сохранен в {Colors.RESET}")
+        print(f"\n{Colors.BG_GREEN}Финальный JSON сохранен в {JSON_UPDATE_PATH}{Colors.RESET}")
