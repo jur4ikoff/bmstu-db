@@ -1,7 +1,7 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
 from sqlalchemy.exc import ResourceClosedError
 from sqlalchemy import text, func
-from sqlalchemy.orm import mapped_column, DeclarativeBase, declared_attr
+from sqlalchemy.orm import mapped_column, DeclarativeBase, declared_attr, sessionmaker
 from datetime import datetime
 from typing import Annotated
 
@@ -12,26 +12,33 @@ DATABASE_URL = get_db_url()
 engine = create_async_engine(DATABASE_URL)
 async_session_maker = async_sessionmaker(engine, expire_on_commit=False)
 
+# Session = sessionmaker(bind=engine)
+# session = Session()
+
 
 int_pk = Annotated[int, mapped_column(primary_key=True)]
-created_at = Annotated[datetime,  mapped_column(server_default=func.now())]
-updated_at = Annotated[datetime, mapped_column(server_default=func.now(), onupdate=datetime.now())]
+created_at = Annotated[datetime, mapped_column(server_default=func.now())]
+updated_at = Annotated[
+    datetime, mapped_column(server_default=func.now(), onupdate=datetime.now())
+]
 str_uniq = Annotated[str, mapped_column(unique=True, nullable=False)]
 str_null_true = Annotated[str, mapped_column(nullable=True)]
+
 
 class Base(AsyncAttrs, DeclarativeBase):
     __abstract__ = True
 
     @declared_attr.directive
     def __tablename__(cls) -> str:
-        """@declared_attr.directive – декоратор SQLAlchemy, указывающий, 
+        """@declared_attr.directive – декоратор SQLAlchemy, указывающий,
         что метод определяет метаданные таблицы (а не обычный атрибут).
 
         Берёт имя класса (cls.__name__), переводит в нижний регистр
         (lower())
         """
         return f"{cls.__name__.lower()}"
-    
+
+
 class DataBase:
     def __init__(self):
         pass
