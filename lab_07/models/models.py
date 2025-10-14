@@ -7,8 +7,6 @@ from database.database import Base
 
 
 class Trip(Base):
-    # __tablename__ = "trip"
-
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     driver_id: Mapped[int] = mapped_column(Integer, ForeignKey("driver.id"))
     passenger_id: Mapped[int] = mapped_column(Integer, ForeignKey("passenger.id"))

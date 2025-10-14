@@ -35,6 +35,8 @@ services:
     restart: unless-stopped
     tty: true
     stdin_open: true
+    networks:
+      - nifi-net
 
   nifi:
     image: apache/nifi:latest
@@ -46,15 +48,17 @@ services:
       - NIFI_WEB_HTTP_PORT=8080
       - NIFI_CLUSTER_IS_NODE=false
       - NIFI_SENSITIVE_PROPS_KEY=Password123! 
+      - NIFI_WEB_HTTP_HOST=0.0.0.0
     volumes:
-      - ./nifi_data:/opt/nifi/nifi-current/flowfile_repository
+      - ./nifi_data/flowfile_repository:/opt/nifi/nifi-current/flowfile_repository
       - ./nifi_data/database_repository:/opt/nifi/nifi-current/database_repository
       - ./nifi_data/content_repository:/opt/nifi/nifi-current/content_repository
       - ./nifi_data/provenance_repository:/opt/nifi/nifi-current/provenance_repository
       - ./nifi_data/state:/opt/nifi/nifi-current/state
       - ./nifi_data/logs:/opt/nifi/nifi-current/logs
     restart: unless-stopped
-
+    networks:
+      - nifi-net
 
 volumes:
   pgdata:

@@ -119,8 +119,39 @@ class TripDao(BaseDao):
             )
             await session.commit()
 
+    @classmethod
+    async def select_all_driver_trips(cls, driver_id: int) -> list[STripScheme]:
+        query = select(Trip).where(Trip.driver_id == driver_id)
+        async with async_session_maker() as session:
+            result = await session.execute(query)
+            rows = result.scalars().all()
 
-# result = await session.execute(stmt)
+        trips = []
+        for row in rows:
+            trip = STripScheme(
+                id=row.id,
+                driver_id=row.driver_id,
+                passenger_id=row.passenger_id,
+                payment_id=row.payment_id,
+                source_address=row.source_address,
+                destenation_address=row.destenation_address,
+                price=row.price,
+                score=row.score,
+            )
+            trips.append(trip)
+        return trips
+
+    @classmethod
+    def print_trips(cls, data: list[STripScheme]):
+        last_dest = None
+        for trip in data:
+            arrow = ">"
+            if last_dest == trip.source_address:
+                arrow = ">>"
+            print(f"{arrow} {trip.source_address} > {trip.destenation_address}", end=' ')
+            last_dest = trip.destenation_address
+            
+        print("\n")
 
 
 async def task_3():
@@ -156,4 +187,33 @@ async def task_3():
 
     print(f"\n{Colors.BG_GREEN}4. Вызов процедуры{Colors.RESET}")
     result = await TripDao.call_procedure(1, 3)
+
+
+
+    print(f"\n{Colors.BG_GREEN}5. Защита{Colors.RESET}")
+    print(f"Для id водителя вывести поездки в хронологическом порядке")
+    driver_id: int = int(input("> Введите id водителя: "))
+
+    # insert_data = CrTrip(
+    #     driver_id=3,
+    #     passenger_id=1,
+    #     payment_id=1,
+    #     source_address="test1",
+    #     destenation_address="test2",
+    #     price=3200,
+    #     score=5,
+    # )
+    # # result = await TripDao.insert_model(insert_data)
+
+    # insert_data.source_address = "test2"
+    # insert_data.destenation_address = "test4"
+    result = await TripDao.insert_model(insert_data)
+
     
+    # insert_data.source_address = "test4"
+    # insert_data.source_address = "test6"
+    # result = await TripDao.insert_model(insert_data)
+
+
+    trips = await TripDao.select_all_driver_trips(driver_id)
+    TripDao.print_trips(trips)
