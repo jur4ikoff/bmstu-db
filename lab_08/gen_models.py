@@ -70,8 +70,21 @@ class GenDriver:
             self.address,
             self.document_number,
         ]
-
         return res
+
+    @classmethod
+    def headers(cls):
+        return [
+            "id",
+            "car_id",
+            "first_name",
+            "last_name",
+            "experience",
+            "score",
+            "date_of_birthday",
+            "address",
+            "document_number",
+        ]
 
 
 class GenTrip:
@@ -85,9 +98,7 @@ class GenTrip:
     score: int
 
     @classmethod
-    def generate(
-        cls, id: int, payment_id: list
-    ):
+    def generate(cls, id: int, payment_id: list):
         trip = GenTrip()
         global trip_count
 
@@ -97,7 +108,7 @@ class GenTrip:
         trip.passenger_id = random.randint(1, 1000)
 
         payment_id_index = random.randint(0, len(payment_id) - 1)
-        trip.payment_id= payment_id.pop(payment_id_index)
+        trip.payment_id = payment_id.pop(payment_id_index)
 
         trip.source_address = random_adresses[
             random.randint(0, len(random_adresses) - 1)
@@ -128,8 +139,20 @@ class GenTrip:
             self.price,
             self.score,
         ]
-
         return res
+
+    @classmethod
+    def headers(cls):
+        return [
+            "id",
+            "driver_id",
+            "passenger_id",
+            "payment_id",
+            "source_address",
+            "destenation_address",
+            "price",
+            "score",
+        ]
 
 
 class GenPassenger:
@@ -171,8 +194,17 @@ class GenPassenger:
             self.date_of_birthday,
             self.address,
         ]
-
         return res
+
+    @classmethod
+    def headers(cls):
+        return [
+            "id",
+            "first_name",
+            "last_name",
+            "date_of_birthday",
+            "address",
+        ]
 
 
 class GenPayment:
@@ -196,8 +228,15 @@ class GenPayment:
             self.invoice,
             self.status,
         ]
-
         return res
+
+    @classmethod
+    def headers(cls):
+        return [
+            "id",
+            "invoice",
+            "status",
+        ]
 
     def __str__(self):
         return f"id={self.id}, invoice={self.invoice}, status={self.status}"
@@ -265,8 +304,18 @@ class GenCar:
             self.model,
             self.mileage,
         ]
-
         return res
+
+    @classmethod
+    def headers(cls):
+        return [
+            "id",
+            "vin_number",
+            "registration_plate",
+            "brand",
+            "model",
+            "mileage",
+        ]
 
     def __str__(self):
         return f"vin={self.vin_number}, plate={self.registration_plate}, brand={self.brand}, model={self.model}, mileage={self.mileage}"

@@ -1,0 +1,11 @@
+id,driver_id,passenger_id,payment_id,source_address,destenation_address,price,score
+1001,480,22,5,"Marina Bay Sands 10, Singapore 018956","Champs-Élysées 75, Paris, France 75008",2401,4
+1002,110,841,1,"Champs-Élysées 75, Paris, France 75008","Table Mountain Rd, Cape Town, South Africa 8001",2599,2
+1003,709,540,8,"654 Maple Drive, Phoenix, AZ 85001","Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011",3326,4
+1004,610,251,2,"123 Main Street, New York, NY 10001","Gyeongbokgung Palace 161, Seoul, South Korea 03045",3539,2
+1005,391,195,4,"Champs-Élysées 75, Paris, France 75008","789 Pine Road, Chicago, IL 60601",1154,2
+1006,491,98,10,"Brandenburger Tor 1, Berlin, Germany 10117","Marina Bay Sands 10, Singapore 018956",3520,3
+1007,357,422,3,"159 Birch Street, San Antonio, TX 78201","Gyeongbokgung Palace 161, Seoul, South Korea 03045",3272,3
+1008,57,912,7,"987 Cedar Lane, Philadelphia, PA 19101","222 Park Avenue, Boston, MA 02101",2534,3
+1009,933,237,9,"753 Willow Avenue, San Diego, CA 92101","987 Cedar Lane, Philadelphia, PA 19101",4176,2
+1010,384,334,6,"444 Lake View, Denver, CO 80201","Copacabana Beach 100, Rio de Janeiro, Brazil 22070-011",3308,2

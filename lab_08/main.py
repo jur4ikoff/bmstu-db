@@ -1,4 +1,4 @@
-from models.gen_models import (
+from gen_models import (
     GenDriver,
     GenTrip,
     GenCar,
@@ -7,11 +7,10 @@ from models.gen_models import (
 )
 
 from database.database import DataBase
-from database.task_1 import PyLinqClass
-from database.task_2 import PyLinqJson
-from database.task_3 import task_3
 from generator import generate_csv
 from config import Colors
+
+from datetime import datetime
 
 import asyncio
 import os
@@ -19,77 +18,28 @@ import os
 script_file = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_file)
 
-DRIVERS_FILE = script_dir + "/data/drivers.csv"
-TRIPS_FILE = script_dir + "/data/trips.csv"
-PASSENGERS_FILE = script_dir + "/data/passengers.csv"
-PAYMENTS_FILE = script_dir + "/data/payments.csv"
-CARS_FILE = script_dir + "/data/cars.csv"
 
-# Файлы для второй лабы
-DML_FILEDIR = script_dir + "/sql_dml"
-DML_OPEATIONS_PATH = script_dir + "/sql_dml/2_lab.sql"
-
-MAX_OPERATIONS = 3
+def generate_filename(model_name: str) -> str:
+    cur_time = datetime.now()
+    date_now = cur_time.date()
+    time_now = str(cur_time.time()).split(".")[0]
+    return f"{script_dir}/data/{date_now}_{time_now}_{model_name}.csv"
 
 
 database = DataBase()
 
 
-def print_menu():
-    print(
-        "0. Выход\n \
-        1. LINQ to Object\n \
-        2. LINQ to JSON\n \
-        3. LINQ to SQL"
-    )
-
-
-def input_operation():
-    operation = 0
-    while True:
-        try:
-            operation = int(input("Введите номер операции: "))
-            if operation > MAX_OPERATIONS or operation < 0:
-                print(f"ОПЕРАЦИЯ ДОЛЖНА ВХОДИТЬ В ДИАПАЗОН ОТ 0 ДО {MAX_OPERATIONS}")
-            else:
-                return operation
-        except Exception:
-            print(f"ОПЕРАЦИЯ ВВЕДЕНА НЕПРАВИЛЬНО")
-
-
-async def generate():
-    print("dropping database")
-    try:
-        await database.drop_table()
-    except Exception as e:
-        print("database doesn`t exist")
-
-    print("create tables")
-    await database.create_tables()
-
-    generate_csv(GenCar, CARS_FILE)
-    generate_csv(GenDriver, DRIVERS_FILE)
-    generate_csv(GenPassenger, PASSENGERS_FILE)
-    generate_csv(GenPayment, PAYMENTS_FILE)
-    generate_csv(GenTrip, TRIPS_FILE)
-
-    print("copying")
-    await database.copy_tables()
+async def generate_files():
+    generate_csv(GenCar, generate_filename("car"))
+    generate_csv(GenDriver, generate_filename("driver"))
+    generate_csv(GenPassenger, generate_filename("passenger"))
+    generate_csv(GenPayment, generate_filename("payment"))
+    generate_csv(GenTrip, generate_filename("trip"))
 
 
 async def main():
-    # Генерация базы данных
-    await generate()
-    # print_menu()
-    # operation = input_operation()
-
-    # match operation:
-    #     case 1:
-    #         await PyLinqClass.task_1()
-    #     case 2:
-    #         await PyLinqJson.task_2()
-    #     case 3:
-    #         await task_3()
+    # Генерация файлов
+    await generate_files()
 
 
 if __name__ == "__main__":
