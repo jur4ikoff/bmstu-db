@@ -60,7 +60,6 @@ class GenDriver:
 
     def to_list(self):
         res = [
-            self.id,
             self.car_id,
             self.first_name,
             self.last_name,
@@ -75,7 +74,6 @@ class GenDriver:
     @classmethod
     def headers(cls):
         return [
-            "id",
             "car_id",
             "first_name",
             "last_name",
@@ -130,7 +128,6 @@ class GenTrip:
 
     def to_list(self):
         res = [
-            self.id,
             self.driver_id,
             self.passenger_id,
             self.payment_id,
@@ -144,7 +141,6 @@ class GenTrip:
     @classmethod
     def headers(cls):
         return [
-            "id",
             "driver_id",
             "passenger_id",
             "payment_id",
@@ -188,7 +184,6 @@ class GenPassenger:
 
     def to_list(self):
         res = [
-            self.id,
             self.first_name,
             self.last_name,
             self.date_of_birthday,
@@ -199,7 +194,6 @@ class GenPassenger:
     @classmethod
     def headers(cls):
         return [
-            "id",
             "first_name",
             "last_name",
             "date_of_birthday",
@@ -224,7 +218,6 @@ class GenPayment:
 
     def to_list(self):
         res = [
-            self.id,
             self.invoice,
             self.status,
         ]
@@ -233,7 +226,6 @@ class GenPayment:
     @classmethod
     def headers(cls):
         return [
-            "id",
             "invoice",
             "status",
         ]
@@ -297,7 +289,6 @@ class GenCar:
 
     def to_list(self):
         res = [
-            self.id,
             self.vin_number,
             self.registration_plate,
             self.brand,
@@ -309,7 +300,6 @@ class GenCar:
     @classmethod
     def headers(cls):
         return [
-            "id",
             "vin_number",
             "registration_plate",
             "brand",
