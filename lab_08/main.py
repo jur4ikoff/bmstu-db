@@ -6,9 +6,7 @@ from gen_models import (
     GenPayment,
 )
 
-from database.database import DataBase
 from generator import generate_csv
-from config import Colors
 
 from datetime import datetime
 
@@ -24,9 +22,6 @@ def generate_filename(model_name: str) -> str:
     date_now = cur_time.date()
     time_now = str(cur_time.time()).split(".")[0]
     return f"{script_dir}/data/{date_now}_{time_now}_{model_name}.csv"
-
-
-database = DataBase()
 
 
 async def generate_files():
