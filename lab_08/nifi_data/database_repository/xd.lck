@@ -1,4 +1,4 @@
-Private property of Exodus: 1800@a4b55cc01437
+Private property of Exodus: 81@a4b55cc01437
 
 jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:88)
 jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:39)
@@ -15,11 +15,11 @@ jetbrains.exodus.env.Environments.newInstance(Environments.kt:46)
 org.apache.nifi.admin.service.EntityStoreAuditService.loadEnvironment(EntityStoreAuditService.java:612)
 org.apache.nifi.admin.service.EntityStoreAuditService.<init>(EntityStoreAuditService.java:103)
 org.apache.nifi.web.NiFiWebApiConfiguration.auditService(NiFiWebApiConfiguration.java:60)
-org.apache.nifi.web.NiFiWebApiConfiguration$$EnhancerBySpringCGLIB$$421f4931.CGLIB$auditService$0(<generated>)
-org.apache.nifi.web.NiFiWebApiConfiguration$$EnhancerBySpringCGLIB$$421f4931$$FastClassBySpringCGLIB$$f3a10311.invoke(<generated>)
+org.apache.nifi.web.NiFiWebApiConfiguration$$EnhancerBySpringCGLIB$$da929a41.CGLIB$auditService$0(<generated>)
+org.apache.nifi.web.NiFiWebApiConfiguration$$EnhancerBySpringCGLIB$$da929a41$$FastClassBySpringCGLIB$$2eeb28b6.invoke(<generated>)
 org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
 org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-org.apache.nifi.web.NiFiWebApiConfiguration$$EnhancerBySpringCGLIB$$421f4931.auditService(<generated>)
+org.apache.nifi.web.NiFiWebApiConfiguration$$EnhancerBySpringCGLIB$$da929a41.auditService(<generated>)
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
