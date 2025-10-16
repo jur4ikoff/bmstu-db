@@ -53976,3 +53976,9 @@ Key: 'uuid'
 2025-10-16 22:59:21,919 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 245 Records and 0 Swap Files in 5 milliseconds (Stop-the-world time = 2 milliseconds), max Transaction ID 1989
 2025-10-16 22:59:21,919 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 245 records in 5 milliseconds
 2025-10-16 22:59:22,188 INFO [FileSystemRepository Workers Thread-1] o.a.n.c.repository.FileSystemRepository Successfully archived 1 Resource Claims for Container default in 4 millis
+2025-10-16 22:59:41,910 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-10-16 22:59:41,912 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 245 records in 0 milliseconds
+2025-10-16 22:59:52,603 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2025-10-16 22:59:52,603 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown started
+2025-10-16 22:59:52,611 INFO [pool-2-thread-2] o.eclipse.jetty.server.AbstractConnector Stopped ServerConnector@322204dc{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-10-16 22:59:52,611 INFO [pool-2-thread-2] org.eclipse.jetty.server.session node0 Stopped scavenging

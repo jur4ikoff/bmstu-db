@@ -164,3 +164,12 @@
 2025-10-16 22:57:58,421 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
 2025-10-16 22:57:58,421 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 2025-10-16 22:57:58,421 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release
+2025-10-16 22:59:52,592 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2025-10-16 22:59:52,592 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2025-10-16 22:59:52,592 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2025-10-16 22:59:52,593 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2025-10-16 22:59:52,603 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2025-10-16 22:59:52,634 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [1800] shutdown in progress...
+2025-10-16 22:59:54,638 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [1800] shutdown in progress...
+2025-10-16 22:59:54,854 INFO [main] org.apache.nifi.bootstrap.RunNiFi A shutdown was initiated. Will not restart NiFi
+2025-10-16 22:59:56,649 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [1800] shutdown completed
