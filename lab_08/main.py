@@ -13,6 +13,8 @@ from datetime import datetime
 import asyncio
 import os
 
+SLEEP_TIME = 4
+
 script_file = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_file)
 
@@ -34,7 +36,9 @@ async def generate_files():
 
 async def main():
     # Генерация файлов
-    await generate_files()
+    while True:
+        await generate_files()
+        await asyncio.sleep(SLEEP_TIME)
 
 
 if __name__ == "__main__":

@@ -137,3 +137,30 @@
 2025-10-16 11:32:30,131 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
 2025-10-16 11:32:30,132 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 2025-10-16 11:32:30,132 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release
+2025-10-16 22:10:31,717 WARN [main] org.apache.nifi.bootstrap.RunNiFi Apache NiFi appears to have died. Restarting...
+2025-10-16 22:10:31,763 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 1552
+2025-10-16 22:10:31,765 INFO [main] org.apache.nifi.bootstrap.RunNiFi Successfully started Apache NiFi with PID 1552
+2025-10-16 22:10:32,022 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 33677
+2025-10-16 22:10:36,712 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: An illegal reflective access operation has occurred
+2025-10-16 22:10:36,714 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Illegal reflective access by jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1 (file:/opt/nifi/nifi-current/./work/nar/framework/nifi-framework-nar-1.24.0.nar-unpacked/NAR-INF/bundled-dependencies/xodus-environment-2.0.1.jar) to method sun.nio.ch.FileChannelImpl.setUninterruptible()
+2025-10-16 22:10:36,715 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
+2025-10-16 22:10:36,715 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2025-10-16 22:10:36,715 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release
+2025-10-16 22:53:33,044 WARN [main] org.apache.nifi.bootstrap.RunNiFi Apache NiFi appears to have died. Restarting...
+2025-10-16 22:53:33,084 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 1695
+2025-10-16 22:53:33,086 INFO [main] org.apache.nifi.bootstrap.RunNiFi Successfully started Apache NiFi with PID 1695
+2025-10-16 22:53:33,330 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 45457
+2025-10-16 22:53:37,344 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: An illegal reflective access operation has occurred
+2025-10-16 22:53:37,351 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Illegal reflective access by jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1 (file:/opt/nifi/nifi-current/./work/nar/framework/nifi-framework-nar-1.24.0.nar-unpacked/NAR-INF/bundled-dependencies/xodus-environment-2.0.1.jar) to method sun.nio.ch.FileChannelImpl.setUninterruptible()
+2025-10-16 22:53:37,351 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
+2025-10-16 22:53:37,352 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2025-10-16 22:53:37,352 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release
+2025-10-16 22:57:53,544 WARN [main] org.apache.nifi.bootstrap.RunNiFi Apache NiFi appears to have died. Restarting...
+2025-10-16 22:57:53,614 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 1800
+2025-10-16 22:57:53,617 INFO [main] org.apache.nifi.bootstrap.RunNiFi Successfully started Apache NiFi with PID 1800
+2025-10-16 22:57:53,936 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 44357
+2025-10-16 22:57:58,412 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: An illegal reflective access operation has occurred
+2025-10-16 22:57:58,420 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Illegal reflective access by jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1 (file:/opt/nifi/nifi-current/./work/nar/framework/nifi-framework-nar-1.24.0.nar-unpacked/NAR-INF/bundled-dependencies/xodus-environment-2.0.1.jar) to method sun.nio.ch.FileChannelImpl.setUninterruptible()
+2025-10-16 22:57:58,421 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
+2025-10-16 22:57:58,421 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2025-10-16 22:57:58,421 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release

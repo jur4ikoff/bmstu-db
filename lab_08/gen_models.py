@@ -236,7 +236,7 @@ class GenPayment:
 
 class GenCar:
     id: int
-    vin_number: int
+    vin_number: str
     registration_plate: str
     brand: str
     model: str
