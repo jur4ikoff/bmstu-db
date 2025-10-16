@@ -128,3 +128,12 @@
 2025-10-16 11:26:27,013 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
 2025-10-16 11:26:27,013 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 2025-10-16 11:26:27,013 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release
+2025-10-16 11:32:24,938 WARN [main] org.apache.nifi.bootstrap.RunNiFi Apache NiFi appears to have died. Restarting...
+2025-10-16 11:32:24,972 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 407
+2025-10-16 11:32:24,974 INFO [main] org.apache.nifi.bootstrap.RunNiFi Successfully started Apache NiFi with PID 407
+2025-10-16 11:32:25,209 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 41617
+2025-10-16 11:32:30,115 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: An illegal reflective access operation has occurred
+2025-10-16 11:32:30,131 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Illegal reflective access by jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1 (file:/opt/nifi/nifi-current/./work/nar/framework/nifi-framework-nar-1.24.0.nar-unpacked/NAR-INF/bundled-dependencies/xodus-environment-2.0.1.jar) to method sun.nio.ch.FileChannelImpl.setUninterruptible()
+2025-10-16 11:32:30,131 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Please consider reporting this to the maintainers of jetbrains.exodus.io.FileDataWriter$Companion$setUninterruptibleMethod$1
+2025-10-16 11:32:30,132 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2025-10-16 11:32:30,132 ERROR [NiFi logging handler] org.apache.nifi.StdErr WARNING: All illegal access operations will be denied in a future release
