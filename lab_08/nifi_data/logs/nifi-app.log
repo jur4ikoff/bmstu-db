@@ -2077,3 +2077,11 @@ Key: 'uuid'
 2025-10-16 23:02:59,133 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 176.1 GB, bytes free = 52.17 GB, capacity = 228.27 GB
 2025-10-16 23:03:00,427 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
 2025-10-16 23:03:00,428 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 245 records in 0 milliseconds
+2025-10-16 23:03:20,428 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-10-16 23:03:20,429 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 245 records in 0 milliseconds
+2025-10-16 23:03:40,430 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2025-10-16 23:03:40,433 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 245 records in 0 milliseconds
+2025-10-16 23:03:43,655 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2025-10-16 23:03:43,656 INFO [pool-2-thread-2] org.apache.nifi.NiFi Application Server shutdown started
+2025-10-16 23:03:43,663 INFO [pool-2-thread-2] o.eclipse.jetty.server.AbstractConnector Stopped ServerConnector@4d464510{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-10-16 23:03:43,663 INFO [pool-2-thread-2] org.eclipse.jetty.server.session node0 Stopped scavenging

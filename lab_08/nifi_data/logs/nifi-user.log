@@ -12391,3 +12391,13 @@ java.lang.IllegalStateException: Access Token not found
 2025-10-16 23:02:52,425 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/cluster/summary
 2025-10-16 23:02:52,426 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/status
 2025-10-16 23:02:52,427 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-16 23:03:23,416 INFO [NiFi Web Server-98] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 185.125.190.39 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-16 23:03:23,416 INFO [NiFi Web Server-102] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 185.125.190.39 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-16 23:03:23,417 INFO [NiFi Web Server-102] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/status
+2025-10-16 23:03:23,416 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 185.125.190.39 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-16 23:03:23,417 INFO [NiFi Web Server-98] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-16 23:03:23,417 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 185.125.190.39 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-16 23:03:23,417 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-16 23:03:23,418 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 185.125.190.39 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-16 23:03:23,418 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-16 23:03:23,418 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 185.125.190.39 GET http://localhost:8080/nifi-api/flow/controller/bulletins

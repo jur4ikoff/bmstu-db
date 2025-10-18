@@ -8,3 +8,4 @@ greenlet
 pandas
 py_linq
 pandas
+redis
