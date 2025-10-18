@@ -1,12 +1,11 @@
-from request_handler import RequestHandler
+from benchmark import Benchmark
 
 import asyncio
 
 
 async def main():
-    request_hander = RequestHandler()
-    result = await request_hander.get_top_drivers_stats()
-    print(result)
+    benchmark = Benchmark(delay=1, exp_count=8, update_delay=4)
+    await benchmark.run_benchmark()
 
 
 if __name__ == "__main__":

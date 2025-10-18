@@ -7,10 +7,12 @@ from sqlalchemy import Integer, String, ForeignKey
 class Trip(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     driver_id: Mapped[int] = mapped_column(ForeignKey("driver.id"), nullable=False)
-    passenger_id: Mapped[int] = mapped_column(
-        ForeignKey("passenger.id"), nullable=False
-    )
-    payment_id: Mapped[int] = mapped_column(ForeignKey("payment.id"), nullable=False)
+    # passenger_id: Mapped[int] = mapped_column(
+    #     ForeignKey("passenger.id"), nullable=False
+    # )
+    passenger_id: Mapped[int] = mapped_column(nullable=False)
+    # payment_id: Mapped[int] = mapped_column(ForeignKey("payment.id"), nullable=False)
+    payment_id: Mapped[int] = mapped_column(nullable=False)
     source_address: Mapped[str] = mapped_column(String(128), nullable=False)
     destenation_address: Mapped[str] = mapped_column(String(128), nullable=False)
     price: Mapped[int] = mapped_column(Integer, nullable=False)
