@@ -9,3 +9,4 @@ pandas
 py_linq
 pandas
 redis
+matplotlib

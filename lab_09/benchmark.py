@@ -99,7 +99,6 @@ class Benchmark:
             print(
                 f"{Colors.BG_GREEN}Начало теста. Без изменений {self.delay * self.exp_count} секунд...{Colors.RESET}"
             )
-        self.writer.writerow(HEADERS)
 
         for i in range(self.exp_count):  # 30 сек без изменений
             _, db_time = await get_stats_from_db()
@@ -142,7 +141,7 @@ class Benchmark:
             delete_random_trip(self.update_delay, self.exp_count, self.delay)
         )
         task_2 = asyncio.create_task(
-            self.__run_default_benchmark(verbose=False, tag="update")
+            self.__run_default_benchmark(verbose=False, tag="delete")
         )
 
         await asyncio.gather(task_1, task_2)
@@ -150,6 +149,7 @@ class Benchmark:
     async def run_benchmark(self):
         file = open(LOGS_PATH, mode="w", encoding="utf-8", newline="")
         self.writer = csv.writer(file, delimiter=";")
+        self.writer.writerow(HEADERS)
 
         await self.__run_default_benchmark()
         await self.__run_insert_benchmark()

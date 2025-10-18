@@ -1,5 +1,14 @@
 # Условие
-УЖАС
+Редис вкусняшка
 
--- SELECT setval(pg_get_serial_sequence('Passenger', 'id'), coalesce(max(id), 0) + 1, false)
--- FROM Passenger;
+**Запуск основы**
+```bash
+python3 main.py
+```
+
+**Графики**
+```
+python3 charts.py
+```
+
+Код неоднородный по причине ночного кодинга
