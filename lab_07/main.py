@@ -79,7 +79,7 @@ async def generate():
 
 async def main():
     # Генерация базы данных
-    # await generate()
+    await generate()
     print_menu()
     operation = input_operation()
 
