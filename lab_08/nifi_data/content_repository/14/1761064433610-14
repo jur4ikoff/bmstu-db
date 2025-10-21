@@ -1,0 +1,23 @@
+car_id,first_name,last_name,experience,score,date_of_birthday,address,document_number
+7,Joseph,Williams,14,3.45,1969-05-13,"444 Lake View, Denver, CO 80201",8476521390
+3,Gary,Anderson,21,3.54,2004-08-14,"Champs-Élysées 75, Paris, France 75008",8158181952
+9,Elizabeth,Lopez,19,4.46,1987-08-25,"753 Willow Avenue, San Diego, CA 92101",9033939726
+5,Raymond,King,35,4.76,1961-11-03,"789 Pine Road, Chicago, IL 60601",8589135394
+6,Amy,Thomas,9,4.11,1974-01-10,"Gyeongbokgung Palace 161, Seoul, South Korea 03045",748189473
+1,Sarah,Jackson,18,4.14,1984-06-03,"444 Lake View, Denver, CO 80201",9515594792
+8,Mary,Lewis,24,3.36,1981-08-04,"Table Mountain Rd, Cape Town, South Africa 8001",1910787669
+10,Emma,Harris,37,4.83,1961-04-03,"Shibuya Crossing 2, Tokyo, Japan 150-0043",2742626935
+4,Patricia,Ramirez,42,3.04,1975-03-07,"Sagrada Família 401, Barcelona, Spain 08013",6588142196
+2,Catherine,Campbell,32,3.79,1996-03-01,"444 Lake View, Denver, CO 80201",8660044582
+INSERT INTO car (vin_number, registration_plate, brand, model, mileage) VALUES (?, ?, ?, ?, ?)INSERT INTO trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score) VALUES (?, ?, ?, ?, ?, ?, ?)INSERT INTO trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score) VALUES (?, ?, ?, ?, ?, ?, ?)INSERT INTO passenger (first_name, last_name, date_of_birthday, address) VALUES (?, ?, ?, ?)INSERT INTO car (vin_number, registration_plate, brand, model, mileage) VALUES (?, ?, ?, ?, ?)INSERT INTO trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score) VALUES (?, ?, ?, ?, ?, ?, ?)INSERT INTO driver (car_id, first_name, last_name, experience, score, date_of_birthday, address, document_number) VALUES (?, ?, ?, ?, ?, ?, ?, ?)INSERT INTO car (vin_number, registration_plate, brand, model, mileage) VALUES (?, ?, ?, ?, ?)INSERT INTO car (vin_number, registration_plate, brand, model, mileage) VALUES (?, ?, ?, ?, ?)INSERT INTO payment (invoice, status) VALUES (?, ?)invoice,status
+673744,True
+298667,True
+225334,True
+663156,True
+553136,True
+397896,True
+431102,True
+558418,True
+207718,True
+977310,True
+{"invoice":673744,"status":true}{"invoice":298667,"status":true}{"invoice":225334,"status":true}{"invoice":663156,"status":true}{"invoice":553136,"status":true}{"invoice":397896,"status":true}{"invoice":431102,"status":true}{"invoice":558418,"status":true}{"invoice":207718,"status":true}{"invoice":977310,"status":true}INSERT INTO car (vin_number, registration_plate, brand, model, mileage) VALUES (?, ?, ?, ?, ?)INSERT INTO payment (invoice, status) VALUES (?, ?)INSERT INTO trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score) VALUES (?, ?, ?, ?, ?, ?, ?)INSERT INTO trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score) VALUES (?, ?, ?, ?, ?, ?, ?)INSERT INTO driver (car_id, first_name, last_name, experience, score, date_of_birthday, address, document_number) VALUES (?, ?, ?, ?, ?, ?, ?, ?)[{"vin_number":"2R1W2AP9KR","registration_plate":"W470GN16","brand":"Chevrolet","model":"Traverse","mileage":"206853"},{"vin_number":"1LO9TAF23P","registration_plate":"W860FO33","brand":"Porsche","model":"918 Spyder","mileage":"551968"},{"vin_number":"XAJBDJHS17","registration_plate":"S560NV21","brand":"Ford","model":"Mustang","mileage":"319395"},{"vin_number":"KB294FO22M","registration_plate":"I404LW79","brand":"Toyota","model":"Sienna","mileage":"425883"},{"vin_number":"M6VTCE69LT","registration_plate":"X466OO40","brand":"Jeep","model":"Cherokee","mileage":"751919"},{"vin_number":"IO4YPVGVDF","registration_plate":"S816SC44","brand":"Mercedes-Benz","model":"EQC","mileage":"455104"},{"vin_number":"SK29X14NVW","registration_plate":"B368XO38","brand":"Cadillac","model":"XT5","mileage":"398425"},{"vin_number":"97CK31CVNX","registration_plate":"E858BQ94","brand":"Lexus","model":"UX","mileage":"753472"},{"vin_number":"TOX9NA9OUZ","registration_plate":"O755FH80","brand":"Tesla","model":"Model S","mileage":"773240"},{"vin_number":"C0QC9331QW","registration_plate":"Q116YI84","brand":"Audi","model":"A3","mileage":"732445"}]INSERT INTO payment (invoice, status) VALUES (?, ?)INSERT INTO trip (driver_id, passenger_id, payment_id, source_address, destenation_address, price, score) VALUES (?, ?, ?, ?, ?, ?, ?)INSERT INTO driver (car_id, first_name, last_name, experience, score, date_of_birthday, address, document_number) VALUES (?, ?, ?, ?, ?, ?, ?, ?)INSERT INTO payment (invoice, status) VALUES (?, ?)INSERT INTO car (vin_number, registration_plate, brand, model, mileage) VALUES (?, ?, ?, ?, ?)

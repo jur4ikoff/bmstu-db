@@ -13,7 +13,7 @@ from datetime import datetime
 import asyncio
 import os
 
-SLEEP_TIME = 6
+SLEEP_TIME = 8
 
 script_file = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_file)

@@ -1,8 +1,8 @@
-2025-10-18 23:26:08,684 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
-2025-10-18 23:26:08,689 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
-2025-10-18 23:26:08,741 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
-2025-10-18 23:26:08,741 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
-2025-10-18 23:26:08,742 WARN [NiFi Web Server-22] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
+2025-10-21 16:30:57,636 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:30:57,640 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:30:57,702 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:30:57,703 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:30:57,704 WARN [NiFi Web Server-27] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
 java.lang.IllegalStateException: Access Token not found
 	at org.apache.nifi.web.api.AccessResource.getAccessTokenExpiration(AccessResource.java:459)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -111,39 +111,874 @@ java.lang.IllegalStateException: Access Token not found
 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
 	at java.base/java.lang.Thread.run(Unknown Source)
-2025-10-18 23:26:08,750 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
-2025-10-18 23:26:08,750 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
-2025-10-18 23:26:08,853 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
-2025-10-18 23:26:08,853 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
-2025-10-18 23:26:08,854 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
-2025-10-18 23:26:08,854 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
-2025-10-18 23:26:08,863 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
-2025-10-18 23:26:08,864 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
-2025-10-18 23:26:08,870 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
-2025-10-18 23:26:08,870 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
-2025-10-18 23:26:08,870 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
-2025-10-18 23:26:08,870 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
-2025-10-18 23:26:08,877 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
-2025-10-18 23:26:08,878 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
-2025-10-18 23:26:08,883 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
-2025-10-18 23:26:08,883 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
-2025-10-18 23:26:08,891 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
-2025-10-18 23:26:08,891 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
-2025-10-18 23:26:08,903 INFO [NiFi Web Server-28] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
-2025-10-18 23:26:08,903 INFO [NiFi Web Server-28] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
-2025-10-18 23:26:08,936 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
-2025-10-18 23:26:08,937 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
-2025-10-18 23:26:08,966 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
-2025-10-18 23:26:08,968 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
-2025-10-18 23:26:08,969 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
-2025-10-18 23:26:08,969 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
-2025-10-18 23:26:08,981 INFO [NiFi Web Server-98] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
-2025-10-18 23:26:08,981 INFO [NiFi Web Server-98] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
-2025-10-18 23:26:08,990 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
-2025-10-18 23:26:08,990 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
-2025-10-18 23:26:08,997 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
-2025-10-18 23:26:08,998 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:30:57,709 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:30:57,709 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:30:57,791 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:30:57,792 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:30:57,792 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:30:57,792 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:30:57,802 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:30:57,802 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:30:57,811 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:30:57,811 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:30:57,811 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:30:57,811 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:30:57,819 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:30:57,820 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:30:57,828 INFO [NiFi Web Server-28] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:30:57,828 INFO [NiFi Web Server-28] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:30:57,831 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:30:57,831 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:30:57,842 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:30:57,842 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:30:57,876 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:30:57,876 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:30:57,912 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:30:57,913 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:30:57,914 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:30:57,914 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:30:57,924 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:30:57,924 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:30:57,929 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:30:57,930 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:30:57,941 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:30:57,941 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:31:13,143 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:31:13,141 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:31:13,142 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:31:13,142 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:31:13,141 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:31:13,146 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:31:13,146 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:31:13,146 INFO [NiFi Web Server-22] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:31:13,146 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:31:13,146 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:31:43,306 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:31:43,305 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:31:43,306 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:31:43,308 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:13,466 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:13,468 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:13,468 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:13,469 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:13,468 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:13,468 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:13,469 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:13,471 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:13,470 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:13,471 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:26,533 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:26,533 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:26,533 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:26,533 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:26,534 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:26,534 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:26,534 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:26,535 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:26,535 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:26,535 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:30,043 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:30,044 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:34,672 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:32:34,672 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:32:34,682 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:32:34,682 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:32:34,683 WARN [NiFi Web Server-23] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
+java.lang.IllegalStateException: Access Token not found
+	at org.apache.nifi.web.api.AccessResource.getAccessTokenExpiration(AccessResource.java:459)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.log.AuthenticationUserFilter.doFilterInternal(AuthenticationUserFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:118)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.csrf.SkipReplicatedCsrfFilter.doFilterInternal(SkipReplicatedCsrfFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.apache.nifi.web.filter.ExceptionFilter.doFilter(ExceptionFilter.java:44)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilterChain(DoSFilter.java:487)
+	at org.apache.nifi.web.server.filter.DataTransferExcludedDoSFilter.doFilterChain(DataTransferExcludedDoSFilter.java:51)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:336)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:301)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:772)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-10-21 16:32:34,694 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:34,694 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:34,700 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:32:34,700 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:32:34,700 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:32:34,700 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:32:34,705 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:32:34,706 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:32:34,711 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:32:34,711 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:32:34,711 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:32:34,711 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:32:34,715 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:32:34,715 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:32:34,723 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:32:34,724 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:32:34,729 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:32:34,729 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:32:34,738 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:32:34,738 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:32:34,765 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:32:34,765 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:32:34,790 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:34,791 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:34,792 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:34,792 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:49,937 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:49,937 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:49,937 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:32:49,937 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:32:49,937 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:49,938 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:32:49,938 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:49,938 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:32:49,938 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:49,938 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:32:57,583 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] PUT http://localhost:8080/nifi-api/processors/ecbdae1f-0199-1000-49b3-be0d5b14ce1b/run-status
+2025-10-21 16:32:57,584 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 PUT http://localhost:8080/nifi-api/processors/ecbdae1f-0199-1000-49b3-be0d5b14ce1b/run-status
+2025-10-21 16:33:00,660 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] PUT http://localhost:8080/nifi-api/processors/ecbdc9be-0199-1000-9cbe-29d38cd766d6/run-status
+2025-10-21 16:33:00,662 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 PUT http://localhost:8080/nifi-api/processors/ecbdc9be-0199-1000-9cbe-29d38cd766d6/run-status
+2025-10-21 16:33:08,982 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:08,984 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:09,007 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:09,007 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:09,010 WARN [NiFi Web Server-23] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
+java.lang.IllegalStateException: Access Token not found
+	at org.apache.nifi.web.api.AccessResource.getAccessTokenExpiration(AccessResource.java:459)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.log.AuthenticationUserFilter.doFilterInternal(AuthenticationUserFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:118)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.csrf.SkipReplicatedCsrfFilter.doFilterInternal(SkipReplicatedCsrfFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.apache.nifi.web.filter.ExceptionFilter.doFilter(ExceptionFilter.java:44)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilterChain(DoSFilter.java:487)
+	at org.apache.nifi.web.server.filter.DataTransferExcludedDoSFilter.doFilterChain(DataTransferExcludedDoSFilter.java:51)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:336)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:301)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:772)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-10-21 16:33:09,017 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:09,017 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:09,027 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:09,027 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:09,028 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:09,028 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:09,037 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:09,037 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:09,042 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:09,042 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:09,042 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:09,042 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:09,048 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:09,048 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:09,056 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:09,056 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:09,061 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:09,061 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:09,070 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:09,072 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:09,109 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:09,110 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:09,134 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:09,134 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:09,134 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:09,135 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:09,134 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:09,134 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:09,136 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:09,135 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:09,135 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:09,136 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:24,542 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:24,543 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:33:24,543 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:24,543 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:24,543 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:24,543 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:24,543 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:33:24,544 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:24,544 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:24,544 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:25,822 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:25,823 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:25,839 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:25,839 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:25,844 WARN [NiFi Web Server-24] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
+java.lang.IllegalStateException: Access Token not found
+	at org.apache.nifi.web.api.AccessResource.getAccessTokenExpiration(AccessResource.java:459)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.log.AuthenticationUserFilter.doFilterInternal(AuthenticationUserFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:118)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.csrf.SkipReplicatedCsrfFilter.doFilterInternal(SkipReplicatedCsrfFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.apache.nifi.web.filter.ExceptionFilter.doFilter(ExceptionFilter.java:44)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilterChain(DoSFilter.java:487)
+	at org.apache.nifi.web.server.filter.DataTransferExcludedDoSFilter.doFilterChain(DataTransferExcludedDoSFilter.java:51)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:336)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:301)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:772)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-10-21 16:33:25,853 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:25,853 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:25,865 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:25,865 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:25,865 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:25,866 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:25,873 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:25,873 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:25,878 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:25,878 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:25,879 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:25,880 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:25,885 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:25,885 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:25,892 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:25,893 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:25,895 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:25,895 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:25,903 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:25,903 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:25,928 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:25,929 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:25,953 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:25,953 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:25,953 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:25,953 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:25,953 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:25,953 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:25,954 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:25,955 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:25,955 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:25,955 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:28,571 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:28,572 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:28,584 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:28,586 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:28,587 WARN [NiFi Web Server-25] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
+java.lang.IllegalStateException: Access Token not found
+	at org.apache.nifi.web.api.AccessResource.getAccessTokenExpiration(AccessResource.java:459)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.log.AuthenticationUserFilter.doFilterInternal(AuthenticationUserFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:118)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.csrf.SkipReplicatedCsrfFilter.doFilterInternal(SkipReplicatedCsrfFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.apache.nifi.web.filter.ExceptionFilter.doFilter(ExceptionFilter.java:44)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilterChain(DoSFilter.java:487)
+	at org.apache.nifi.web.server.filter.DataTransferExcludedDoSFilter.doFilterChain(DataTransferExcludedDoSFilter.java:51)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:336)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:301)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:772)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-10-21 16:33:28,591 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:28,592 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:28,601 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:28,601 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:28,601 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:28,602 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:28,606 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:28,606 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:28,613 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:28,613 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:28,613 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:28,613 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:28,617 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:28,617 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:28,624 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:28,624 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:28,630 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:28,630 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:28,639 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:28,639 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:28,662 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:28,662 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:28,686 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:28,686 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:28,686 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:28,686 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:28,687 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:28,686 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:28,686 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:28,687 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:28,687 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:28,687 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:29,998 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:29,998 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 POST http://localhost:8080/nifi-api/access/kerberos
+2025-10-21 16:33:30,010 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:30,010 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/token/expiration
+2025-10-21 16:33:30,012 WARN [NiFi Web Server-90] o.a.n.w.a.c.IllegalStateExceptionMapper java.lang.IllegalStateException: Access Token not found. Returning Conflict response.
+java.lang.IllegalStateException: Access Token not found
+	at org.apache.nifi.web.api.AccessResource.getAccessTokenExpiration(AccessResource.java:459)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:352)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.log.AuthenticationUserFilter.doFilterInternal(AuthenticationUserFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.authenticate(NiFiAuthenticationFilter.java:94)
+	at org.apache.nifi.web.security.NiFiAuthenticationFilter.doFilter(NiFiAuthenticationFilter.java:56)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:118)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.apache.nifi.web.security.csrf.SkipReplicatedCsrfFilter.doFilterInternal(SkipReplicatedCsrfFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:361)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:225)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.apache.nifi.web.filter.ExceptionFilter.doFilter(ExceptionFilter.java:44)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilterChain(DoSFilter.java:487)
+	at org.apache.nifi.web.server.filter.DataTransferExcludedDoSFilter.doFilterChain(DataTransferExcludedDoSFilter.java:51)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:336)
+	at org.eclipse.jetty.servlets.DoSFilter.doFilter(DoSFilter.java:301)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:772)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-10-21 16:33:30,017 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:30,017 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:30,022 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:30,022 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:30,022 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/config
+2025-10-21 16:33:30,022 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/client-id
+2025-10-21 16:33:30,025 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:30,026 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/banners
+2025-10-21 16:33:30,031 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:30,031 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:30,032 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/about
+2025-10-21 16:33:30,032 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/processor-types
+2025-10-21 16:33:30,036 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:30,036 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/access/config
+2025-10-21 16:33:30,041 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:30,041 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller-service-types
+2025-10-21 16:33:30,047 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:30,047 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/reporting-task-types
+2025-10-21 16:33:30,056 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:30,056 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/parameter-provider-types
+2025-10-21 16:33:30,080 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:30,080 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/prioritizers
+2025-10-21 16:33:30,105 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:30,105 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:30,106 INFO [NiFi Web Server-24] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/root
+2025-10-21 16:33:30,105 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:30,105 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:30,106 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:30,183 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:30,184 INFO [NiFi Web Server-87] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:30,183 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:30,183 INFO [NiFi Web Server-27] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:45,565 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
+2025-10-21 16:33:45,565 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:45,566 INFO [NiFi Web Server-90] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/status
+2025-10-21 16:33:45,565 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:45,567 INFO [NiFi Web Server-89] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/controller/bulletins
+2025-10-21 16:33:45,565 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:45,568 INFO [NiFi Web Server-88] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/current-user
+2025-10-21 16:33:45,565 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Started 172.18.0.1 [<anonymous>] GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:45,569 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/cluster/summary
+2025-10-21 16:33:45,566 INFO [NiFi Web Server-23] o.a.n.w.s.NiFiAuthenticationFilter Authentication Success [anonymous] 172.18.0.1 GET http://localhost:8080/nifi-api/flow/process-groups/ecba9bfb-0199-1000-35f6-b3d6044d7b9b
