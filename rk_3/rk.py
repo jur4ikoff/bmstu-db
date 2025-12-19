@@ -1,5 +1,4 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
-from sqlalchemy.exc import ResourceClosedError
 from sqlalchemy import text, func
 from sqlalchemy import String, Date, Integer, ForeignKey, Time
 from sqlalchemy import select, extract, func, case
@@ -9,12 +8,10 @@ from sqlalchemy.orm import (
     relationship,
     DeclarativeBase,
     declared_attr,
-    selectinload,
 )
 
 import asyncio
-from datetime import datetime, date
-from typing import Annotated
+from datetime import date
 
 
 class Settings:
